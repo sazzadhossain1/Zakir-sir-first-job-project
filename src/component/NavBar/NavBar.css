@@ -1,0 +1,13 @@
+.navbar-main-parent-div {
+  border: 1px solid #edf1f4;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.navbar-parent-dvi {
+  width: 50%;
+  margin: auto;
+}
+@media screen and (max-width: 550px) {
+  .navbar-parent-dvi {
+    width: 100%;
+  }
+}

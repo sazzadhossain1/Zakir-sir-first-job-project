@@ -1,0 +1,28 @@
+.million-parent-div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 50%;
+  margin: auto;
+  background-color: white;
+  box-shadow: 10px 10px 100px rgb(197, 197, 197);
+  padding: 40px;
+  margin-top: -55px;
+  border-radius: 10px;
+}
+.million-parent-div h3 {
+  font-size: 25px;
+  font-weight: 700;
+}
+.million-parent-div p {
+  color: #5d6467;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 1250px) {
+  .million-parent-div {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}

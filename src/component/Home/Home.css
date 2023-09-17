@@ -1,0 +1,57 @@
+.home-parent-div {
+  background-image: url("https://static.vecteezy.com/system/resources/previews/001/184/090/non_2x/e-commerce-delivery-person-with-scooter-and-truck-vector.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 75vh;
+  text-align: left;
+}
+.home-child-dvi {
+  position: absolute;
+  margin-left: 200px;
+  margin-top: 150px;
+}
+.platform {
+  font-size: 40px;
+  font-weight: 500;
+}
+.oneApp {
+  font-weight: 500;
+  font-size: 20px;
+}
+.earn {
+  background-color: #e83330;
+  padding: 10px;
+  position: absolute;
+  margin-top: 20px;
+  width: 300px;
+  text-align: center;
+  border-radius: 10px;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+}
+.download {
+  border: 1px solid black;
+  position: absolute;
+  padding: 10px;
+  margin-top: 50px;
+  width: 300px;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: aliceblue;
+}
+
+@media screen and (max-width: 1450px) {
+  .home-child-dvi {
+    margin-left: 100px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .home-child-dvi {
+    margin-left: 20px;
+  }
+}
