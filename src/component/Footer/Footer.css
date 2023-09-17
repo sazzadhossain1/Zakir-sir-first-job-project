@@ -36,7 +36,7 @@
 .border-div {
   border-right: 1px solid gray;
   text-align: left;
-  margin-left: 50px;
+  margin-left: 30px;
 }
 .footer-logo-div {
   display: flex;
@@ -70,15 +70,29 @@
 }
 .footer-cart-p {
   color: rgb(214, 214, 214);
+  width: 95%;
 }
 .footer-cart-div {
   text-align: left;
-  margin-left: 50px;
+  margin-left: 30px;
 }
 
 @media screen and (max-width: 1500px) {
   .ourAchievement-div {
     display: grid;
     grid-template-columns: 1fr;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .footer-grid-div {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+  .ourAchievement-div {
+    width: 100%;
+  }
+  .border-div {
+    border: none;
   }
 }

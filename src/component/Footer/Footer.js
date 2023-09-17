@@ -24,34 +24,34 @@ const Footer = () => {
             </div>
             <h3 className="footer-cart-heading">Experience</h3>
             <p className="footer-cart-p">
-              Lorem ipsum, dolor sit amet consectetur <br />
-              adipisicing elit. Pariatur, ad!
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Pariatur, ad!
             </p>
           </div>
           <div className="border-div">
-            <div>
-              <div>
-                <i class="fa-solid fa-users"></i>
+            <div className="footer-logo-div">
+              <div className="logo">
+                <i class="fa-solid fa-users i"></i>
               </div>
-              <p>300K+</p>
+              <p className="footer-number-k">300K+</p>
             </div>
-            <h3>Experience</h3>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur <br />
-              adipisicing elit. Pariatur, ad!
+            <h3 className="footer-cart-heading">Experience</h3>
+            <p className="footer-cart-p">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Pariatur, ad!
             </p>
           </div>
           <div className="footer-cart-div">
-            <div>
-              <div>
-                <i class="fa-solid fa-car"></i>
+            <div className="footer-logo-div">
+              <div className="logo">
+                <i class="fa-solid fa-car i"></i>
               </div>
-              <p>50K+</p>
+              <p className="footer-number-k">50K+</p>
             </div>
-            <h3>Experience</h3>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur <br />
-              adipisicing elit. Pariatur, ad!
+            <h3 className="footer-cart-heading">Experience</h3>
+            <p className="footer-cart-p">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Pariatur, ad!
             </p>
           </div>
         </div>
