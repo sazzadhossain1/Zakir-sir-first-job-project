@@ -29,7 +29,7 @@
 .footer-grid-div {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  width: 75%;
+  width: 90%;
   margin: auto;
   margin-top: 100px;
 }
@@ -38,7 +38,47 @@
   text-align: left;
   margin-left: 50px;
 }
+.footer-logo-div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 15px;
+}
+.logo {
+  background-color: rgb(2, 112, 202);
+  color: black;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: relative;
+}
+.i {
+  position: absolute;
+  margin-left: 15px;
+  margin-top: 17px;
+  font-size: 20px;
+}
+.footer-number-k {
+  font-size: 30px;
+  font-weight: 700;
+  color: rgb(219, 255, 252);
+}
+.footer-cart-heading {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.footer-cart-p {
+  color: rgb(214, 214, 214);
+}
 .footer-cart-div {
   text-align: left;
   margin-left: 50px;
+}
+
+@media screen and (max-width: 1500px) {
+  .ourAchievement-div {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }

@@ -16,14 +16,14 @@ const Footer = () => {
         </div>
         <div className="footer-grid-div">
           <div className="border-div">
-            <div>
-              <div>
-                <i class="fa-solid fa-car"></i>
+            <div className="footer-logo-div">
+              <div className="logo">
+                <i className="fa-solid fa-car i"></i>
               </div>
-              <p>30K+</p>
+              <p className="footer-number-k">30K+</p>
             </div>
-            <h3>Experience</h3>
-            <p>
+            <h3 className="footer-cart-heading">Experience</h3>
+            <p className="footer-cart-p">
               Lorem ipsum, dolor sit amet consectetur <br />
               adipisicing elit. Pariatur, ad!
             </p>
