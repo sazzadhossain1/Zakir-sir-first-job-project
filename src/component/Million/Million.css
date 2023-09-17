@@ -26,3 +26,8 @@
     gap: 20px;
   }
 }
+@media screen and (max-width: 400px) {
+  .million-parent-div {
+    width: 100%;
+  }
+}

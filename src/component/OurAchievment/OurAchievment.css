@@ -105,3 +105,8 @@
     margin-bottom: 20px;
   }
 }
+@media screen and (max-width: 400px) {
+  .ourAchievement-heading {
+    font-size: 25px;
+  }
+}
