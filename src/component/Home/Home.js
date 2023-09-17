@@ -3,6 +3,7 @@ import "./Home.css";
 import { Link } from "react-router-dom";
 import Million from "../Million/Million";
 import RideComford from "../RideComford/RideComford";
+import OurAchievment from "../OurAchievment/OurAchievment";
 
 const Home = () => {
   return (
@@ -28,6 +29,7 @@ const Home = () => {
       </div>
       <Million></Million>
       <RideComford></RideComford>
+      <OurAchievment></OurAchievment>
     </div>
   );
 };
