@@ -55,3 +55,8 @@
     margin-left: 20px;
   }
 }
+@media screen and (max-width: 900px) {
+  .home-child-dvi {
+    margin-top: 100px;
+  }
+}
