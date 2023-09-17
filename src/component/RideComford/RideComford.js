@@ -50,17 +50,17 @@ const RideComford = () => {
           </div>
         </div>
         <div>
-          <div>
-            <h3>Iteksi Regular</h3>
-            <p>
+          <div className="rideInComfort-car-cart-third-text-div">
+            <h3 className="rideInComfort-heading">Iteksi Regular</h3>
+            <p className="rideInComfort-p">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Voluptatem, in ipsum!
             </p>
-            <button>
+            <button className="learn-more">
               <Link>Learn More</Link>
             </button>
           </div>
-          <div>
+          <div className="car-photo-div">
             <img
               className="car-photo"
               src="https://kitpro.site/iteksi/wp-content/uploads/sites/184/2023/08/sport-car-2022-12-15-23-01-56-utc-1-1024x454.png"

@@ -33,6 +33,7 @@
   height: 250px;
   border-radius: 20px;
   position: relative;
+  margin: auto;
 }
 .rideInComfort-car-cart-second-text-div {
   background: url(https://www.thestatesman.com/wp-content/uploads/2020/04/googl_ED.jpg);
@@ -49,6 +50,24 @@
   height: 250px;
   border-radius: 20px;
   position: relative;
+  margin: auto;
+}
+.rideInComfort-car-cart-third-text-div {
+  background: url(https://www.thestatesman.com/wp-content/uploads/2020/04/googl_ED.jpg);
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: darken;
+  background-color: rgba(0, 87, 158, 0.945);
+  color: white;
+  width: 70%;
+  padding: 15px;
+  text-align: left;
+  height: 250px;
+  border-radius: 20px;
+  position: relative;
+  margin: auto;
 }
 .rideInComfort-heading {
   font-size: 26px;
@@ -69,7 +88,7 @@
 .car-photo-div {
   position: absolute;
   margin-top: -80px;
-  margin-left: 100px;
+  margin-left: 160px;
 }
 .car-photo {
   width: 250px;
