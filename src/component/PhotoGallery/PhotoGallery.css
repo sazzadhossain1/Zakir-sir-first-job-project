@@ -1,10 +1,15 @@
+.keep-heading {
+  font-size: 50px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
 .photo-gallery {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
   width: 65%;
   margin: auto;
-  border: 2px solid rgb(8, 226, 197);
+  border: 3px solid rgb(8, 226, 197);
   padding: 30px;
   position: relative;
   z-index: -1;
@@ -18,4 +23,27 @@
   margin-left: 770px;
   margin-top: -30px;
   z-index: 1;
+}
+
+.photo-cart-grid-div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+  width: 65%;
+  margin: auto;
+  text-align: left;
+  margin-top: 50px;
+}
+.photo-cart-heading {
+  font-size: 30px;
+  font-weight: 700;
+}
+.photo-cart-p {
+  color: gray;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.read-more {
+  color: rgb(2, 253, 169);
+  font-weight: 700;
 }
