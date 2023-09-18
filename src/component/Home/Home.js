@@ -5,6 +5,7 @@ import Million from "../Million/Million";
 import RideComford from "../RideComford/RideComford";
 import OurAchievment from "../OurAchievment/OurAchievment";
 import PhotoGallery from "../PhotoGallery/PhotoGallery";
+import StartEarning from "../StartEarning/StartEarning";
 
 const Home = () => {
   return (
@@ -32,6 +33,7 @@ const Home = () => {
       <RideComford></RideComford>
       <OurAchievment></OurAchievment>
       <PhotoGallery></PhotoGallery>
+      <StartEarning></StartEarning>
     </div>
   );
 };

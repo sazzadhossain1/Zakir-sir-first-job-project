@@ -1,0 +1,34 @@
+.startEarning-blank-div {
+  width: 70%;
+  height: 2px;
+  background-color: rgb(211, 211, 211);
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.earning-heading {
+  font-size: 45px;
+  font-weight: 700;
+}
+.earning-p {
+  font-size: 18px;
+  margin-top: 10px;
+  color: gray;
+}
+
+.start-earning-button {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  background-color: rgb(9, 218, 137);
+  padding: 10px;
+  font-weight: 500;
+  border-radius: 5px;
+  width: 200px;
+}
+.background-img-div {
+  background-image: url("https://pathao.com/wp-content/uploads/2018/12/Pathao-ecosystem.jpg");
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
