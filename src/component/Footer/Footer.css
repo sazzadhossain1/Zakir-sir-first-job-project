@@ -12,6 +12,7 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   width: 75%;
+  margin: auto;
 }
 .footer-single-cart-div {
   text-align: left;
