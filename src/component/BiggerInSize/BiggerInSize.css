@@ -1,0 +1,160 @@
+.biggerINSize-text-div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 80px;
+  background-color: aquamarine;
+  padding: 50px;
+}
+.biggerInSize-heading-text-div {
+  text-align: right;
+  margin-top: 50px;
+}
+.biggerInSize-heading-text-div h1 {
+  font-size: 35px;
+  font-weight: 500;
+}
+.biggerInSize-p-text-div {
+  text-align: left;
+  margin-top: 50px;
+}
+.biggerInSize-p-text-div p {
+  font-size: 17px;
+  font-weight: 500;
+  color: rgb(80, 80, 80);
+}
+.learn-more {
+  font-weight: 700;
+}
+.biggerInSiz-background-div {
+  background: rgba(0, 0, 0, 0.904)
+    url(https://img.etimg.com/thumb/msid-96559100,width-650,height-488,imgsize-92902,,resizemode-75/the-rimaac-nevera-is-now-the-fastest-electric-car-in-the-world-image-rimac.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: darken;
+  margin-bottom: 100px;
+  position: absolute;
+  padding: 30px;
+}
+.biggerInSiz-cart-div {
+  padding: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  width: 75%;
+  margin: auto;
+  position: relative;
+  margin-bottom: -220px;
+}
+.biggerInSiz-single-cart {
+  background-color: #333533;
+  padding: 30px;
+  color: white;
+}
+.text-logo-flex-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 75%;
+  margin: auto;
+  margin-bottom: 25px;
+  margin-top: 20px;
+}
+.car-icon {
+  font-size: 50px;
+  color: rgba(0, 0, 26, 0.705);
+}
+.basic-header {
+  font-size: 20px;
+  font-weight: 500;
+}
+.biggerInSiz-p {
+  color: rgb(155, 155, 155);
+  margin-bottom: 20px;
+}
+.price-flex-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 75%;
+  margin: auto;
+}
+.price-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.price {
+  font-size: 20px;
+  font-weight: 700;
+}
+hr {
+  width: 85%;
+  margin: auto;
+}
+.order-button-one {
+  background-color: rgba(0, 0, 26, 0.705);
+  padding: 20px;
+}
+.order-text {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 50%;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/*  */
+.biggerInSize-second-single-cart {
+  background-color: rgb(0, 0, 26);
+  padding: 30px;
+  color: white;
+}
+
+.second-cart-text-logo-flex-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 75%;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.second-car-logo {
+  font-size: 50px;
+  color: #333533af;
+}
+.order-button-two {
+  padding: 20px;
+  background-color: #333533af;
+}
+/*  */
+.last-cart-parent-div {
+  text-align: left;
+  margin-left: 50px;
+}
+.last-cart-header {
+  font-size: 30px;
+  color: white;
+  font-weight: 800;
+}
+.last-cart-p-one {
+  margin-top: 25px;
+  color: white;
+}
+.last-cart-p-two {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white;
+}
+.media-parent-div {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  font-size: 35px;
+  color: rgb(0, 117, 146);
+}
+
+/*  */

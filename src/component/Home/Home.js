@@ -6,6 +6,7 @@ import RideComford from "../RideComford/RideComford";
 import OurAchievment from "../OurAchievment/OurAchievment";
 import PhotoGallery from "../PhotoGallery/PhotoGallery";
 import StartEarning from "../StartEarning/StartEarning";
+import BiggerInSize from "../BiggerInSize/BiggerInSize";
 
 const Home = () => {
   return (
@@ -34,6 +35,7 @@ const Home = () => {
       <OurAchievment></OurAchievment>
       <PhotoGallery></PhotoGallery>
       <StartEarning></StartEarning>
+      <BiggerInSize></BiggerInSize>
     </div>
   );
 };
