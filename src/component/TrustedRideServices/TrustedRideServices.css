@@ -1,0 +1,42 @@
+.trustedRideService-grid-div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  background-color: rgb(245, 255, 252);
+}
+.trustedRideService-text-parent-div {
+  width: 50%;
+  margin: auto;
+  text-align: left;
+}
+.trustedRideService-heading {
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+.trustedRideService-first-p {
+  margin-bottom: 20px;
+  font-weight: 500;
+  color: gray;
+}
+.trustedRideService-icon-flex-div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+  color: gray;
+  font-weight: 500;
+}
+.trustedRideService-icon-parent-div {
+  margin-bottom: 40px;
+}
+.trustedRideService-read-more {
+  background-color: rgb(173, 173, 173);
+  padding: 15px;
+  color: black;
+  font-weight: 500;
+  border-radius: 20px;
+}
+.trustedRideService-read-more button {
+  width: 200px;
+}

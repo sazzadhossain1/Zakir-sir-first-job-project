@@ -8,6 +8,7 @@ import PhotoGallery from "../PhotoGallery/PhotoGallery";
 import StartEarning from "../StartEarning/StartEarning";
 import BiggerInSize from "../BiggerInSize/BiggerInSize";
 import HowItWork from "../HowItWork/HowItWork";
+import TrustedRideServices from "../TrustedRideServices/TrustedRideServices";
 
 const Home = () => {
   return (
@@ -38,6 +39,7 @@ const Home = () => {
       <StartEarning></StartEarning>
       <BiggerInSize></BiggerInSize>
       <HowItWork></HowItWork>
+      <TrustedRideServices></TrustedRideServices>
     </div>
   );
 };
