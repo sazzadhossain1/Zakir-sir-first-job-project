@@ -1,0 +1,42 @@
+.howItWork-header {
+  font-size: 50px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.howItWork-blank-div {
+  background-color: black;
+  height: 2px;
+  width: 10%;
+  margin: auto;
+  margin-bottom: 50px;
+}
+.howItWork-grid-div {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  gap: 20px;
+  width: 75%;
+  margin: auto;
+  margin-bottom: 40px;
+}
+.howItWork-img-div {
+  background-color: rgb(174, 255, 224);
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  border-radius: 50%;
+  margin-bottom: 20px;
+
+  position: relative;
+}
+.howItWork-img {
+  margin: auto;
+  position: absolute;
+  margin-left: 35px;
+  margin-top: 25px;
+}
+.howItWork-title {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}

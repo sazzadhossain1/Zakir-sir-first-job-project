@@ -34,7 +34,7 @@
   background-size: cover;
   background-blend-mode: darken;
   margin-bottom: 100px;
-  position: absolute;
+
   padding: 30px;
 }
 .biggerInSiz-cart-div {
@@ -44,8 +44,6 @@
   gap: 30px;
   width: 75%;
   margin: auto;
-  position: relative;
-  margin-bottom: -220px;
 }
 .biggerInSiz-single-cart {
   background-color: #333533;
@@ -157,4 +155,47 @@ hr {
   color: rgb(0, 117, 146);
 }
 
-/*  */
+/* Responsiveness start */
+
+@media screen and (max-width: 1550px) {
+  .biggerInSiz-cart-div {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+@media screen and (max-width: 700px) {
+  .biggerINSize-text-div {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .biggerInSize-heading-text-div {
+    text-align: left;
+    width: 20%;
+  }
+  .biggerInSiz-cart-div {
+    width: 100%;
+  }
+
+  .biggerInSiz-single-cart {
+  }
+  .biggerInSize-second-single-cart {
+  }
+}
+@media screen and (max-width: 500px) {
+  .biggerInSiz-cart-div {
+    width: 100%;
+  }
+  .price-flex-div {
+    text-align: left;
+  }
+}
+@media screen and (max-width: 450px) {
+  .order-button-two {
+  }
+  .order-text {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 10px;
+  }
+}
