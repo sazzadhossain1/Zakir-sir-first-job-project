@@ -1,6 +1,7 @@
 import React from "react";
 import "./NavBar.css";
 import { Link } from "react-router-dom";
+import mainLogo from "../../images/logo.jpg";
 
 const NavBar = () => {
   return (
@@ -79,10 +80,7 @@ const NavBar = () => {
               </ul>
             </div>
             <Link to="/home" className="btn btn-ghost normal-case text-xl">
-              <img
-                src="https://pathao.com/wp-content/uploads/2019/02/Pathao-logo.svg"
-                alt=""
-              />
+              <img className="mainLogo-img" src={mainLogo} alt="" />
             </Link>
           </div>
           <div className="navbar-center hidden lg:flex">

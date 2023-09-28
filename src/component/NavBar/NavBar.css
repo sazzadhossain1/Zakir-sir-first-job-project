@@ -6,6 +6,10 @@
   width: 50%;
   margin: auto;
 }
+.mainLogo-img {
+  width: 55px;
+  height: 55px;
+}
 @media screen and (max-width: 550px) {
   .navbar-parent-dvi {
     width: 100%;
