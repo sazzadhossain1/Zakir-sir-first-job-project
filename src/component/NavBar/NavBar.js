@@ -1,7 +1,8 @@
 import React from "react";
 import "./NavBar.css";
 import { Link } from "react-router-dom";
-import mainLogo from "../../images/logo.jpg";
+import mainLogo from "../../images/logo-one.jpg";
+import mainLogo1 from "../../images/logo-two.jpg";
 
 const NavBar = () => {
   return (
@@ -79,9 +80,11 @@ const NavBar = () => {
                 </li>
               </ul>
             </div>
-            <Link to="/home" className="btn btn-ghost normal-case text-xl">
-              <img className="mainLogo-img" src={mainLogo} alt="" />
-            </Link>
+            <div className="logo-div">
+              <Link to="/home" className="btn btn-ghost normal-case text-xl ">
+                <img className="mainLogo-img" src={mainLogo1} alt="" />
+              </Link>
+            </div>
           </div>
           <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal px-1">
@@ -145,6 +148,14 @@ const NavBar = () => {
             </ul>
           </div>
           <div className="navbar-end">
+            <div className="login-signUp-div">
+              <Link className="login" to="/login">
+                Login
+              </Link>
+              <Link className="signUp" to="/signUp">
+                SignUp
+              </Link>
+            </div>
             <ul className="menu menu-horizontal px-1">
               <li tabIndex={0}>
                 <details>

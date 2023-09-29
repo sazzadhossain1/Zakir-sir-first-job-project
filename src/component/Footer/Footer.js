@@ -1,17 +1,15 @@
 import React from "react";
 import "./Footer.css";
 import { Link } from "react-router-dom";
+import mainLogo from "../../images/logo-one.jpg";
+import mainLogo1 from "../../images/logo-two.jpg";
 
 const Footer = () => {
   return (
     <div className="footer-parent-div">
       <div className="footer-grid-div">
         <div className="footer-single-cart-div footer-border">
-          <img
-            className="footer-first-logo"
-            src="https://pathao.com/wp-content/uploads/2019/03/Pathao-logo-inverted.png"
-            alt=""
-          />
+          <img className="footer-first-logo" src={mainLogo} alt="" />
           <p className="footer-p">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
             tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
@@ -48,8 +46,9 @@ const Footer = () => {
         </div>
         {/*  */}
         <div className="footer-single-cart-div footer-border-2">
-          <h3 className="footer-heading">WORK HOURS</h3>
-          <p>
+          <h3 className="footer-heading">COUNTRIES</h3>
+          <p>Bangladesh</p>
+          <p className="footer-p-and-i">
             <i class="fa-regular fa-clock footer-i"></i>
             <span className="footer-p">7AM-5PM, Mon - Sat</span>
           </p>
@@ -58,7 +57,7 @@ const Footer = () => {
           </p>
           <Link className="footer-callUs-button">
             <i class="fa-solid fa-phone"></i>
-            <button>Call us</button>
+            <button>Support</button>
           </Link>
         </div>
       </div>

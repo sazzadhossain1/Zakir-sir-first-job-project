@@ -4,8 +4,11 @@
   align-items: center;
   background-color: rgb(245, 255, 252);
 }
+.first-car-img {
+  display: none;
+}
 .trustedRideService-text-parent-div {
-  width: 50%;
+  width: 75%;
   margin: auto;
   text-align: left;
 }
@@ -39,4 +42,50 @@
 }
 .trustedRideService-read-more button {
   width: 200px;
+}
+
+/* Responsiveness start */
+@media screen and (max-width: 1250px) {
+  .first-car-img {
+    display: block;
+    width: 600px;
+    margin: auto;
+
+    margin-top: -150px;
+  }
+  .trustedRideService-text-parent-div {
+    margin-top: 200;
+  }
+  .trustedRideService-grid-div {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .second-car-img {
+    display: none;
+  }
+  .trustedRideService-read-more button {
+    margin-bottom: 100px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .first-car-img {
+    display: block;
+    width: 600px;
+    margin: auto;
+
+    margin-top: -50px;
+  }
+  .trustedRideService-text-parent-div {
+    margin-top: 200;
+  }
+  .trustedRideService-grid-div {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .second-car-img {
+    display: none;
+  }
+  .trustedRideService-read-more button {
+    margin-bottom: 100px;
+  }
 }

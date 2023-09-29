@@ -5,6 +5,11 @@ import { Link } from "react-router-dom";
 const TrustedRideServices = () => {
   return (
     <div className="trustedRideService-grid-div">
+      <img
+        className="first-car-img"
+        src="https://png.pngtree.com/png-clipart/20230426/original/pngtree-fashion-car-private-car-orange-red-car-simulation-illustration-picture-image_4484916.png"
+        alt=""
+      />
       <div className="trustedRideService-text-parent-div">
         <h1 className="trustedRideService-heading">
           Trusted Ride Service in the World
@@ -33,6 +38,7 @@ const TrustedRideServices = () => {
         </Link>
       </div>
       <img
+        className="second-car-img"
         src="https://png.pngtree.com/png-clipart/20230426/original/pngtree-fashion-car-private-car-orange-red-car-simulation-illustration-picture-image_4484916.png"
         alt=""
       />

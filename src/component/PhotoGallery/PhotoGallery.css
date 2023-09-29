@@ -59,11 +59,17 @@
   }
 }
 @media screen and (max-width: 1250px) {
+  .keep-heading {
+    font-size: 35px;
+  }
   .photo-logo {
     margin-left: 500px;
   }
 }
 @media screen and (max-width: 1050px) {
+  .keep-heading {
+    font-size: 30px;
+  }
   .photo-gallery {
     display: grid;
     grid-template-columns: 1fr;
@@ -76,11 +82,17 @@
   }
 }
 @media screen and (max-width: 850px) {
+  .keep-heading {
+    font-size: 25px;
+  }
   .photo-logo {
     margin-left: 300px;
   }
 }
 @media screen and (max-width: 750px) {
+  .keep-heading {
+    font-size: 20px;
+  }
   .photo-cart-grid-div {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -92,6 +104,9 @@
   }
 }
 @media screen and (max-width: 580px) {
+  .keep-heading {
+    font-size: 18px;
+  }
   .photo-logo {
     margin-left: 180px;
   }

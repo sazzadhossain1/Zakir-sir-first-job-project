@@ -3,6 +3,8 @@ import "./App.css";
 import Main from "./LayOut/Main";
 import Home from "./component/Home/Home";
 import Blog from "./component/Blog/Blog";
+import Login from "./component/Login/Login";
+import SignUp from "./component/SignUp/SignUp";
 
 function App() {
   const router = createBrowserRouter([
@@ -21,6 +23,14 @@ function App() {
         {
           path: "/blog",
           element: <Blog></Blog>,
+        },
+        {
+          path: "/login",
+          element: <Login></Login>,
+        },
+        {
+          path: "/signUp",
+          element: <SignUp></SignUp>,
         },
       ],
     },

@@ -26,9 +26,9 @@
   width: 200px;
 }
 .background-img-div {
-  background-image: url("https://pathao.com/wp-content/uploads/2018/12/Pathao-ecosystem.jpg");
-  height: 50vh;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+}
+.banner-img {
+  width: 100%;
+  height: 680px;
+  margin: auto;
 }

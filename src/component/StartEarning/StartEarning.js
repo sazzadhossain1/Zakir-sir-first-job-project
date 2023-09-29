@@ -1,5 +1,6 @@
 import React from "react";
 import "./StartEarning.css";
+import bannerPhoto from "../../images/banner.jpg";
 
 const StartEarning = () => {
   return (
@@ -10,7 +11,9 @@ const StartEarning = () => {
         Become a captain, rider or foodman on the highest earning platform!
       </p>
       <button className="start-earning-button">Start Earning</button>
-      <div className="background-img-div"></div>
+      <div className="background-img-div">
+        <img className="banner-img" src={bannerPhoto} alt="" />
+      </div>
     </div>
   );
 };
