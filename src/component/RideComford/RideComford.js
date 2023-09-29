@@ -14,14 +14,14 @@ const RideComford = () => {
         luctus nec ullamcorper <br /> mattis, pulvinar dapibus leo.
       </p>
       <div className="rideInComfort-grid-div">
-        <div className="">
-          <img src={trip} alt="" />
+        <div>
+          <img className="cart-img" src={trip} alt="" />
         </div>
         <div>
-          <img src={ship} alt="" />
+          <img className="cart-img" src={ship} alt="" />
         </div>
         <div>
-          <img src={task} alt="" />
+          <img className="cart-img" src={task} alt="" />
         </div>
       </div>
     </div>

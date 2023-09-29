@@ -9,6 +9,7 @@ import StartEarning from "../StartEarning/StartEarning";
 import BiggerInSize from "../BiggerInSize/BiggerInSize";
 import HowItWork from "../HowItWork/HowItWork";
 import TrustedRideServices from "../TrustedRideServices/TrustedRideServices";
+import QrCode from "../QrCode/QrCode";
 
 const Home = () => {
   return (
@@ -40,6 +41,7 @@ const Home = () => {
       <BiggerInSize></BiggerInSize>
       <HowItWork></HowItWork>
       <TrustedRideServices></TrustedRideServices>
+      <QrCode></QrCode>
     </div>
   );
 };

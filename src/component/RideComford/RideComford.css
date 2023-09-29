@@ -18,145 +18,21 @@
   margin: auto;
   margin-top: 40px;
 }
-.rideInComfort-car-cart-first-text-div {
-  background: url(https://www.thestatesman.com/wp-content/uploads/2020/04/googl_ED.jpg);
 
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-blend-mode: darken;
-  background-color: rgba(0, 0, 0, 0.829);
-  color: white;
-  width: 70%;
-  padding: 15px;
-  text-align: left;
-  height: 250px;
-  border-radius: 20px;
-  position: relative;
-  margin: auto;
-}
-.rideInComfort-car-cart-second-text-div {
-  background: url(https://www.thestatesman.com/wp-content/uploads/2020/04/googl_ED.jpg);
-
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-blend-mode: darken;
-  background-color: rgba(1, 8, 104, 0.89);
-  color: white;
-  width: 70%;
-  padding: 15px;
-  text-align: left;
-  height: 250px;
-  border-radius: 20px;
-  position: relative;
-  margin: auto;
-}
-.rideInComfort-car-cart-third-text-div {
-  background: url(https://www.thestatesman.com/wp-content/uploads/2020/04/googl_ED.jpg);
-
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-blend-mode: darken;
-  background-color: rgba(0, 87, 158, 0.945);
-  color: white;
-  width: 70%;
-  padding: 15px;
-  text-align: left;
-  height: 250px;
-  border-radius: 20px;
-  position: relative;
-  margin: auto;
-}
-.rideInComfort-heading {
-  font-size: 26px;
-  font-weight: 500;
-  margin-top: 20px;
-  margin-bottom: 10px;
-}
-.rideInComfort-p {
-  color: rgb(177, 177, 177);
-  font-weight: 500;
-  margin-bottom: 20px;
-}
-.learn-more {
-  font-size: 18px;
-  cursor: pointer;
-}
-
-.car-photo-div {
-  position: absolute;
-  margin-top: -80px;
-  margin-left: 160px;
-}
-.car-photo {
-  width: 250px;
-}
-
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 850px) {
   .rideInComfort-grid-div {
     display: grid;
     grid-template-columns: 1fr;
     gap: 70px;
     width: 100%;
   }
-  .car-photo-div {
-    position: absolute;
-    margin-top: -80px;
-    margin-left: 760px;
+  .cart-img {
+    width: 70%;
+    margin: auto;
   }
 }
-
-@media screen and (max-width: 1100px) {
-  .car-photo-div {
-    position: absolute;
-    margin-top: -80px;
-    margin-left: 660px;
-  }
-}
-@media screen and (max-width: 950px) {
-  .car-photo-div {
-    position: absolute;
-    margin-top: -80px;
-    margin-left: 560px;
-  }
-}
-@media screen and (max-width: 750px) {
-  .car-photo-div {
-    position: absolute;
-    margin-top: -80px;
-    margin-left: 360px;
-  }
-}
-@media screen and (max-width: 612px) {
-  .car-photo-div {
-    position: absolute;
-    margin-top: -80px;
-    margin-left: 260px;
-  }
-}
-@media screen and (max-width: 518px) {
-  .car-photo-div {
-    position: absolute;
-    margin-top: -80px;
-    margin-left: 160px;
-  }
-}
-@media screen and (max-width: 412px) {
-  .car-photo-div {
-    position: absolute;
-    margin-top: -80px;
-    margin-left: 115px;
-  }
-}
-@media screen and (max-width: 330px) {
-  .car-photo-div {
-    position: absolute;
-    margin-top: -40px;
-    margin-left: 130px;
-  }
-  .car-photo {
-    width: 160px;
+@media screen and (max-width: 540px) {
+  .cart-img {
+    width: 100%;
   }
 }
