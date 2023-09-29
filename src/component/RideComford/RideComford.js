@@ -1,6 +1,9 @@
 import React from "react";
 import "./RideComford.css";
-import { Link } from "react-router-dom";
+
+import trip from "../../images/rideInComfort/trip.jpg";
+import ship from "../../images/rideInComfort/ship.jpg";
+import task from "../../images/rideInComfort/task.jpg";
 
 const RideComford = () => {
   return (
@@ -12,61 +15,13 @@ const RideComford = () => {
       </p>
       <div className="rideInComfort-grid-div">
         <div className="">
-          <div className="rideInComfort-car-cart-first-text-div">
-            <h3 className="rideInComfort-heading">Iteksi Regular</h3>
-            <p className="rideInComfort-p">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Voluptatem, in ipsum!
-            </p>
-            <button className="learn-more">
-              <Link>Learn More</Link>
-            </button>
-          </div>
-          <div className="car-photo-div">
-            <img
-              className="car-photo"
-              src="https://kitpro.site/iteksi/wp-content/uploads/sites/184/2023/08/image-of-a-blue-car-on-different-positions-2022-12-15-22-53-57-utc-1-1024x472.png"
-              alt=""
-            />
-          </div>
+          <img src={trip} alt="" />
         </div>
         <div>
-          <div className="rideInComfort-car-cart-second-text-div">
-            <h3 className="rideInComfort-heading">Iteksi Regular</h3>
-            <p className="rideInComfort-p">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Voluptatem, in ipsum!
-            </p>
-            <button className="learn-more">
-              <Link>Learn More</Link>
-            </button>
-          </div>
-          <div className="car-photo-div">
-            <img
-              className="car-photo"
-              src="https://kitpro.site/iteksi/wp-content/uploads/sites/184/2023/08/hybrid-car-2022-12-16-01-11-32-utc-1-1024x505.png"
-              alt=""
-            />
-          </div>
+          <img src={ship} alt="" />
         </div>
         <div>
-          <div className="rideInComfort-car-cart-third-text-div">
-            <h3 className="rideInComfort-heading">Iteksi Regular</h3>
-            <p className="rideInComfort-p">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Voluptatem, in ipsum!
-            </p>
-            <button className="learn-more">
-              <Link>Learn More</Link>
-            </button>
-          </div>
-          <div className="car-photo-div">
-            <img
-              className="car-photo"
-              src="https://kitpro.site/iteksi/wp-content/uploads/sites/184/2023/08/sport-car-2022-12-15-23-01-56-utc-1-1024x454.png"
-              alt=""
-            />
-          </div>
+          <img src={task} alt="" />
         </div>
       </div>
     </div>
