@@ -28,7 +28,7 @@ const Footer = () => {
         </div>
         {/*  */}
         <div className="footer-single-cart-div footer-border">
-          <h3 className="footer-heading">NAVIGATION</h3>
+          <h3 className="footer-heading">COMPANY</h3>
           <p className="footer-p">Home</p>
           <p className="footer-p">Page</p>
           <p className="footer-p">About Us</p>
