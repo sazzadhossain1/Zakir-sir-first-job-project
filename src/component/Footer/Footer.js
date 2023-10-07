@@ -29,20 +29,37 @@ const Footer = () => {
         {/*  */}
         <div className="footer-single-cart-div footer-border">
           <h3 className="footer-heading">COMPANY</h3>
-          <p className="footer-p">Home</p>
-          <p className="footer-p">Page</p>
-          <p className="footer-p">About Us</p>
-          <p className="footer-p">Service</p>
-          <p className="footer-p">Help</p>
+          <p className="footer-p">
+            <Link to="/safety"> Safety</Link>
+          </p>
+          <p className="footer-p">
+            <Link to="/faq">Faq</Link>
+          </p>
+          <p className="footer-p">
+            <Link to="/help">Help</Link>
+          </p>
+          <p className="footer-p">
+            <Link to="/aboutUs">AboutUs</Link>
+          </p>
+          <p className="footer-p">
+            <Link to="/howTripShipWork">How Trip Ship Task Work</Link>
+          </p>
+          <p className="footer-p">
+            <Link to="/media">Media</Link>
+          </p>
+          <p className="footer-p">
+            <Link to="/careers">Careers</Link>
+          </p>
         </div>
         {/*  */}
         <div className="footer-single-cart-div footer-border">
           <h3 className="footer-heading">QUICK LINK</h3>
-          <p className="footer-p">Contact Us</p>
-          <p className="footer-p">FAQs</p>
-          <p className="footer-p">Blog</p>
-          <p className="footer-p">Gallery</p>
-          <p className="footer-p">Pricing</p>
+          <p className="footer-p">
+            <Link to="/blog">Blog</Link>
+          </p>
+          <p className="footer-p">
+            <Link to="/webMail">Web Mail</Link>
+          </p>
         </div>
         {/*  */}
         <div className="footer-single-cart-div footer-border-2">

@@ -1,5 +1,3 @@
-.qr-code-parent-div {
-}
 .qr-code-download-header {
   font-size: 35px;
   margin-top: 50px;
@@ -12,7 +10,7 @@
 }
 .qr-code-img {
   margin: auto;
-  width: 30%;
+  width: 15%;
   box-shadow: 10px 1px 10px rgb(0, 0, 0);
 }
 

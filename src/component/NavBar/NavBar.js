@@ -32,7 +32,36 @@ const NavBar = () => {
                 className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
               >
                 <li>
-                  <a>Parent</a>
+                  <Link to="/home">Home</Link>
+                </li>
+                <li>
+                  <a>Company</a>
+                  <ul className="p-2">
+                    <li>
+                      <Link to="/safety"> Safety</Link>
+                    </li>
+                    <li>
+                      <Link to="/faq">Faq</Link>
+                    </li>
+                    <li>
+                      <Link to="/help">Help</Link>
+                    </li>
+                    <li>
+                      <Link to="/aboutUs">AboutUs</Link>
+                    </li>
+                    <li>
+                      <Link to="/howTripShipWork">How Trip Ship Task Work</Link>
+                    </li>
+                    <li>
+                      <Link to="/media">Media</Link>
+                    </li>
+                    <li>
+                      <Link to="/careers">Careers</Link>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <Link>Service</Link>
                   <ul className="p-2">
                     <li>
                       <a>Submenu 1</a>
@@ -43,7 +72,7 @@ const NavBar = () => {
                   </ul>
                 </li>
                 <li>
-                  <a>Parent</a>
+                  <Link>Help</Link>
                   <ul className="p-2">
                     <li>
                       <a>Submenu 1</a>
@@ -54,7 +83,13 @@ const NavBar = () => {
                   </ul>
                 </li>
                 <li>
-                  <a>Parent</a>
+                  <Link to="/blog">Blog</Link>
+                </li>
+                <li>
+                  <Link to="/webMail">Web Mail</Link>
+                </li>
+                <li>
+                  <a>More</a>
                   <ul className="p-2">
                     <li>
                       <a>Submenu 1</a>
@@ -64,20 +99,18 @@ const NavBar = () => {
                     </li>
                   </ul>
                 </li>
-                <li>
-                  <a>Item 3</a>
-                </li>
-                <li>
-                  <a>Parent</a>
-                  <ul className="p-2">
-                    <li>
-                      <a>Submenu 1</a>
-                    </li>
-                    <li>
-                      <a>Submenu 2</a>
-                    </li>
-                  </ul>
-                </li>
+                <div className="login-signUp-div">
+                  <button className="login-btn">
+                    <Link className="login" to="/login">
+                      Login
+                    </Link>
+                  </button>
+                  <button className="signUp-btn">
+                    <Link className="signUp" to="/signUp">
+                      SignUp
+                    </Link>
+                  </button>
+                </div>
               </ul>
             </div>
             <div className="logo-div">
@@ -88,15 +121,33 @@ const NavBar = () => {
           </div>
           <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal px-1">
+              <li>
+                <Link to="/home">Home</Link>
+              </li>
               <li tabIndex={0}>
                 <details>
-                  <summary>Earn With</summary>
+                  <summary>Company</summary>
                   <ul className="p-2">
                     <li>
-                      <a>Submenu 1</a>
+                      <Link to="/safety"> Safety</Link>
                     </li>
                     <li>
-                      <a>Submenu 2</a>
+                      <Link to="/faq">Faq</Link>
+                    </li>
+                    <li>
+                      <Link to="/help">Help</Link>
+                    </li>
+                    <li>
+                      <Link to="/aboutUs">AboutUs</Link>
+                    </li>
+                    <li>
+                      <Link to="/howTripShipWork">How Trip Ship Task Work</Link>
+                    </li>
+                    <li>
+                      <Link to="/media">Media</Link>
+                    </li>
+                    <li>
+                      <Link to="/careers">Careers</Link>
                     </li>
                   </ul>
                 </details>
@@ -130,6 +181,9 @@ const NavBar = () => {
               <li>
                 <Link to="/blog">Blog</Link>
               </li>
+              <li>
+                <Link to="/webMail">Web Mail</Link>
+              </li>
               <li tabIndex={0}>
                 <details>
                   <summary>
@@ -145,17 +199,22 @@ const NavBar = () => {
                   </ul>
                 </details>
               </li>
+
+              <div className="login-signUp-div">
+                <button className="login-btn">
+                  <Link className="login" to="/login">
+                    Login
+                  </Link>
+                </button>
+                <button className="signUp-btn">
+                  <Link className="signUp" to="/signUp">
+                    SignUp
+                  </Link>
+                </button>
+              </div>
             </ul>
           </div>
           <div className="navbar-end">
-            <div className="login-signUp-div">
-              <Link className="login" to="/login">
-                Login
-              </Link>
-              <Link className="signUp" to="/signUp">
-                SignUp
-              </Link>
-            </div>
             <ul className="menu menu-horizontal px-1">
               <li tabIndex={0}>
                 <details>
