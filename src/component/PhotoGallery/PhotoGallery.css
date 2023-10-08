@@ -58,6 +58,17 @@
     margin-left: 600px;
   }
 }
+@media screen and (max-width: 1280px) {
+  .photo-gallery {
+    width: 90%;
+  }
+  .keep-heading {
+    font-size: 35px;
+  }
+  .photo-logo {
+    margin-left: 500px;
+  }
+}
 @media screen and (max-width: 1250px) {
   .keep-heading {
     font-size: 35px;
@@ -73,6 +84,7 @@
   .photo-gallery {
     display: grid;
     grid-template-columns: 1fr;
+    width: 80%;
   }
   .photo-gallery img {
     width: 100%;
@@ -124,6 +136,11 @@
     width: 100px;
   }
 }
+@media screen and (max-width: 412px) {
+  .photo-gallery {
+    width: 100%;
+  }
+}
 @media screen and (max-width: 400px) {
   .photo-logo {
     margin-left: 140px;
@@ -139,6 +156,7 @@
     margin-left: 90px;
   }
 }
+
 @media screen and (max-width: 250px) {
   .photo-logo {
     margin-left: 75px;
