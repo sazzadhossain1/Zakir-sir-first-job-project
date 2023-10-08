@@ -1,7 +1,6 @@
 import React from "react";
 import "./Home.css";
 import { Link } from "react-router-dom";
-import Million from "../Million/Million";
 import RideComford from "../RideComford/RideComford";
 import OurAchievment from "../OurAchievment/OurAchievment";
 import PhotoGallery from "../PhotoGallery/PhotoGallery";
@@ -10,6 +9,7 @@ import BiggerInSize from "../BiggerInSize/BiggerInSize";
 import HowItWork from "../HowItWork/HowItWork";
 import TrustedRideServices from "../TrustedRideServices/TrustedRideServices";
 import QrCode from "../QrCode/QrCode";
+import ConnectAssistEarn from "../ConnectAssistEarn/ConnectAssistEarn";
 
 const Home = () => {
   return (
@@ -33,7 +33,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <Million></Million>
+      <ConnectAssistEarn></ConnectAssistEarn>
       <RideComford></RideComford>
       <OurAchievment></OurAchievment>
       <PhotoGallery></PhotoGallery>

@@ -1,0 +1,61 @@
+.ConnectAssistEarn-parent-div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 50%;
+  margin: auto;
+  background-color: white;
+  box-shadow: 10px 10px 100px rgb(197, 197, 197);
+  padding: 40px;
+  margin-top: -55px;
+  border-radius: 10px;
+  font-family: "Michroma", sans-serif;
+}
+.ConnectAssistEarn-parent-div h3 {
+  font-size: 25px;
+  font-weight: 700;
+}
+.ConnectAssistEarn-parent-div p {
+  color: #5d6467;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 1280px) {
+  .ConnectAssistEarn-parent-div h3 {
+    font-size: 20px;
+  }
+  .ConnectAssistEarn-parent-div p {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 1250px) {
+  .ConnectAssistEarn-parent-div {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .ConnectAssistEarn-parent-div {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 640px) {
+  .ConnectAssistEarn-parent-div {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .ConnectAssistEarn-parent-div {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 360px) {
+  .ConnectAssistEarn-parent-div h3 {
+    font-size: 16px;
+  }
+  .ConnectAssistEarn-parent-div p {
+    font-size: 12px;
+  }
+}

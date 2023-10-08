@@ -100,16 +100,12 @@ const NavBar = () => {
                   </ul>
                 </li>
                 <div className="login-signUp-div">
-                  <button className="login-btn">
-                    <Link className="login" to="/login">
-                      Login
-                    </Link>
-                  </button>
-                  <button className="signUp-btn">
-                    <Link className="signUp" to="/signUp">
-                      SignUp
-                    </Link>
-                  </button>
+                  <Link className="login-btn" to="/login">
+                    <button className="login">Login</button>
+                  </Link>
+                  <Link className="signUp-btn" to="/signUp">
+                    <button className="signUp">SignUp</button>
+                  </Link>
                 </div>
               </ul>
             </div>
@@ -201,16 +197,12 @@ const NavBar = () => {
               </li>
 
               <div className="login-signUp-div">
-                <button className="login-btn">
-                  <Link className="login" to="/login">
-                    Login
-                  </Link>
-                </button>
-                <button className="signUp-btn">
-                  <Link className="signUp" to="/signUp">
-                    SignUp
-                  </Link>
-                </button>
+                <Link className="login-btn" to="/login">
+                  <button className="login">Login</button>
+                </Link>
+                <Link className="signUp-btn" to="/signUp">
+                  <button className="signUp">SignUp</button>
+                </Link>
               </div>
             </ul>
           </div>
