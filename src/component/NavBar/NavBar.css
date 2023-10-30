@@ -8,8 +8,8 @@
 }
 
 .mainLogo-img {
-  width: 100%;
-  height: 100%;
+  max-width: 500px;
+  max-height: 80px;
 }
 .login-signUp-div {
   margin: auto;

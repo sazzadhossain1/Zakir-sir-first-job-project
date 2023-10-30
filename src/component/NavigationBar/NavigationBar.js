@@ -79,22 +79,6 @@ const NavigationBar = () => {
             </div>
           </ul>
         </div>
-
-        <ul className="menu menu-horizontal px-1">
-          <li tabIndex={0}>
-            <details>
-              <summary>Eng</summary>
-              <ul className="p-2">
-                <li>
-                  <Link>English</Link>
-                </li>
-                <li>
-                  <Link>Bangla</Link>
-                </li>
-              </ul>
-            </details>
-          </li>
-        </ul>
       </nav>
     </div>
   );

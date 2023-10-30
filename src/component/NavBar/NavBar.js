@@ -3,6 +3,7 @@ import "./NavBar.css";
 import { Link } from "react-router-dom";
 import mainLogo from "../../images/logo-one.jpg";
 import mainLogo1 from "../../images/logo-two.jpg";
+import tipShipTaskLogo from "../../images/logo/tipShipTaskLogo.jpg";
 
 const NavBar = () => {
   return (
@@ -111,7 +112,7 @@ const NavBar = () => {
             </div>
             <div className="logo-div">
               <Link to="/home" className="btn btn-ghost normal-case text-xl ">
-                <img className="mainLogo-img" src={mainLogo1} alt="" />
+                <img className="mainLogo-img" src={tipShipTaskLogo} alt="" />
               </Link>
             </div>
           </div>
@@ -204,23 +205,6 @@ const NavBar = () => {
                   <button className="signUp">SignUp</button>
                 </Link>
               </div>
-            </ul>
-          </div>
-          <div className="navbar-end">
-            <ul className="menu menu-horizontal px-1">
-              <li tabIndex={0}>
-                <details>
-                  <summary>Eng</summary>
-                  <ul className="p-2">
-                    <li>
-                      <a>Submenu 1</a>
-                    </li>
-                    <li>
-                      <a>Submenu 2</a>
-                    </li>
-                  </ul>
-                </details>
-              </li>
             </ul>
           </div>
         </div>

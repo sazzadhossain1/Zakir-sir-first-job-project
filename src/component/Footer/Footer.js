@@ -11,20 +11,14 @@ const Footer = () => {
         <div className="footer-single-cart-div footer-border">
           <img className="footer-first-logo" src={mainLogo} alt="" />
           <p className="footer-p">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-            tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+            Address: 218 Sahera Tropical Center 5th Floor ( Lift 05) , Suite- 20
+            Elephant Road , Bata Signal Dhaka 1205 Bangladesh.
           </p>
-          <div className="footer-logo-parent-grid-div">
-            <div className="footer-child-logo-div">
-              <i class="fa-brands fa-facebook"></i>
-            </div>
-            <div className="footer-child-logo-div">
-              <i class="fa-brands fa-twitter"></i>
-            </div>
-            <div className="footer-child-logo-div">
-              <i class="fa-brands fa-youtube"></i>
-            </div>
-          </div>
+          <p className="footer-p">
+            Another Location: RUAP, Mollika 605, Uttara 18, Dhaka 1230
+          </p>
+          <p className="footer-p">support@tripshiptask.com</p>
+          <p className="footer-p">Contact Number: 8801793596432</p>
         </div>
         {/*  */}
         <div className="footer-single-cart-div footer-border">
@@ -72,6 +66,17 @@ const Footer = () => {
           <p className="footer-p">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit.
           </p>
+          <div className="footer-logo-parent-grid-div">
+            <div className="footer-child-logo-div">
+              <i class="fa-brands fa-facebook"></i>
+            </div>
+            <div className="footer-child-logo-div">
+              <i class="fa-brands fa-twitter"></i>
+            </div>
+            <div className="footer-child-logo-div">
+              <i class="fa-brands fa-youtube"></i>
+            </div>
+          </div>
           <Link className="footer-callUs-button">
             <i class="fa-solid fa-phone"></i>
             <button>Support</button>

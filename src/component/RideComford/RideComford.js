@@ -8,20 +8,22 @@ import task from "../../images/rideInComfort/task.jpg";
 const RideComford = () => {
   return (
     <div className="rideComford-parent-div">
-      <h1 className="rideInComfort">Ride In Comfort</h1>
-      <p className="rodeComfort-p-first-text">
+      <h1 className="rideInComfort">
+        TripShipTask is your solution to multiple problems
+      </h1>
+      {/* <p className="rodeComfort-p-first-text">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
         luctus nec ullamcorper <br /> mattis, pulvinar dapibus leo.
-      </p>
+      </p> */}
       <div className="rideInComfort-grid-div">
         <div>
           <img className="cart-img" src={trip} alt="" />
         </div>
         <div>
-          <img className="cart-img" src={ship} alt="" />
+          <img className="cart-img" src={task} alt="" />
         </div>
         <div>
-          <img className="cart-img" src={task} alt="" />
+          <img className="cart-img" src={ship} alt="" />
         </div>
       </div>
     </div>
