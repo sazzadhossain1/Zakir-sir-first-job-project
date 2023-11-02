@@ -1,6 +1,5 @@
 import React from "react";
 import "./Home.css";
-import { Link } from "react-router-dom";
 import RideComford from "../RideComford/RideComford";
 import OurAchievment from "../OurAchievment/OurAchievment";
 import PhotoGallery from "../PhotoGallery/PhotoGallery";
@@ -8,10 +7,10 @@ import StartEarning from "../StartEarning/StartEarning";
 import BiggerInSize from "../BiggerInSize/BiggerInSize";
 import HowItWork from "../HowItWork/HowItWork";
 import TrustedRideServices from "../TrustedRideServices/TrustedRideServices";
-import QrCode from "../QrCode/QrCode";
 import ConnectAssistEarn from "../ConnectAssistEarn/ConnectAssistEarn";
 import ImgCartOne from "../ImgCartOne/ImgCartOne";
 import bannerPhoto from "../../images/bannerPhoto/bannerPhoto.png";
+import PaymentMethod from "../PaymentMethod/PaymentMethod";
 
 const Home = () => {
   return (
@@ -45,7 +44,8 @@ const Home = () => {
       <StartEarning></StartEarning>
       <BiggerInSize></BiggerInSize>
       <HowItWork></HowItWork>
-      <QrCode></QrCode>
+      {/* <QrCode></QrCode> */}
+      <PaymentMethod></PaymentMethod>
     </div>
   );
 };

@@ -59,13 +59,7 @@ const Footer = () => {
         <div className="footer-single-cart-div footer-border-2">
           <h3 className="footer-heading">COUNTRIES</h3>
           <p>Bangladesh</p>
-          <p className="footer-p-and-i">
-            <i class="fa-regular fa-clock footer-i"></i>
-            <span className="footer-p">7AM-5PM, Mon - Sat</span>
-          </p>
-          <p className="footer-p">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-          </p>
+
           <div className="footer-logo-parent-grid-div">
             <div className="footer-child-logo-div">
               <i class="fa-brands fa-facebook"></i>
@@ -77,10 +71,6 @@ const Footer = () => {
               <i class="fa-brands fa-youtube"></i>
             </div>
           </div>
-          <Link className="footer-callUs-button">
-            <i class="fa-solid fa-phone"></i>
-            <button>Support</button>
-          </Link>
         </div>
       </div>
     </div>

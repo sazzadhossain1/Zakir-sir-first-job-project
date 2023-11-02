@@ -1,10 +1,78 @@
+.biggerInSize-parent-div {
+  background-color: aquamarine;
+  margin-top: 50px;
+}
 .biggerINSize-text-div {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
-  gap: 80px;
-  background-color: aquamarine;
+  max-width: 90%;
   padding: 50px;
+  margin: auto;
+}
+.biggerInSize-p-text-div {
+  display: flex;
+  align-items: end;
+  gap: 20px;
+  margin-left: 100px;
+  text-align: left;
+  margin-top: 50px;
+
+  width: 100%;
+}
+.qr-code-img-div {
+}
+.qr-code-img {
+  box-shadow: 10px 1px 10px rgb(0, 0, 0);
+  width: 300px;
+}
+.googleAndApple-btn-div {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.apple-btn {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  gap: 10px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 100%;
+  color: white;
+}
+
+.apple-btn i {
+  font-size: 30px;
+}
+.downloadOnThe {
+  font-size: 10px;
+}
+.appleStore-btn-text-span {
+  color: white;
+  display: block;
+  font-size: 14px;
+}
+
+.google-btn {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  gap: 10px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 100%;
+  color: white;
+}
+.google-btn i {
+  font-size: 40px;
 }
 .biggerInSize-heading-text-div {
   text-align: right;
@@ -14,18 +82,13 @@
   font-size: 35px;
   font-weight: 500;
 }
-.biggerInSize-p-text-div {
-  text-align: left;
-  margin-top: 50px;
-}
+
 .biggerInSize-p-text-div p {
   font-size: 17px;
   font-weight: 500;
   color: rgb(80, 80, 80);
 }
-.learn-more {
-  font-weight: 700;
-}
+
 .biggerInSiz-background-div {
   background: rgba(0, 0, 0, 0.904)
     url(https://img.etimg.com/thumb/msid-96559100,width-650,height-488,imgsize-92902,,resizemode-75/the-rimaac-nevera-is-now-the-fastest-electric-car-in-the-world-image-rimac.jpg);

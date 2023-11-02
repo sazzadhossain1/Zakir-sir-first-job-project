@@ -1,9 +1,10 @@
 import React from "react";
 import "./RideComford.css";
 
-import trip from "../../images/rideInComfort/trip.jpg";
-import ship from "../../images/rideInComfort/ship.jpg";
-import task from "../../images/rideInComfort/task.jpg";
+// import trip from "../../images/rideInComfort/trip.jpg";
+// import ship from "../../images/rideInComfort/ship.jpg";
+// import task from "../../images/rideInComfort/task.jpg";
+import TSTPhoto from "../../images/rideInComfort/TSTPhoto.png";
 
 const RideComford = () => {
   return (
@@ -24,7 +25,7 @@ const RideComford = () => {
         luctus nec ullamcorper <br /> mattis, pulvinar dapibus leo.
       </p> */}
       <div className="rideInComfort-grid-div">
-        <div>
+        {/* <div>
           <img className="cart-img" src={trip} alt="" />
         </div>
         <div>
@@ -32,7 +33,9 @@ const RideComford = () => {
         </div>
         <div>
           <img className="cart-img" src={ship} alt="" />
-        </div>
+        </div> */}
+
+        <img className="cart-img" src={TSTPhoto} alt="" />
       </div>
     </div>
   );

@@ -1,3 +1,14 @@
 .imgCartOne-p {
   font-size: 35px;
 }
+.cartWithImg-parent-div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 80%;
+  margin: auto;
+}
+.cartWithImg {
+  max-width: 90%;
+  margin: auto;
+  margin-top: 40px;
+}
