@@ -6,54 +6,27 @@ const OurAchievment = () => {
     <div className="ourAchievment-parent-div">
       <div>
         <div className="ourAchievement-div">
-          <h1 className="ourAchievement-heading">Our Achievement</h1>
-          <p className="ourAchievement-p">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.{" "}
-          </p>
+          <h1 className="ourAchievement-heading">Important Information</h1>
         </div>
-        <div className="ourAchievment-grid-div">
-          <div className="border-div">
-            <div className="ourAchievment-logo-div">
-              <div className="logo">
-                <i className="fa-solid fa-car i"></i>
-              </div>
-              <p className="ourAchievment-number-k">30K+</p>
-            </div>
-            <h3 className="ourAchievment-cart-heading">Experience</h3>
-            <p className="ourAchievment-cart-p">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Pariatur, ad!
-            </p>
-          </div>
-          <div className="border-div">
-            <div className="ourAchievment-logo-div">
-              <div className="logo">
-                <i class="fa-solid fa-users i"></i>
-              </div>
-              <p className="ourAchievment-number-k">300K+</p>
-            </div>
-            <h3 className="ourAchievment-cart-heading">Experience</h3>
-            <p className="ourAchievment-cart-p">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Pariatur, ad!
-            </p>
-          </div>
-          <div className="ourAchievment-cart-div">
-            <div className="ourAchievment-logo-div">
-              <div className="logo">
-                <i class="fa-solid fa-car i"></i>
-              </div>
-              <p className="ourAchievment-number-k">50K+</p>
-            </div>
-            <h3 className="ourAchievment-cart-heading">Experience</h3>
-            <p className="ourAchievment-cart-p">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Pariatur, ad!
-            </p>
-          </div>
+        <div className="ourAchievment-p-div">
+          <p className="ourAchievment-p">
+            In the TripShipTask Mobile App, each user will sign up with their
+            name, phone number, area of residence - along with ID, educational
+            qualification, and profession - all this information. Then they can
+            share a trip from one place to another with the user of their
+            choice, carry or send each other's things, give some work to another
+            user or do some work themselves - etc. It will also benefit others,
+            gain some income or reduce expenses.
+          </p>
+          <p className="ourAchievment-p">
+            Please be advised that you will require to pay BDT 35 during Sign Up
+            for the purpose of NID verification. <br /> Please be advised that
+            TripShipTask platform shall charge a 15% fee on each transaction
+            that you carry out on the platform. Also, TripShipTask platform
+            reserves the right to levy any cancellation fee or any other fee as
+            described in the Terms. By Signing Up with TripShipTask, you agree
+            to our terms and all policies.
+          </p>
         </div>
       </div>
     </div>

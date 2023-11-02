@@ -11,6 +11,7 @@ import TrustedRideServices from "../TrustedRideServices/TrustedRideServices";
 import QrCode from "../QrCode/QrCode";
 import ConnectAssistEarn from "../ConnectAssistEarn/ConnectAssistEarn";
 import ImgCartOne from "../ImgCartOne/ImgCartOne";
+import bannerPhoto from "../../images/bannerPhoto/bannerPhoto.png";
 
 const Home = () => {
   return (
@@ -27,17 +28,14 @@ const Home = () => {
             <p className="TripShipTask-p">- Give or get tasks</p>
           </div>
           <p className="andMakeMoney-p">and make money while you are at it.</p>
-          <div>
-            <Link className="earn">
-              <button>Earn With Us</button>
-            </Link>
-            <br />
-            <Link className="download">
-              <button>Download App</button>
-            </Link>
-          </div>
+        </div>
+
+        <div className="home-child-img-div">
+          <img className="home-banner-photo" src={bannerPhoto} alt="" />
         </div>
       </div>
+
+      {/*  */}
       <ConnectAssistEarn></ConnectAssistEarn>
       <RideComford></RideComford>
       <TrustedRideServices></TrustedRideServices>

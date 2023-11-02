@@ -7,6 +7,11 @@ const ImgCartOne = () => {
   return (
     <div>
       <img src={imgCartOne} alt="" />
+      <p className="imgCartOne-p">
+        To ensure security, users will be required to provide IDs. <br /> This
+        way, the users of TripShipTask can safely exchange services
+        among themselves.
+      </p>
       <img src={imgCartTwo} alt="" />
     </div>
   );

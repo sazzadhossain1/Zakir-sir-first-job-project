@@ -11,9 +11,12 @@
   max-width: 500px;
   max-height: 80px;
 }
+.nav-ul {
+  /* margin-right: 200px; */
+}
 .login-signUp-div {
   margin: auto;
-  margin-left: 100px;
+  margin-left: 300px;
   display: flex;
   align-items: center;
   gap: 20px;

@@ -14,18 +14,20 @@
   border-radius: 20px;
 }
 .ourAchievement-div {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  width: 70%;
+}
+.ourAchievment-p {
+  max-width: 80%;
   margin: auto;
   margin-top: 20px;
-  text-align: left;
+  font-size: 23px;
 }
-
 .ourAchievement-heading {
   font-size: 50px;
   font-weight: 700;
   color: rgb(184, 184, 184);
+}
+.ourAchievment-p-div {
+  text-align: left;
 }
 .ourAchievement-p {
   color: gray;

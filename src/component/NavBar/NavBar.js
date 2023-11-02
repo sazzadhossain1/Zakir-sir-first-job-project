@@ -36,70 +36,18 @@ const NavBar = () => {
                   <Link to="/home">Home</Link>
                 </li>
                 <li>
-                  <a>Company</a>
-                  <ul className="p-2">
-                    <li>
-                      <Link to="/safety"> Safety</Link>
-                    </li>
-                    <li>
-                      <Link to="/faq">Faq</Link>
-                    </li>
-                    <li>
-                      <Link to="/help">Help</Link>
-                    </li>
-                    <li>
-                      <Link to="/aboutUs">AboutUs</Link>
-                    </li>
-                    <li>
-                      <Link to="/howTripShipWork">How Trip Ship Task Work</Link>
-                    </li>
-                    <li>
-                      <Link to="/media">Media</Link>
-                    </li>
-                    <li>
-                      <Link to="/careers">Careers</Link>
-                    </li>
-                  </ul>
+                  <Link to="/home">About</Link>
                 </li>
                 <li>
-                  <Link>Service</Link>
-                  <ul className="p-2">
-                    <li>
-                      <a>Submenu 1</a>
-                    </li>
-                    <li>
-                      <a>Submenu 2</a>
-                    </li>
-                  </ul>
+                  <Link to="/home">Safety</Link>
                 </li>
                 <li>
-                  <Link>Help</Link>
-                  <ul className="p-2">
-                    <li>
-                      <a>Submenu 1</a>
-                    </li>
-                    <li>
-                      <a>Submenu 2</a>
-                    </li>
-                  </ul>
+                  <Link to="/home">Career</Link>
                 </li>
                 <li>
-                  <Link to="/blog">Blog</Link>
+                  <Link to="/home">FAQ</Link>
                 </li>
-                <li>
-                  <Link to="/webMail">Web Mail</Link>
-                </li>
-                <li>
-                  <a>More</a>
-                  <ul className="p-2">
-                    <li>
-                      <a>Submenu 1</a>
-                    </li>
-                    <li>
-                      <a>Submenu 2</a>
-                    </li>
-                  </ul>
-                </li>
+
                 <div className="login-signUp-div">
                   <Link className="login-btn" to="/login">
                     <button className="login">Login</button>
@@ -116,85 +64,22 @@ const NavBar = () => {
               </Link>
             </div>
           </div>
-          <div className="navbar-center hidden lg:flex">
-            <ul className="menu menu-horizontal px-1">
+          <div className="navbar-center hidden lg:flex ">
+            <ul className="nav-ul menu menu-horizontal px-1">
               <li>
                 <Link to="/home">Home</Link>
               </li>
-              <li tabIndex={0}>
-                <details>
-                  <summary>Company</summary>
-                  <ul className="p-2">
-                    <li>
-                      <Link to="/safety"> Safety</Link>
-                    </li>
-                    <li>
-                      <Link to="/faq">Faq</Link>
-                    </li>
-                    <li>
-                      <Link to="/help">Help</Link>
-                    </li>
-                    <li>
-                      <Link to="/aboutUs">AboutUs</Link>
-                    </li>
-                    <li>
-                      <Link to="/howTripShipWork">How Trip Ship Task Work</Link>
-                    </li>
-                    <li>
-                      <Link to="/media">Media</Link>
-                    </li>
-                    <li>
-                      <Link to="/careers">Careers</Link>
-                    </li>
-                  </ul>
-                </details>
-              </li>
-              <li tabIndex={0}>
-                <details>
-                  <summary>Service</summary>
-                  <ul className="p-2">
-                    <li>
-                      <a>Submenu 1</a>
-                    </li>
-                    <li>
-                      <a>Submenu 2</a>
-                    </li>
-                  </ul>
-                </details>
-              </li>
-              <li tabIndex={0}>
-                <details>
-                  <summary>help</summary>
-                  <ul className="p-2">
-                    <li>
-                      <a>Submenu 1</a>
-                    </li>
-                    <li>
-                      <a>Submenu 2</a>
-                    </li>
-                  </ul>
-                </details>
+              <li>
+                <Link to="/home">About</Link>
               </li>
               <li>
-                <Link to="/blog">Blog</Link>
+                <Link to="/home">Safety</Link>
               </li>
               <li>
-                <Link to="/webMail">Web Mail</Link>
+                <Link to="/home">Career</Link>
               </li>
-              <li tabIndex={0}>
-                <details>
-                  <summary>
-                    More <span>◉</span>
-                  </summary>
-                  <ul className="p-2">
-                    <li>
-                      <a>Submenu 1</a>
-                    </li>
-                    <li>
-                      <a>Submenu 2</a>
-                    </li>
-                  </ul>
-                </details>
+              <li>
+                <Link to="/home">FAQ</Link>
               </li>
 
               <div className="login-signUp-div">

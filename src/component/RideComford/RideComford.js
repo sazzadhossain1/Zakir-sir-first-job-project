@@ -11,6 +11,14 @@ const RideComford = () => {
       <h1 className="rideInComfort">
         TripShipTask is your solution to multiple problems
       </h1>
+      <p className="rideInComford-P">
+        When safety is ensured, who wouldn’t like to save money when there is a
+        chance?
+      </p>
+      <p className="rideInComford-P">
+        Save money when traveling, shipping or having someone get
+        something done for you.
+      </p>
       {/* <p className="rodeComfort-p-first-text">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
         luctus nec ullamcorper <br /> mattis, pulvinar dapibus leo.
