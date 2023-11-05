@@ -1,10 +1,5 @@
 .footer-parent-div {
-  background: rgba(0, 0, 0, 0.884)
-    url(https://cdn.motor1.com/images/mgl/g440ng/s3/rimac-nevera.jpg);
-  background-blend-mode: darken;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background-color: black;
   padding: 50px;
   color: white;
 }

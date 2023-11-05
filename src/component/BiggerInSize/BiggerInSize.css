@@ -6,7 +6,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
-  max-width: 90%;
+  max-width: 100%;
   padding: 50px;
   margin: auto;
 }
@@ -17,14 +17,12 @@
   margin-left: 100px;
   text-align: left;
   margin-top: 50px;
+  max-width: 100%;
+}
 
-  width: 100%;
-}
-.qr-code-img-div {
-}
 .qr-code-img {
   box-shadow: 10px 1px 10px rgb(0, 0, 0);
-  width: 300px;
+  width: 200px;
 }
 .googleAndApple-btn-div {
   margin-top: 20px;
@@ -90,8 +88,8 @@
 }
 
 .biggerInSiz-background-div {
-  background: rgba(0, 0, 0, 0.904)
-    url(https://img.etimg.com/thumb/msid-96559100,width-650,height-488,imgsize-92902,,resizemode-75/the-rimaac-nevera-is-now-the-fastest-electric-car-in-the-world-image-rimac.jpg);
+  /* background: rgba(0, 0, 0, 0.904)
+    url(https://img.etimg.com/thumb/msid-96559100,width-650,height-488,imgsize-92902,,resizemode-75/the-rimaac-nevera-is-now-the-fastest-electric-car-in-the-world-image-rimac.jpg); */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -168,21 +166,7 @@ hr {
 }
 
 /*  */
-.biggerInSize-second-single-cart {
-  background-color: rgb(0, 0, 26);
-  padding: 30px;
-  color: white;
-}
 
-.second-cart-text-logo-flex-div {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 75%;
-  margin: auto;
-  margin-top: 30px;
-  margin-bottom: 20px;
-}
 .second-car-logo {
   font-size: 50px;
   color: #333533af;
@@ -219,74 +203,49 @@ hr {
 }
 
 /* Responsiveness start */
-
-@media screen and (max-width: 1550px) {
-  .biggerInSiz-cart-div {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-@media screen and (max-width: 1200px) {
-  .biggerInSiz-cart-div {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-  }
-}
-@media screen and (max-width: 850px) {
-  .biggerINSize-text-div {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 0;
-    padding: 0px;
-  }
-
-  .biggerInSiz-cart-div {
-    width: 100%;
-  }
-
-  .biggerInSize-heading-text-div {
-    text-align: left;
-    width: 20%;
-    margin-left: 30px;
-  }
-
+@media screen and (max-width: 1405px) {
   .biggerInSize-heading-text-div h1 {
-    font-size: 22px;
+    font-size: 32px;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .biggerInSize-heading-text-div {
+    text-align: center;
+  }
+  .biggerINSize-text-div {
+    grid-template-columns: 1fr;
   }
   .biggerInSize-p-text-div {
-    margin-left: 30px;
-    margin-bottom: 20px;
+    justify-content: center;
+  }
+  .qr-code-img {
+    width: 300px;
   }
 }
-@media screen and (max-width: 700px) {
-  .biggerInSiz-cart-div {
-    width: 100%;
-  }
-  .biggerINSize-text-div {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
+@media screen and (max-width: 950px) {
   .biggerInSize-heading-text-div {
     text-align: left;
-    width: 20%;
+    margin-bottom: 20px;
   }
-}
-@media screen and (max-width: 500px) {
-  .biggerInSiz-cart-div {
-    width: 100%;
+  .biggerINSize-text-div {
+    grid-template-columns: 1fr;
   }
-
-  .price-flex-div {
-    text-align: left;
+  .biggerInSize-p-text-div {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    margin: auto;
   }
 }
 @media screen and (max-width: 450px) {
-  .order-button-two {
+  .googleAndApple-btn-div {
+    display: grid;
+    grid-template-columns: 1fr;
   }
-  .order-text {
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-size: 10px;
+  .apple-btn {
+    width: 100%;
+  }
+  .google-btn {
+    width: 100%;
   }
 }

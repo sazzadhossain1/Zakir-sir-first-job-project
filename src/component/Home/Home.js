@@ -3,7 +3,6 @@ import "./Home.css";
 import RideComford from "../RideComford/RideComford";
 import OurAchievment from "../OurAchievment/OurAchievment";
 import PhotoGallery from "../PhotoGallery/PhotoGallery";
-import StartEarning from "../StartEarning/StartEarning";
 import BiggerInSize from "../BiggerInSize/BiggerInSize";
 import HowItWork from "../HowItWork/HowItWork";
 import TrustedRideServices from "../TrustedRideServices/TrustedRideServices";
@@ -41,10 +40,10 @@ const Home = () => {
       <ImgCartOne></ImgCartOne>
       <OurAchievment></OurAchievment>
       <PhotoGallery></PhotoGallery>
-      <StartEarning></StartEarning>
+
       <BiggerInSize></BiggerInSize>
       <HowItWork></HowItWork>
-      {/* <QrCode></QrCode> */}
+
       <PaymentMethod></PaymentMethod>
     </div>
   );

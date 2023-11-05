@@ -1,6 +1,6 @@
 import React from "react";
 import "./TrustedRideServices.css";
-import { Link } from "react-router-dom";
+
 import photoOne from "../../images/trustedRideService/TaskImage.jpg";
 import photoTwo from "../../images/trustedRideService/TripImage.jpg";
 import photoThree from "../../images/trustedRideService/roseboxBFdSCxmqvYcunsplash.jpg";
@@ -9,7 +9,7 @@ const TrustedRideServices = () => {
   return (
     <div>
       <div className="trustedRideService-grid-div">
-        <img className="first-car-img" src="" alt="" />
+        <img className="first-car-img" src={photoTwo} alt="" />
         <div className="trustedRideService-text-parent-div">
           <p className="trustedRideService-first-p">
             Say you are going somewhere - be it your own car or a rented one
@@ -28,9 +28,11 @@ const TrustedRideServices = () => {
         </div>
         <img className="second-car-img" src={photoTwo} alt="" />
       </div>
+
+      {/*  */}
       <div className="trustedRideService-grid-div-two">
-        <img className="first-car-img" src="" alt="" />
-        <div className="trustedRideService-text-parent-div">
+        <img className="secondCart-first-car-img" src={photoThree} alt="" />
+        <div className="trustedRideService-text-secondCart-parent-div">
           <p className="trustedRideService-first-p">
             Say you want to send something to someone. Post in the TripShipTask
             App in the App's Ship section. Anyone who is or will be traveling
@@ -44,14 +46,11 @@ const TrustedRideServices = () => {
             win for everyone.
           </p>
         </div>
-        <img className="second-car-img" src={photoThree} alt="" />
+        <img className="secondCart-second-car-img" src={photoThree} alt="" />
       </div>
+      {/*  */}
       <div className="trustedRideService-grid-div">
-        <img
-          className="first-car-img"
-          src="https://png.pngtree.com/png-clipart/20230426/original/pngtree-fashion-car-private-car-orange-red-car-simulation-illustration-picture-image_4484916.png"
-          alt=""
-        />
+        <img className="first-car-img" src={photoOne} alt="" />
         <div className="trustedRideService-text-parent-div">
           <p className="trustedRideService-first-p">
             Or say you need someone to do something for you - near or far. Just

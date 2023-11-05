@@ -20,21 +20,8 @@ const RideComford = () => {
         Save money when traveling, shipping or having someone get
         something done for you.
       </p>
-      {/* <p className="rodeComfort-p-first-text">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
-        luctus nec ullamcorper <br /> mattis, pulvinar dapibus leo.
-      </p> */}
-      <div className="rideInComfort-grid-div">
-        {/* <div>
-          <img className="cart-img" src={trip} alt="" />
-        </div>
-        <div>
-          <img className="cart-img" src={task} alt="" />
-        </div>
-        <div>
-          <img className="cart-img" src={ship} alt="" />
-        </div> */}
 
+      <div className="rideInComfort-grid-div">
         <img className="cart-img" src={TSTPhoto} alt="" />
       </div>
     </div>
