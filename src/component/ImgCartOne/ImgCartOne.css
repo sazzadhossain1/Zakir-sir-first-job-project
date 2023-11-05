@@ -1,6 +1,9 @@
 .imgCartOne-p {
   font-size: 35px;
 }
+.imgCartOne {
+  margin: auto;
+}
 .cartWithImg-parent-div {
   display: grid;
   grid-template-columns: repeat(3, 1fr);

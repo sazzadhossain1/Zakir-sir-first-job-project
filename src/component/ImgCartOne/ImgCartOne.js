@@ -13,7 +13,7 @@ import imgCartSix from "../../images/imgCartPhoto/imgCartSix.jpg";
 const ImgCartOne = () => {
   return (
     <div className="imgCartOne-parent-div">
-      <img src={imgCartOne} alt="" />
+      <img className="imgCartOne" src={imgCartOne} alt="" />
       <p className="imgCartOne-p">
         To ensure security, users will be required to provide IDs. <br /> This
         way, the users of TripShipTask can safely exchange services
