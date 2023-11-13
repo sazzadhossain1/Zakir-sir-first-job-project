@@ -18,7 +18,11 @@ const Footer = () => {
             Another Location: RUAP, Mollika 605, Uttara 18, Dhaka 1230
           </p>
           <p className="footer-p">support@tripshiptask.com</p>
-          <p className="footer-p">Contact Number: 8801793596432</p>
+          <p className="footer-p">
+            <i class="fa-brands fa-whatsapp"></i> &nbsp;
+            <i class="fa-solid fa-phone"></i>&nbsp; Contact Number:
+            880132 780 8821
+          </p>
         </div>
         {/*  */}
         <div className="footer-single-cart-div footer-border">

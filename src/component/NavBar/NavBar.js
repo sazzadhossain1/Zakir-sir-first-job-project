@@ -49,10 +49,16 @@ const NavBar = () => {
                 </li>
 
                 <div className="login-signUp-div">
-                  <Link className="login-btn" to="/login">
+                  <Link
+                    className="login-btn"
+                    to="https://app.tripshiptask.com/web/login"
+                  >
                     <button className="login">Login</button>
                   </Link>
-                  <Link className="signUp-btn" to="/signUp">
+                  <Link
+                    className="signUp-btn"
+                    to="https://app.tripshiptask.com/web/signup"
+                  >
                     <button className="signUp">SignUp</button>
                   </Link>
                 </div>
@@ -83,10 +89,16 @@ const NavBar = () => {
               </li>
 
               <div className="login-signUp-div">
-                <Link className="login-btn" to="/login">
+                <Link
+                  className="login-btn"
+                  to="https://app.tripshiptask.com/web/login"
+                >
                   <button className="login">Login</button>
                 </Link>
-                <Link className="signUp-btn" to="/signUp">
+                <Link
+                  className="signUp-btn"
+                  to="https://app.tripshiptask.com/web/signup"
+                >
                   <button className="signUp">SignUp</button>
                 </Link>
               </div>
