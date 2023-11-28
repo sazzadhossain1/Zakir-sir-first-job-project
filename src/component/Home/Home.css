@@ -3,8 +3,18 @@
   grid-template-columns: repeat(2, 1fr);
   background-color: #eee;
   padding-top: 40px;
+  /* gap: 100px; */
   padding-bottom: 100px;
   max-width: 100%;
+}
+.carousel_div {
+  width: 60%;
+}
+.carousel_child_div {
+}
+.home-banner-photo {
+  max-width: 60%;
+  margin: auto;
 }
 .home-child-dvi {
   text-align: left;
@@ -12,6 +22,7 @@
   margin-top: 100px;
 }
 .home-child-img-div {
+  max-width: 60%;
 }
 .TripShipTask-heading {
   font-size: 30px;
@@ -26,10 +37,6 @@
   margin-top: 10px;
 }
 
-.home-banner-photo {
-  max-width: 30%;
-  margin: auto;
-}
 .earn {
   background-color: #e83330;
   padding: 10px;

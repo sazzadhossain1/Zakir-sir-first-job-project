@@ -13,6 +13,8 @@ import HowTripShipTaskWork from "./component/HowTripShipTaskWork/HowTripShipTask
 import Media from "./component/Media/Media";
 import Careers from "./component/Careers/Careers";
 import WebMail from "./component/WebMail/WebMail";
+import ChargePoints from "./component/ChargePoints/ChargePoints";
+import SecurityDeposit from "./component/SecurityDeposit/SecurityDeposit";
 
 function App() {
   const router = createBrowserRouter([
@@ -47,6 +49,14 @@ function App() {
         {
           path: "/aboutUs",
           element: <AboutUs></AboutUs>,
+        },
+        {
+          path: "/chargePoints",
+          element: <ChargePoints></ChargePoints>,
+        },
+        {
+          path: "/securityDeposit",
+          element: <SecurityDeposit></SecurityDeposit>,
         },
         {
           path: "/howTripShipWork",

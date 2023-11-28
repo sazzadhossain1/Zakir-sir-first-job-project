@@ -1,7 +1,10 @@
 .footer-parent-div {
-  background-color: black;
+  background-color: rgb(241, 241, 241);
   padding: 50px;
-  color: white;
+  color: black;
+}
+.media_icon {
+  font-size: 20px;
 }
 .footer-grid-div {
   display: grid;
@@ -15,7 +18,7 @@
   padding: 30px;
 }
 .footer-border {
-  border-right: 1px solid gray;
+  border-right: 1px solid black;
 }
 .footer-heading {
   font-size: 20px;
@@ -26,6 +29,16 @@
   width: 200px;
   height: 80px;
   margin-bottom: 20px;
+}
+.bangladesh {
+  color: black;
+}
+.media_flex_div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: black;
+  margin-top: 10px;
 }
 .footer-logo-parent-grid-div {
   display: grid;
@@ -40,9 +53,13 @@
   padding: 2px;
   width: 50px;
 }
-.footer-p {
-  color: rgb(197, 196, 196);
+.Office-p {
   margin-top: 15px;
+  font-size: 15px;
+}
+.footer-p {
+  color: black;
+  margin-top: 10px;
 }
 .footer-p-and-i {
   margin-top: 15px;

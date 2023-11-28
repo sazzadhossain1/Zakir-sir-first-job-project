@@ -1,6 +1,26 @@
+.first_nav_div {
+  background-color: #1f2e46;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  padding: 6px;
+}
+.nav_first_header_p {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.nav_second_header_p {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
 .navbar-main-parent-div {
-  border: 1px solid #edf1f4;
+  border: 1px solid #f4eeed;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  height: 100%;
 }
 .navbar-parent-dvi {
   width: 82%;
@@ -9,7 +29,7 @@
 
 .mainLogo-img {
   max-width: 500px;
-  max-height: 80px;
+  max-height: 70px;
 }
 .nav-ul {
   /* margin-right: 200px; */
