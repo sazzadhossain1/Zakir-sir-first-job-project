@@ -74,17 +74,21 @@
   }
 }
 @media screen and (max-width: 1150px) {
+  .home-parent-div {
+  }
+  .home-child-dvi {
+  }
   .TripShipTask-heading {
-    font-size: 25px;
+    font-size: 22px;
   }
   .TripShipTask-p {
-    font-size: 25px;
+    font-size: 22px;
   }
   .andMakeMoney-p {
-    font-size: 25px;
+    font-size: 22px;
   }
   .home-banner-photo {
-    max-width: 40%;
+    max-width: 60%;
   }
 }
 @media screen and (max-width: 1024px) {
@@ -93,7 +97,11 @@
   }
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 983px) {
+  .home-parent-div {
+  }
+  .home-child-dvi {
+  }
   .TripShipTask-heading {
     font-size: 20px;
   }
@@ -102,6 +110,33 @@
   }
   .andMakeMoney-p {
     font-size: 20px;
+  }
+  .home-banner-photo {
+    max-width: 60%;
+  }
+}
+@media screen and (max-width: 850px) {
+  .home-parent-div {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .child_parent_div {
+    margin: auto;
+  }
+  .home-child-dvi {
+    margin-bottom: 50px;
+  }
+  .TripShipTask-heading {
+    font-size: 20px;
+  }
+  .TripShipTask-p {
+    font-size: 20px;
+  }
+  .andMakeMoney-p {
+    font-size: 20px;
+  }
+  .carousel_div {
+    margin: auto;
   }
   .home-banner-photo {
     max-width: 50%;
@@ -181,7 +216,6 @@
   }
   .home-banner-photo {
     max-width: 50%;
-    margin-left: 10px;
   }
 }
 @media screen and (max-width: 540px) {
@@ -189,7 +223,7 @@
     margin-top: 100px;
   }
   .TripShipTask-heading {
-    font-size: 30px;
+    font-size: 22px;
   }
   .TripShipTask-p {
     font-size: 18px;
@@ -205,13 +239,16 @@
     font-size: 14px;
     margin-top: 45px;
   }
+  .andMakeMoney-p {
+    font-size: 22px;
+  }
 }
 @media screen and (max-width: 414px) {
   .home-child-dvi {
     margin-top: 50px;
   }
   .TripShipTask-heading {
-    font-size: 30px;
+    font-size: 22px;
   }
   .TripShipTask-p {
     font-size: 18px;
@@ -251,7 +288,15 @@
   }
 }
 
+@media screen and (max-width: 384px) {
+  .TripShipTask-heading {
+    font-size: 22px;
+  }
+}
 @media screen and (max-width: 360px) {
+  .TripShipTask-heading {
+    font-size: 22px;
+  }
   .earn {
     width: 50%;
   }

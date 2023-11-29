@@ -19,17 +19,21 @@ const Home = () => {
   return (
     <div>
       <div className="home-parent-div">
-        <div className="home-child-dvi">
-          <h2 className=" TripShipTask-heading">
-            TripShipTask helps you connect with others to
-          </h2>
+        <div className="child_parent_div">
+          <div className="home-child-dvi">
+            <h2 className=" TripShipTask-heading">
+              TripShipTask helps you connect with others to
+            </h2>
 
-          <div>
-            <p className="TripShipTask-p">- Give or get rides</p>
-            <p className="TripShipTask-p">- Send or receive any goods</p>
-            <p className="TripShipTask-p">- Give or get tasks</p>
+            <div>
+              <p className="TripShipTask-p">- Give or get rides</p>
+              <p className="TripShipTask-p">- Send or receive any goods</p>
+              <p className="TripShipTask-p">- Give or get tasks</p>
+            </div>
+            <p className="andMakeMoney-p">
+              and make money while you are at it.
+            </p>
           </div>
-          <p className="andMakeMoney-p">and make money while you are at it.</p>
         </div>
 
         {/* <div className="home-child-img-div">
