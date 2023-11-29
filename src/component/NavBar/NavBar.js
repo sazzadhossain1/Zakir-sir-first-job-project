@@ -41,7 +41,7 @@ const NavBar = () => {
                     <Link to="/home">Home</Link>
                   </li>
                   <li>
-                    <Link to="/home">About</Link>
+                    <Link to="/aboutUs">About</Link>
                   </li>
                   <li>
                     <Link to="/home">Safety</Link>
@@ -50,7 +50,7 @@ const NavBar = () => {
                     <Link to="/home">Career</Link>
                   </li>
                   <li>
-                    <Link to="/home">FAQ</Link>
+                    <Link to="/faq">FAQ</Link>
                   </li>
 
                   <div className="login-signUp-div">
@@ -81,7 +81,7 @@ const NavBar = () => {
                   <Link to="/home">Home</Link>
                 </li>
                 <li>
-                  <Link to="/home">About</Link>
+                  <Link to="/aboutUs">About</Link>
                 </li>
                 <li>
                   <Link to="/home">Safety</Link>
@@ -90,7 +90,7 @@ const NavBar = () => {
                   <Link to="/home">Career</Link>
                 </li>
                 <li>
-                  <Link to="/home">FAQ</Link>
+                  <Link to="/faq">FAQ</Link>
                 </li>
 
                 <div className="login-signUp-div">

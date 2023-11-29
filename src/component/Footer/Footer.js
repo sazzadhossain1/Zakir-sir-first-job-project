@@ -4,6 +4,10 @@ import { Link } from "react-router-dom";
 import mainLogo from "../../images/logo-one.jpg";
 import mainLogo1 from "../../images/logo-two.jpg";
 import logoThree from "../../images/logo_Three.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
+import { faFacebook, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
+import { faPhone } from "@fortawesome/free-solid-svg-icons";
 
 const Footer = () => {
   return (
@@ -21,11 +25,15 @@ const Footer = () => {
             Elephant Road , Bata Signal Dhaka 1205 Bangladesh.
           </p>
           <p className="Office-p">
-            <i class="fa-solid fa-envelope"></i> support@tripshiptask.com
+            <FontAwesomeIcon icon={faEnvelope} /> &nbsp;
+            support@tripshiptask.com
           </p>
           <p className="Office-p">
-            <i class="fa-brands fa-whatsapp"></i> &nbsp;
-            <i class="fa-solid fa-phone"></i>&nbsp; 880132 780 8821
+            &nbsp;
+            <FontAwesomeIcon icon={faWhatsapp} />
+            &nbsp;
+            <FontAwesomeIcon icon={faPhone} />
+            &nbsp; 880132 780 8821
           </p>
         </div>
         {/*  */}
@@ -106,7 +114,8 @@ const Footer = () => {
               >
                 Facebook Page
               </Link>
-              <i class="fa-brands fa-facebook media_icon"></i>
+
+              <FontAwesomeIcon icon={faFacebook} />
             </div>
             <div className="media_flex_div">
               <Link
@@ -115,21 +124,9 @@ const Footer = () => {
               >
                 BD Facebook Group
               </Link>
-              <i class="fa-brands fa-facebook media_icon"></i>
+              <FontAwesomeIcon icon={faFacebook} />
             </div>
           </div>
-
-          {/* <div className="footer-logo-parent-grid-div">
-            <div className="footer-child-logo-div">
-              <i class="fa-brands fa-facebook"></i>
-            </div>
-            <div className="footer-child-logo-div">
-              <i class="fa-brands fa-twitter"></i>
-            </div>
-            <div className="footer-child-logo-div">
-              <i class="fa-brands fa-youtube"></i>
-            </div>
-          </div> */}
         </div>
       </div>
     </div>

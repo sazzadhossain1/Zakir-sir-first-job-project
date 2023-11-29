@@ -4,16 +4,18 @@ import { Link } from "react-router-dom";
 import CEOPhoto from "../../images/CEO-photo/CEO-Photo.png";
 
 const Faq = () => {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
   return (
     <div className="safety-parent-div">
       <h1>This is FAQ</h1>
       <div className="safety-grid-div">
         <div className="first-safety-img-div">
-          <img src={CEOPhoto} alt="" />
+          {/* <img src={CEOPhoto} alt="" /> */}
         </div>
         <div className="safety-text-div">
-          <h3 className="safety_heading">TEACHER JACK</h3>
-          <p className="safety-title-p">Trainer, IT Business Person</p>
+          {/* <h3 className="safety_heading">TEACHER JACK</h3> */}
+          {/* <p className="safety-title-p">Trainer, IT Business Person</p> */}
           <p className="safety-text-p">
             TESOL Certified, ELT Teacher Jack is experienced and has taught
             English to students from China, South Korea, Mexico, Canada and the
@@ -31,7 +33,7 @@ const Faq = () => {
           </Link>
         </div>
         <div className="second-safety-img-div">
-          <img src={CEOPhoto} alt="" />
+          {/* <img src={CEOPhoto} alt="" /> */}
         </div>
       </div>
     </div>

@@ -9,9 +9,15 @@
   align-items: center;
   width: 85%;
   margin: auto;
-  gap: 30px;
 }
 
+.second-safety-img-div {
+  /* background-color: red; */
+}
+
+.second-safety-img-div img {
+  margin: auto;
+}
 .first-safety-img-div {
   display: none;
 }
@@ -26,27 +32,19 @@
   color: rgb(1, 120, 156);
   margin-bottom: 20px;
 }
-.safety-title-p {
-  font-weight: 500;
-  margin-bottom: 20px;
-  color: green;
-}
 
-.safety-text-p {
+.careers-text-p {
   margin-bottom: 20px;
   font-weight: 500;
-  font-size: 21px;
+  font-size: 19px;
   line-height: 35px;
 }
 
-.safety-more-btn {
-  background-color: rgb(1, 120, 156);
-  padding: 10px;
-  width: 300px;
-  color: white;
-  font-weight: 500;
-  border-radius: 15px;
-  font-size: 30px;
+.email {
+  margin-bottom: 10px;
+}
+.pls_wite {
+  margin-bottom: 20px;
 }
 
 @media screen and (max-width: 1400px) {

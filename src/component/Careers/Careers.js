@@ -2,36 +2,37 @@ import React from "react";
 import "./Careers.css";
 import { Link } from "react-router-dom";
 import CEOPhoto from "../../images/CEO-photo/CEO-Photo.png";
+import CareersPhoto from "../../images/CareersPhoto.jpg";
 
 const Careers = () => {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
   return (
     <div className="safety-parent-div">
-      <h1>This is Careers</h1>
       <div className="safety-grid-div">
         <div className="first-safety-img-div">
-          <img src={CEOPhoto} alt="" />
+          <img src={CareersPhoto} alt="" />
         </div>
         <div className="safety-text-div">
-          <h3 className="safety_heading">TEACHER JACK</h3>
-          <p className="safety-title-p">Trainer, IT Business Person</p>
-          <p className="safety-text-p">
-            TESOL Certified, ELT Teacher Jack is experienced and has taught
-            English to students from China, South Korea, Mexico, Canada and the
-            United States of America over the last 8 years. Teacher Jack is
-            friendly, helpful, open minded and affordable. He goes the extra
-            mile to ensure student understanding of the lessons. He travels a
-            lot and interacts with people from different background. He is
-            knowledgeable and knows exactly which student requires what level of
-            training. He is easily reachable and is always ready to
-            help his students.
+          <h3 className="safety_heading">
+            Currently we have the following open positions:
+          </h3>
+
+          <p className="careers-text-p">
+            1. Customer Service Representative <br /> 2. Marketing
           </p>
 
-          <Link to="/">
-            <button className="safety-more-btn">Back to HOME</button>
-          </Link>
+          <p className="email">
+            Email to send your CV/resume to: support@tripshiptask.com
+          </p>
+          <p className="pls_wite">
+            Please write "Applying for ......(position name)" in the subject
+            line. And make sure your CV/resume file contains your name when you
+            attach the file.
+          </p>
         </div>
         <div className="second-safety-img-div">
-          <img src={CEOPhoto} alt="" />
+          <img src={CareersPhoto} alt="" />
         </div>
       </div>
     </div>
