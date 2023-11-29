@@ -27,24 +27,31 @@ const AboutUs = () => {
   return (
     <div>
       <div className="about_video_parent-div">
-        <ReactPlayer
-          controls={true}
-          url={trip}
-          width="400px"
-          height="500px"
-        ></ReactPlayer>
-        <ReactPlayer
-          controls={true}
-          url={ship}
-          width="400px"
-          height="500px"
-        ></ReactPlayer>
-        <ReactPlayer
-          controls={true}
-          url={task}
-          width="400px"
-          height="500px"
-        ></ReactPlayer>
+        <div className="video">
+          <ReactPlayer
+            className="video"
+            controls={true}
+            url={trip}
+            width="350px"
+            height="450px"
+          ></ReactPlayer>
+        </div>
+        <div className="video">
+          <ReactPlayer
+            controls={true}
+            url={ship}
+            width="350px"
+            height="450px"
+          ></ReactPlayer>
+        </div>
+        <div className="video">
+          <ReactPlayer
+            controls={true}
+            url={task}
+            width="350px"
+            height="450px"
+          ></ReactPlayer>
+        </div>
       </div>
 
       <div className="about_text-div">

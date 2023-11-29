@@ -1,8 +1,10 @@
 .about_video_parent-div {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  width: 85%;
+  max-width: 85%;
   margin: auto;
+}
+.video {
 }
 .about_text-div {
   text-align: left;
@@ -38,4 +40,40 @@
 .TripShipTask_com {
   color: blue;
   font-weight: 500;
+}
+
+@media screen and (max-width: 1426px) {
+  .about_video_parent-div {
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 90%;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .about_video_parent-div {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 75%;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .about_video_parent-div {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 90%;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 900px) {
+  .about_video_parent-div {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .video {
+    margin: auto;
+  }
+}
+@media screen and (max-width: 360px) {
+  .about_video_parent-div {
+    max-width: 100%;
+    margin: auto;
+  }
 }
