@@ -44,10 +44,10 @@ const NavBar = () => {
                     <Link to="/aboutUs">About</Link>
                   </li>
                   <li>
-                    <Link to="/home">Safety</Link>
+                    <Link to="/safety">Safety</Link>
                   </li>
                   <li>
-                    <Link to="/home">Career</Link>
+                    <Link to="/careers">Career</Link>
                   </li>
                   <li>
                     <Link to="/faq">FAQ</Link>
@@ -84,10 +84,10 @@ const NavBar = () => {
                   <Link to="/aboutUs">About</Link>
                 </li>
                 <li>
-                  <Link to="/home">Safety</Link>
+                  <Link to="/safety">Safety</Link>
                 </li>
                 <li>
-                  <Link to="/home">Career</Link>
+                  <Link to="/careers">Career</Link>
                 </li>
                 <li>
                   <Link to="/faq">FAQ</Link>

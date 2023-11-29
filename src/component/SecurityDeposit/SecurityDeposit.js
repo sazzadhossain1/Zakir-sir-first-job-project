@@ -9,11 +9,11 @@ const SecurityDeposit = () => {
       <h1>This is Security Deposit</h1>
       <div className="safety-grid-div">
         <div className="first-safety-img-div">
-          <img src={CEOPhoto} alt="" />
+          {/* <img src={CEOPhoto} alt="" /> */}
         </div>
         <div className="safety-text-div">
-          <h3 className="safety_heading">TEACHER JACK</h3>
-          <p className="safety-title-p">Trainer, IT Business Person</p>
+          {/* <h3 className="safety_heading">TEACHER JACK</h3> */}
+          {/* <p className="safety-title-p">Trainer, IT Business Person</p> */}
           <p className="safety-text-p">
             TESOL Certified, ELT Teacher Jack is experienced and has taught
             English to students from China, South Korea, Mexico, Canada and the
@@ -31,7 +31,7 @@ const SecurityDeposit = () => {
           </Link>
         </div>
         <div className="second-safety-img-div">
-          <img src={CEOPhoto} alt="" />
+          {/* <img src={CEOPhoto} alt="" /> */}
         </div>
       </div>
     </div>
