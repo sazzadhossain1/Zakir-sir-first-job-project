@@ -3,37 +3,39 @@
   grid-template-columns: repeat(2, 1fr);
   background-color: #eee;
   padding-top: 40px;
-  /* gap: 100px; */
   padding-bottom: 100px;
   max-width: 100%;
+}
+
+.home-child-dvi {
+  text-align: left;
+  margin-left: 350px;
+  margin-top: 100px;
 }
 .carousel_div {
   width: 60%;
 }
-.carousel_child_div {
-}
+
 .home-banner-photo {
-  max-width: 60%;
+  max-width: 50%;
   margin: auto;
 }
-.home-child-dvi {
-  text-align: left;
-  margin-left: 260px;
-  margin-top: 100px;
-}
+
 .home-child-img-div {
   max-width: 60%;
 }
 .TripShipTask-heading {
-  font-size: 25px;
+  font-size: 22px;
+  font-weight: 500;
 
   margin-bottom: 10px;
 }
 .TripShipTask-p {
-  font-size: 22px;
+  font-size: 18px;
 }
 .andMakeMoney-p {
-  font-size: 25px;
+  font-size: 22px;
+  font-weight: 500;
   margin-top: 10px;
 }
 
@@ -74,19 +76,6 @@
   }
 }
 @media screen and (max-width: 1150px) {
-  .home-parent-div {
-  }
-  .home-child-dvi {
-  }
-  .TripShipTask-heading {
-    font-size: 22px;
-  }
-  .TripShipTask-p {
-    font-size: 22px;
-  }
-  .andMakeMoney-p {
-    font-size: 22px;
-  }
   .home-banner-photo {
     max-width: 60%;
   }
@@ -98,19 +87,6 @@
 }
 
 @media screen and (max-width: 983px) {
-  .home-parent-div {
-  }
-  .home-child-dvi {
-  }
-  .TripShipTask-heading {
-    font-size: 20px;
-  }
-  .TripShipTask-p {
-    font-size: 20px;
-  }
-  .andMakeMoney-p {
-    font-size: 20px;
-  }
   .home-banner-photo {
     max-width: 60%;
   }
@@ -126,15 +102,7 @@
   .home-child-dvi {
     margin-bottom: 50px;
   }
-  .TripShipTask-heading {
-    font-size: 20px;
-  }
-  .TripShipTask-p {
-    font-size: 20px;
-  }
-  .andMakeMoney-p {
-    font-size: 20px;
-  }
+
   .carousel_div {
     margin: auto;
   }
@@ -149,15 +117,6 @@
   }
 }
 @media screen and (max-width: 850px) {
-  .TripShipTask-heading {
-    font-size: 17px;
-  }
-  .TripShipTask-p {
-    font-size: 17px;
-  }
-  .andMakeMoney-p {
-    font-size: 17px;
-  }
   .home-banner-photo {
     max-width: 40%;
   }
@@ -182,21 +141,15 @@
   .home-child-dvi {
     margin-top: 30px;
   }
-  .TripShipTask-heading {
-    font-size: 22px;
-  }
-  .TripShipTask-p {
-    font-size: 14px;
-  }
+
   .earn {
     width: 40%;
     padding: 5px;
-    font-size: 12px;
   }
   .download {
     width: 40%;
     padding: 5px;
-    font-size: 12px;
+
     margin-top: 30px;
   }
 }
@@ -205,15 +158,7 @@
     grid-template-columns: 1fr;
     gap: 20px;
   }
-  .TripShipTask-heading {
-    font-size: 25px;
-  }
-  .TripShipTask-p {
-    font-size: 25px;
-  }
-  .andMakeMoney-p {
-    font-size: 25px;
-  }
+
   .home-banner-photo {
     max-width: 50%;
   }
@@ -222,12 +167,7 @@
   .home-child-dvi {
     margin-top: 100px;
   }
-  .TripShipTask-heading {
-    font-size: 22px;
-  }
-  .TripShipTask-p {
-    font-size: 18px;
-  }
+
   .earn {
     width: 50%;
     padding: 10px;
@@ -236,32 +176,26 @@
   .download {
     width: 50%;
     padding: 10px;
-    font-size: 14px;
+
     margin-top: 45px;
-  }
-  .andMakeMoney-p {
-    font-size: 22px;
   }
 }
 @media screen and (max-width: 414px) {
   .home-child-dvi {
     margin-top: 50px;
   }
-  .TripShipTask-heading {
-    font-size: 22px;
-  }
+
   .TripShipTask-p {
     font-size: 18px;
   }
   .earn {
     width: 50%;
     padding: 10px;
-    font-size: 16px;
   }
   .download {
     width: 50%;
     padding: 10px;
-    font-size: 16px;
+
     margin-top: 50px;
   }
 }
@@ -269,34 +203,20 @@
   .home-child-dvi {
     margin-top: 50px;
   }
-  .TripShipTask-heading {
-    font-size: 30px;
-  }
-  .TripShipTask-p {
-    font-size: 18px;
-  }
+
   .earn {
     width: 50%;
     padding: 10px;
-    font-size: 16px;
   }
   .download {
     width: 50%;
     padding: 10px;
-    font-size: 16px;
+
     margin-top: 50px;
   }
 }
 
-@media screen and (max-width: 384px) {
-  .TripShipTask-heading {
-    font-size: 22px;
-  }
-}
 @media screen and (max-width: 360px) {
-  .TripShipTask-heading {
-    font-size: 22px;
-  }
   .earn {
     width: 50%;
   }

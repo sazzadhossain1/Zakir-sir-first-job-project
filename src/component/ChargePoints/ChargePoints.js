@@ -5,6 +5,8 @@ import CEOPhoto from "../../images/CEO-photo/CEO-Photo.png";
 import OurAchievment from "../OurAchievment/OurAchievment";
 
 const ChargePoints = () => {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
   return (
     <div className="safety-parent-div">
       <OurAchievment></OurAchievment>

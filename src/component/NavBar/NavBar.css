@@ -20,7 +20,6 @@
 .navbar-main-parent-div {
   border: 1px solid #f4eeed;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-  height: 100%;
 }
 .navbar-parent-dvi {
   width: 82%;
@@ -28,15 +27,16 @@
 }
 
 .mainLogo-img {
-  max-width: 500px;
-  max-height: 70px;
+  max-width: 100%;
+  max-height: 90px;
 }
-.nav-ul {
-  /* margin-right: 200px; */
+
+.nav-ul li {
+  font-size: 16px;
 }
 .login-signUp-div {
   margin: auto;
-  margin-left: 300px;
+  margin-left: 200px;
   display: flex;
   align-items: center;
   gap: 20px;
@@ -57,8 +57,10 @@
 .login {
   margin-right: 20px;
   font-weight: 700;
+  font-size: 16px;
 }
 .signUp {
+  font-size: 16px;
   font-weight: 700;
   margin-right: 20px;
 }

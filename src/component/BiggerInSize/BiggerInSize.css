@@ -36,7 +36,7 @@
 .biggerInSize-heading-text-div {
 }
 .biggerInSize-heading-text-div h1 {
-  font-size: 33px;
+  font-size: 18px;
   font-weight: 500;
 }
 
@@ -151,11 +151,7 @@ hr {
 }
 
 /* Responsiveness start */
-@media screen and (max-width: 1405px) {
-  .biggerInSize-heading-text-div h1 {
-    font-size: 32px;
-  }
-}
+
 @media screen and (max-width: 1350px) {
   .biggerInSize-heading-text-div {
     text-align: center;

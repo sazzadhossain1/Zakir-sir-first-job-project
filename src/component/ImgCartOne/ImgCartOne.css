@@ -1,5 +1,6 @@
 .imgCartOne-p {
-  font-size: 30px;
+  font-size: 18px;
+  font-weight: 500;
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -19,30 +20,15 @@
 }
 
 /* Responsiveness start */
+
 @media screen and (max-width: 950px) {
-  .imgCartOne-p {
-    font-size: 30px;
-  }
-}
-@media screen and (max-width: 950px) {
-  .imgCartOne-p {
-    font-size: 28px;
-  }
   .cartWithImg-parent-div {
     grid-template-columns: repeat(2, 1fr);
   }
 }
-@media screen and (max-width: 750px) {
-  .imgCartOne-p {
-    font-size: 20px;
-  }
-}
+
 @media screen and (max-width: 650px) {
   .cartWithImg-parent-div {
     grid-template-columns: repeat(1, 1fr);
-  }
-}
-@media screen and (max-width: 500px) {
-  .imgCartOne-p {
   }
 }

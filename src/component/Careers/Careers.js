@@ -14,7 +14,7 @@ const Careers = () => {
           <img src={CareersPhoto} alt="" />
         </div>
         <div className="safety-text-div">
-          <h3 className="safety_heading">
+          <h3 className="careers_heading">
             Currently we have the following open positions:
           </h3>
 

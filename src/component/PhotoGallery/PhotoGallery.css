@@ -2,7 +2,7 @@
   margin-top: 20px;
 }
 .keep-heading {
-  font-size: 40px;
+  font-size: 18px;
   margin-bottom: 20px;
   font-weight: 700;
 }
@@ -14,7 +14,7 @@
   padding: 30px;
 }
 .photo-gallery-p {
-  font-size: 21px;
+  font-size: 16px;
 }
 
 .photo-cart-heading {
@@ -46,25 +46,17 @@
   .photo-gallery {
     width: 90%;
   }
-  .keep-heading {
-    font-size: 35px;
-  }
+
   .photo-logo {
     margin-left: 500px;
   }
 }
 @media screen and (max-width: 1250px) {
-  .keep-heading {
-    font-size: 35px;
-  }
   .photo-logo {
     margin-left: 500px;
   }
 }
 @media screen and (max-width: 1050px) {
-  .keep-heading {
-    font-size: 30px;
-  }
   .photo-gallery {
     display: grid;
     grid-template-columns: 1fr;
@@ -78,17 +70,11 @@
   }
 }
 @media screen and (max-width: 850px) {
-  .keep-heading {
-    font-size: 25px;
-  }
   .photo-logo {
     margin-left: 300px;
   }
 }
 @media screen and (max-width: 750px) {
-  .keep-heading {
-    font-size: 20px;
-  }
   .photo-cart-grid-div {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -100,9 +86,6 @@
   }
 }
 @media screen and (max-width: 580px) {
-  .keep-heading {
-    font-size: 18px;
-  }
   .photo-logo {
     margin-left: 180px;
   }

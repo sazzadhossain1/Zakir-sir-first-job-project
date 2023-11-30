@@ -16,7 +16,7 @@ const Faq = () => {
         <div className="safety-text-div">
           {/* <h3 className="safety_heading">TEACHER JACK</h3> */}
           {/* <p className="safety-title-p">Trainer, IT Business Person</p> */}
-          <p className="safety-text-p">
+          <p className="faq-text-p">
             TESOL Certified, ELT Teacher Jack is experienced and has taught
             English to students from China, South Korea, Mexico, Canada and the
             United States of America over the last 8 years. Teacher Jack is
@@ -28,9 +28,9 @@ const Faq = () => {
             help his students.
           </p>
 
-          <Link to="/">
+          {/* <Link to="/">
             <button className="safety-more-btn">Back to HOME</button>
-          </Link>
+          </Link> */}
         </div>
         <div className="second-safety-img-div">
           {/* <img src={CEOPhoto} alt="" /> */}
