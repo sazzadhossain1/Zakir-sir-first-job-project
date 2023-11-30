@@ -1,14 +1,13 @@
 import React from "react";
 import "./Home.css";
 import RideComford from "../RideComford/RideComford";
-import OurAchievment from "../OurAchievment/OurAchievment";
+
 import PhotoGallery from "../PhotoGallery/PhotoGallery";
 import BiggerInSize from "../BiggerInSize/BiggerInSize";
 import HowItWork from "../HowItWork/HowItWork";
 import TrustedRideServices from "../TrustedRideServices/TrustedRideServices";
 import ConnectAssistEarn from "../ConnectAssistEarn/ConnectAssistEarn";
 import ImgCartOne from "../ImgCartOne/ImgCartOne";
-import bannerPhoto from "../../images/bannerPhoto/bannerPhoto.png";
 import PaymentMethod from "../PaymentMethod/PaymentMethod";
 
 import trip from "../../images/bannerPhoto/trip.png";

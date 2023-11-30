@@ -15,6 +15,8 @@ import Careers from "./component/Careers/Careers";
 import WebMail from "./component/WebMail/WebMail";
 import ChargePoints from "./component/ChargePoints/ChargePoints";
 import SecurityDeposit from "./component/SecurityDeposit/SecurityDeposit";
+import ReturnAndRefundPolicy from "./component/ReturnAndRefundPolicy/ReturnAndRefundPolicy";
+import CancellationPolicy from "./component/CancellationPolicy/CancellationPolicy";
 
 function App() {
   const router = createBrowserRouter([
@@ -57,6 +59,14 @@ function App() {
         {
           path: "/securityDeposit",
           element: <SecurityDeposit></SecurityDeposit>,
+        },
+        {
+          path: "/returnAndRefundPolicy",
+          element: <ReturnAndRefundPolicy></ReturnAndRefundPolicy>,
+        },
+        {
+          path: "/cancellationPolicy",
+          element: <CancellationPolicy></CancellationPolicy>,
         },
         {
           path: "/howTripShipWork",

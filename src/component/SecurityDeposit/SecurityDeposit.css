@@ -1,69 +1,61 @@
-.safety-parent-div {
-  margin-bottom: 100px;
-  margin-top: 50px;
-}
-
-.safety-grid-div {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  align-items: center;
-  width: 85%;
+.security-parent-div {
+  padding: 35px;
+  color: black;
+  max-width: 85%;
   margin: auto;
-  gap: 30px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border-radius: 20px;
 }
 
-.first-safety-img-div {
-  display: none;
+.security-p {
+  max-width: 80%;
+  margin: auto;
+  margin-top: 20px;
+  font-size: 16px;
 }
-.safety-text-div {
+.security-heading {
+  font-size: 18px;
+  font-weight: 700;
+  color: black;
+}
+.security-p-div {
   text-align: left;
 }
 
-.safety_heading {
-  font-size: 28px;
-  font-weight: 700;
-  font-family: "Times New Roman", Times, serif;
-  color: rgb(1, 120, 156);
-  margin-bottom: 20px;
-}
-.safety-title-p {
-  font-weight: 500;
-  margin-bottom: 20px;
-  color: green;
-}
-
-.safety-text-p {
-  margin-bottom: 20px;
-  font-weight: 500;
-  font-size: 21px;
-  line-height: 35px;
-}
-
-.safety-more-btn {
-  background-color: rgb(1, 120, 156);
-  padding: 10px;
-  width: 300px;
-  color: white;
-  font-weight: 500;
-  border-radius: 15px;
-  font-size: 30px;
-}
-
-@media screen and (max-width: 1400px) {
-  .safety-grid-div {
-    width: 100%;
-    padding: 20px;
+@media screen and (max-width: 1024px) {
+  .security-parent-div {
+    max-width: 100%;
+    border-radius: 0px;
+  }
+  .security-p {
+    max-width: 100%;
   }
 }
-@media screen and (max-width: 1100px) {
-  .safety-grid-div {
+@media screen and (max-width: 700px) {
+  .security-parent-div {
+    max-width: 100%;
+    border-radius: 0px;
+  }
+
+  .security-p {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .security-p {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .security-logo-div {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    gap: 0;
+    margin-bottom: 0;
   }
-  .first-safety-img-div {
-    display: block;
-  }
-  .second-safety-img-div {
-    display: none;
+  .security-number-k {
+    margin-top: 10px;
   }
 }

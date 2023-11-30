@@ -1,8 +1,6 @@
 import React from "react";
 import "./Footer.css";
 import { Link } from "react-router-dom";
-import mainLogo from "../../images/logo-one.jpg";
-import mainLogo1 from "../../images/logo-two.jpg";
 import logoThree from "../../images/logo_Three.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
@@ -25,15 +23,15 @@ const Footer = () => {
             Elephant Road , Bata Signal Dhaka 1205 Bangladesh.
           </p>
           <p className="Office-p">
-            <FontAwesomeIcon icon={faEnvelope} /> &nbsp;
-            support@tripshiptask.com
+            <FontAwesomeIcon className="envelop_icon" icon={faEnvelope} />{" "}
+            &nbsp; support@tripshiptask.com
           </p>
           <p className="Office-p">
             &nbsp;
-            <FontAwesomeIcon icon={faWhatsapp} />
+            <FontAwesomeIcon className="whatsApp_icon" icon={faWhatsapp} />
             &nbsp;
             <FontAwesomeIcon icon={faPhone} />
-            &nbsp; 880132 780 8821
+            &nbsp; +8801748093229
           </p>
         </div>
         {/*  */}
@@ -42,9 +40,9 @@ const Footer = () => {
           <p className="footer-p">
             <Link to="/aboutUs">About</Link>
           </p>
-          <p className="footer-p">
+          {/* <p className="footer-p">
             <Link to="/safety"> Safety</Link>
-          </p>
+          </p> */}
           <p className="footer-p">
             <Link to="/careers">Careers</Link>
           </p>
@@ -99,6 +97,12 @@ const Footer = () => {
           </Link>
           <Link to="/securityDeposit">
             <p className="footer-p">Security Deposit</p>
+          </Link>
+          <Link to="/returnAndRefundPolicy">
+            <p className="footer-p">Return & Refund Policy</p>
+          </Link>
+          <Link to="/cancellationPolicy">
+            <p className="footer-p">Cancellation Policy</p>
           </Link>
         </div>
         {/*  */}

@@ -1,12 +1,15 @@
 .home-parent-div {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+
   background-color: #eee;
   padding-top: 40px;
   padding-bottom: 100px;
   max-width: 100%;
 }
-
+.child_parent_div {
+  margin-top: 50px;
+}
 .home-child-dvi {
   text-align: left;
   margin-left: 350px;

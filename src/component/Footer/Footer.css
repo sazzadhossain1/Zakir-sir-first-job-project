@@ -57,6 +57,13 @@
   margin-top: 15px;
   font-size: 15px;
 }
+.envelop_icon {
+  font-size: 16px;
+}
+.whatsApp_icon {
+  font-size: 19px;
+  margin-right: 5px;
+}
 .footer-p {
   color: black;
   margin-top: 10px;

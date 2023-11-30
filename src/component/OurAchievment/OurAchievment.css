@@ -1,12 +1,6 @@
 .ourAchievment-parent-div {
-  background: rgba(0, 0, 0, 0.938)
-    url(https://as2.ftcdn.net/v2/jpg/02/16/64/59/1000_F_216645902_N6uzAuvXTt8bglqwMYFIvqw5ajEumro0.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-blend-mode: darken;
   padding: 35px;
-  color: white;
+  color: black;
   max-width: 85%;
   margin: auto;
   margin-top: 100px;
@@ -23,7 +17,7 @@
 .ourAchievement-heading {
   font-size: 18px;
   font-weight: 700;
-  color: rgb(184, 184, 184);
+  color: black;
 }
 .ourAchievment-p-div {
   text-align: left;
