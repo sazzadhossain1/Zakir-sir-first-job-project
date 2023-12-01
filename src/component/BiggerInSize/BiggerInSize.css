@@ -1,45 +1,46 @@
 .biggerInSize-parent-div {
-  background-color: aquamarine;
   margin-top: 50px;
 }
 .biggerINSize-text-div {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
-  max-width: 100%;
+  max-width: 70%;
   padding: 30px;
   margin: auto;
 }
-.biggerInSize-p-text-div {
-  display: flex;
-  align-items: center;
-  gap: 20px;
 
+.download_tripShipTask {
+  font-size: 27px;
+  font-weight: 500;
   text-align: left;
-
-  max-width: 100%;
 }
 
 .qr-code-img {
   box-shadow: 10px 1px 10px rgb(0, 0, 0);
-  width: 150px;
-  margin-top: 10px;
+  max-width: 20%;
+  margin-top: 30px;
   border-radius: 5px;
 }
+
 .googleAndApple-btn-div {
-  margin-top: 20px;
+  margin-top: 30px;
   display: flex;
   align-items: center;
   gap: 20px;
 }
 
-.biggerInSize-heading-text-div h1 {
-  font-size: 20px;
-  font-weight: 500;
+.download_app_photo_div {
+  /* background-color: red; */
+  display: flex;
+  justify-content: right;
 }
 
+.download_app_photo {
+  max-width: 70%;
+}
 .biggerInSize-p-text-div p {
-  font-size: 17px;
+  font-size: 20px;
   font-weight: 500;
   color: rgb(80, 80, 80);
 }
@@ -151,11 +152,8 @@ hr {
 /* Responsiveness start */
 
 @media screen and (max-width: 1350px) {
-  .biggerInSize-heading-text-div {
-    text-align: center;
-  }
   .biggerINSize-text-div {
-    grid-template-columns: 1fr;
+    gap: 50px;
   }
   .biggerInSize-p-text-div {
     justify-content: center;
@@ -163,37 +161,105 @@ hr {
   .qr-code-img {
     width: 70px;
   }
+  .download_app_photo {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .download_app_photo {
+    display: none;
+  }
 }
 @media screen and (max-width: 950px) {
-  .biggerInSize-heading-text-div {
-    text-align: left;
-    margin-bottom: 20px;
-  }
-
   .biggerInSize-p-text-div {
     align-items: center;
     margin: auto;
   }
-  .biggerInSize-heading-text-div h1 {
-    text-align: center;
-  }
 }
 @media screen and (max-width: 650px) {
-  .biggerInSize-p-text-div {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
   .googleAndApple-btn-div {
     display: grid;
     grid-template-columns: 1fr;
   }
+
   .qr-code-img {
     margin: auto;
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .download_tripShipTask_parent_div {
+    margin-left: 100px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .googleAndApple-btn-div {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .qr-code-img {
+    margin: auto;
+    margin-top: 20px;
+  }
+  .download_tripShipTask_parent_div {
+    margin-left: 70px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .download_tripShipTask_parent_div {
+    margin-left: 50px;
   }
 }
 @media screen and (max-width: 450px) {
   .googleAndApple-btn-div {
     display: grid;
     grid-template-columns: 1fr;
+  }
+}
+@media screen and (max-width: 430px) {
+  .download_tripShipTask_parent_div {
+    margin-left: 0px;
+  }
+}
+@media screen and (max-width: 414px) {
+  .download_tripShipTask_parent_div {
+    margin-left: 0px;
+  }
+}
+@media screen and (max-width: 412px) {
+  .download_tripShipTask_parent_div {
+    margin-left: 0px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .download_tripShipTask_parent_div {
+    margin-left: -15px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .download_tripShipTask_parent_div {
+    margin-left: -40px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .download_tripShipTask_parent_div {
+    margin-left: -25px;
+  }
+}
+@media screen and (max-width: 295px) {
+  .download_tripShipTask_parent_div {
+    margin-left: -60px;
+  }
+}
+@media screen and (max-width: 280px) {
+  .download_tripShipTask_parent_div {
+    margin-left: -40px;
+  }
+}
+@media screen and (max-width: 250px) {
+  .download_tripShipTask_parent_div {
+    margin-left: -65px;
   }
 }

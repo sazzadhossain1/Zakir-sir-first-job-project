@@ -5,46 +5,53 @@ import qrCode from "../../images/Qr-code/qr-code.jpg";
 
 import appStore from "../../images/Google&AppStore/appStore.png";
 import googleStore from "../../images/Google&AppStore/googleStore.png";
+
+import downloadAppPhoto from "../../images/downloadAppPhoto/downloadAppPhoto.png";
 const BiggerInSize = () => {
   return (
     <div className="biggerInSize-parent-div">
       <div className="biggerINSize-text-div">
-        <div className="biggerInSize-heading-text-div">
-          <h1>Download TripShipTask Mobile App from</h1>
-        </div>
-        <div className="biggerInSize-p-text-div">
-          <div className="googleAndApple-btn-div">
-            <Link to="http://tripshiptask.com/" target="_blank">
-              <button
-                style={{
-                  backgroundImage: `url(${appStore})`,
-                  width: "220px",
-                  height: "70px",
-                  backgroundPosition: "center",
-                  backgroundRepeat: "no-repeat",
-                  backgroundSize: "cover",
-                }}
-                className="apple-btn"
-              ></button>
-            </Link>
-            <Link to="http://tripshiptask.com/" target="_blank">
-              <button
-                style={{
-                  backgroundImage: `url(${googleStore})`,
-                  width: "220px",
-                  height: "70px",
+        <div className="download_tripShipTask_parent_div">
+          <h1 className="download_tripShipTask">
+            Download TripShipTask Mobile App from
+          </h1>
+          <div className="biggerInSize-p-text-div">
+            <div className="googleAndApple-btn-div">
+              <Link to="http://tripshiptask.com/" target="_blank">
+                <button
+                  style={{
+                    backgroundImage: `url(${appStore})`,
+                    width: "220px",
+                    height: "70px",
+                    backgroundPosition: "center",
+                    backgroundRepeat: "no-repeat",
+                    backgroundSize: "cover",
+                  }}
+                  className="apple-btn"
+                ></button>
+              </Link>
+              <Link to="http://tripshiptask.com/" target="_blank">
+                <button
+                  style={{
+                    backgroundImage: `url(${googleStore})`,
+                    width: "220px",
+                    height: "70px",
 
-                  backgroundPosition: "center",
-                  backgroundRepeat: "no-repeat",
-                  backgroundSize: "cover",
-                }}
-                className="google-btn"
-              ></button>
-            </Link>
+                    backgroundPosition: "center",
+                    backgroundRepeat: "no-repeat",
+                    backgroundSize: "cover",
+                  }}
+                  className="google-btn"
+                ></button>
+              </Link>
+            </div>
+            <div className="qr-code-img-div">
+              <img className="qr-code-img" src={qrCode} alt="" />
+            </div>
           </div>
-          <div className="qr-code-img-div">
-            <img className="qr-code-img" src={qrCode} alt="" />
-          </div>
+        </div>
+        <div className="download_app_photo_div">
+          <img className="download_app_photo" src={downloadAppPhoto} alt="" />
         </div>
       </div>
     </div>

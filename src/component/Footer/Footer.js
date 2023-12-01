@@ -20,7 +20,7 @@ const Footer = () => {
 
           <p className="Office-p">
             Office: 218 Sahera Tropical Center 5th Floor ( Lift 05) , Suite- 20
-            Elephant Road , Bata Signal Dhaka 1205 Bangladesh.
+            Elephant Road, Bata Signal Dhaka 1205 Bangladesh.
           </p>
           <p className="Office-p">
             <FontAwesomeIcon className="envelop_icon" icon={faEnvelope} />{" "}
@@ -29,9 +29,7 @@ const Footer = () => {
           <p className="Office-p">
             &nbsp;
             <FontAwesomeIcon className="whatsApp_icon" icon={faWhatsapp} />
-            &nbsp;
-            <FontAwesomeIcon icon={faPhone} />
-            &nbsp; +8801748093229
+            &nbsp;+8801748093229
           </p>
         </div>
         {/*  */}

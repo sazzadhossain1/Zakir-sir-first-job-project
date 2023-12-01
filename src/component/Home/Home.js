@@ -81,13 +81,13 @@ const Home = () => {
 
       {/*  */}
       <ConnectAssistEarn></ConnectAssistEarn>
+      <BiggerInSize></BiggerInSize>
       <RideComford></RideComford>
       <TrustedRideServices></TrustedRideServices>
       <ImgCartOne></ImgCartOne>
       {/* <OurAchievment></OurAchievment> */}
       <PhotoGallery></PhotoGallery>
 
-      <BiggerInSize></BiggerInSize>
       <HowItWork></HowItWork>
 
       <PaymentMethod></PaymentMethod>

@@ -55,7 +55,7 @@
 }
 .Office-p {
   margin-top: 15px;
-  font-size: 15px;
+  font-size: 14px;
 }
 .envelop_icon {
   font-size: 16px;
@@ -63,6 +63,7 @@
 .whatsApp_icon {
   font-size: 19px;
   margin-right: 5px;
+  margin-left: -5px;
 }
 .footer-p {
   color: black;
