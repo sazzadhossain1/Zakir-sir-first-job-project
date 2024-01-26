@@ -1,0 +1,121 @@
+.LeftSideMenue_Bar {
+  background-color: #007a9d;
+  width: 100%;
+  transition: all 0.4s;
+}
+
+.LeftSideMenue_top_section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 15px;
+}
+.LeftSideMenue_howTos {
+  font-size: 19px;
+  color: white;
+  font-weight: 500;
+}
+.LeftSideMenue_video_details_div {
+  display: flex;
+}
+.LeftSideMenue_details_div {
+  display: flex;
+  justify-content: space-between;
+}
+.LeftSideMenue_details {
+  text-align: left;
+  padding: 10px 20px;
+  color: white;
+}
+
+.LeftSideMenue_nested_Link {
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 14px;
+}
+.LeftSideMenue_bars_icon {
+  color: white;
+  margin-right: 90px;
+}
+.LeftSideMenue_video_icon {
+  color: white;
+  padding: 10px 20px;
+}
+.LeftSideMenue_icon {
+  color: white;
+  padding: 10px 20px;
+}
+.LeftSideMenue_bars {
+  display: flex;
+  font-size: 25px;
+  margin-left: 70px;
+}
+.link {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px;
+  gap: 15px;
+  transition: all 0.5s;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+  color: white;
+  /* background-color: #464646; */
+}
+
+.link:hover {
+  background-color: lightskyblue;
+
+  transition: all 0.5s;
+}
+.link_text {
+  width: 100%;
+  text-align: left;
+}
+.icon {
+  width: 37%;
+  text-align: left;
+}
+.icon .link_text {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 514px) {
+  .LeftSideMenue_video_icon {
+    display: none;
+  }
+}
+@media screen and (max-width: 514px) {
+  .LeftSideMenue_icon {
+    display: none;
+  }
+}
+@media screen and (max-width: 450px) {
+  .LeftSideMenue_howTos {
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+  }
+
+  .LeftSideMenue_details {
+    font-size: 14px;
+  }
+
+  .LeftSideMenue_nested_Link {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 330px) {
+  .LeftSideMenue_howTos {
+    font-size: 16px;
+  }
+
+  .LeftSideMenue_details {
+    font-size: 13px;
+  }
+
+  .LeftSideMenue_nested_Link {
+    font-size: 11px;
+    margin-left: 3px;
+  }
+}

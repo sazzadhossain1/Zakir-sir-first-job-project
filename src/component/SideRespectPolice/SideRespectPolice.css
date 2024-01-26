@@ -1,0 +1,9 @@
+.side_respect_police_parent_div {
+  display: flex;
+}
+.side_respect_police_content_div {
+  /* background-color: red; */
+  width: 400%;
+  text-align: left;
+  margin-top: 20px;
+}

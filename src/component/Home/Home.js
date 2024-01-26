@@ -13,10 +13,24 @@ import PaymentMethod from "../PaymentMethod/PaymentMethod";
 import trip from "../../images/bannerPhoto/trip.png";
 import ship from "../../images/bannerPhoto/ship.png";
 import task from "../../images/bannerPhoto/task.png";
+import { Link } from "react-router-dom";
 
 const Home = () => {
+  // const handleModalOnLoad = () => {
+  //   setTimeout(() => {
+  //     const popUp_div = document.getElementById("popUp_div");
+  //     popUp_div.style.display = "block";
+  //   }, [2000]);
+  // };
+  // const handlePopUp = () => {
+  //   const popUp_div = document.getElementById("popUp_div");
+  //   popUp_div.style.display = "none";
+  // };
+
   return (
-    <div>
+    <div
+    // onLoad={handleModalOnLoad}
+    >
       <div className="home-parent-div">
         <div className="child_parent_div">
           <div className="home-child-dvi">
@@ -91,6 +105,18 @@ const Home = () => {
       <HowItWork></HowItWork>
 
       <PaymentMethod></PaymentMethod>
+
+      {/* <div id="popUp_div" className="bookDownloadPage-success-div">
+        <p className="bookDownloadPage-success-p">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis,
+          officiis.
+          <br />
+          <br />
+          <Link onClick={handlePopUp} className="Ok_Btn" to="">
+            x
+          </Link>
+        </p>
+      </div> */}
     </div>
   );
 };

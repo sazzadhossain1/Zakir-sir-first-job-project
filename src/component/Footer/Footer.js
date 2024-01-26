@@ -4,8 +4,12 @@ import { Link } from "react-router-dom";
 import logoThree from "../../images/logo_Three.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
-import { faFacebook, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
-import { faPhone } from "@fortawesome/free-solid-svg-icons";
+import {
+  faFacebook,
+  faFacebookMessenger,
+  faWhatsapp,
+} from "@fortawesome/free-brands-svg-icons";
+import greenPass from "../../images/greenPass/greenPass.jpg";
 
 const Footer = () => {
   return (
@@ -23,34 +27,45 @@ const Footer = () => {
             Elephant Road, Bata Signal Dhaka 1205 Bangladesh.
           </p>
           <p className="Office-p">
-            <FontAwesomeIcon className="envelop_icon" icon={faEnvelope} />{" "}
+            <FontAwesomeIcon className="envelop_icon" icon={faEnvelope} />
             &nbsp; support@tripshiptask.com
           </p>
           <p className="Office-p">
             &nbsp;
             <FontAwesomeIcon className="whatsApp_icon" icon={faWhatsapp} />
-            &nbsp;+8801748093229
+            &nbsp;+8801746093229
           </p>
         </div>
         {/*  */}
+
         <div className="footer-single-cart-div footer-border">
           <h3 className="footer-heading">COMPANY</h3>
           <p className="footer-p">
             <Link to="/aboutUs">About</Link>
           </p>
-          {/* <p className="footer-p">
-            <Link to="/safety"> Safety</Link>
-          </p> */}
+
           <p className="footer-p">
-            <Link to="/careers">Careers</Link>
+            <Link
+              target="_blank"
+              to="https://app.tripshiptask.com/pages/careers"
+            >
+              Careers
+            </Link>
           </p>
           <p className="footer-p">
-            <Link to="/faq">FAQ</Link>
+            <Link target="_blank" to="https://app.tripshiptask.com/pages/faq">
+              FAQ
+            </Link>
           </p>
+
+          {/* <Link to="/greenPass">
+            <img className="greenPass" src={greenPass} alt="" />
+          </Link> */}
         </div>
+
         {/*  */}
         <div className="footer-single-cart-div footer-border">
-          <h3 className="footer-heading">QUICK LINK</h3>
+          <h3 className="footer-heading">TERMS & POLICIES</h3>
           <p className="footer-p">
             <Link target="_blank" to="https://app.tripshiptask.com/pages/terms">
               Terms
@@ -90,18 +105,31 @@ const Footer = () => {
               Copyright Policy
             </Link>
           </p>
-          <Link to="/chargePoints">
-            <p className="footer-p">Charge Points</p>
+          <Link target="_blank" to="https://app.tripshiptask.com/pages/charge">
+            <p className="footer-p">Charge Points </p>
           </Link>
-          <Link to="/securityDeposit">
+
+          <Link
+            target="_blank"
+            to="https://app.tripshiptask.com/pages/security"
+          >
             <p className="footer-p">Security Deposit</p>
           </Link>
-          <Link to="/returnAndRefundPolicy">
+
+          <Link target="_blank" to="https://app.tripshiptask.com/pages/refund">
             <p className="footer-p">Return & Refund Policy</p>
           </Link>
-          <Link to="/cancellationPolicy">
+
+          <Link
+            target="_blank"
+            to="https://app.tripshiptask.com/pages/cancellation"
+          >
             <p className="footer-p">Cancellation Policy</p>
           </Link>
+
+          <p className="footer-p">
+            <Link to="/respectPolice">Respect Policy</Link>
+          </p>
         </div>
         {/*  */}
         <div className="footer-single-cart-div footer-border-2">
@@ -109,22 +137,31 @@ const Footer = () => {
           <p className="bangladesh">Bangladesh</p>
 
           <div>
+            {/* <div className="media_flex_div">
+              <Link
+                target="_blank"
+                to="https://web.facebook.com/profile.php?id=100063669755190&_rdc=1&_rdr"
+              >
+                Facebook Page &nbsp;
+                <FontAwesomeIcon icon={faFacebook} />
+              </Link>
+            </div> */}
+            <div className="media_flex_div">
+              <Link
+                target="_blank"
+                to="https://web.facebook.com/groups/2814072982035339/?_rdc=1&_rdr"
+              >
+                BD Facebook Group &nbsp;
+                <FontAwesomeIcon icon={faFacebook} />
+              </Link>
+            </div>
+
             <div className="media_flex_div">
               <Link
                 target="_blank"
                 to="https://web.facebook.com/profile.php?id=100063669755190&_rdc=1&_rdr"
               >
                 Facebook Page
-              </Link>
-
-              <FontAwesomeIcon icon={faFacebook} />
-            </div>
-            <div className="media_flex_div">
-              <Link
-                target="_blank"
-                to="https://web.facebook.com/groups/2814072982035339/?_rdc=1&_rdr"
-              >
-                BD Facebook Group
               </Link>
               <FontAwesomeIcon icon={faFacebook} />
             </div>

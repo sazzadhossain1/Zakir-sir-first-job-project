@@ -7,14 +7,14 @@ import tipShipTaskLogo from "../../images/logo/tipShipTaskLogo.jpg";
 const NavBar = () => {
   return (
     <div>
-      <div className="first_nav_div">
+      {/* <div className="first_nav_div">
         <p className="nav_first_header_p">
-          Download the Mobile App 'TripShipTask' from the Play Store
+          TripShipTask web version is in Soft Launch mode
         </p>
-      </div>
+      </div> */}
       <div className="navbar-main-parent-div">
         <div className="navbar-parent-dvi">
-          <div className="navbar bg-base-100">
+          <div className="navbar">
             <div className="navbar-start">
               <div className="dropdown">
                 <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -43,14 +43,27 @@ const NavBar = () => {
                   <li>
                     <Link to="/aboutUs">About</Link>
                   </li>
+
                   <li>
-                    <Link to="/safety">Safety</Link>
+                    <Link
+                      target="_blank"
+                      to="https://app.tripshiptask.com/pages/careers"
+                    >
+                      Career
+                    </Link>
                   </li>
                   <li>
-                    <Link to="/careers">Career</Link>
+                    <Link
+                      target="_blank"
+                      to="https://app.tripshiptask.com/pages/faq"
+                    >
+                      FAQ
+                    </Link>
                   </li>
                   <li>
-                    <Link to="/faq">FAQ</Link>
+                    <Link className="videos_link" to="/videos">
+                      Videos
+                    </Link>
                   </li>
 
                   <div className="login-signUp-div">
@@ -58,13 +71,13 @@ const NavBar = () => {
                       className="login-btn"
                       to="https://app.tripshiptask.com/web/login"
                     >
-                      <button className="login">Login</button>
+                      <button className="login">Log in</button>
                     </Link>
                     <Link
                       className="signUp-btn"
                       to="https://app.tripshiptask.com/web/signup"
                     >
-                      <button className="signUp">SignUp</button>
+                      <button className="signUp">Sign Up</button>
                     </Link>
                   </div>
                 </ul>
@@ -83,14 +96,25 @@ const NavBar = () => {
                 <li className="nav_li">
                   <Link to="/aboutUs">About</Link>
                 </li>
+
                 <li className="nav_li">
-                  <Link to="/safety">Safety</Link>
+                  <Link
+                    target="_blank"
+                    to="https://app.tripshiptask.com/pages/careers"
+                  >
+                    Career
+                  </Link>
                 </li>
                 <li className="nav_li">
-                  <Link to="/careers">Career</Link>
+                  <Link
+                    target="_blank"
+                    to="https://app.tripshiptask.com/pages/faq"
+                  >
+                    FAQ
+                  </Link>
                 </li>
                 <li className="nav_li">
-                  <Link to="/faq">FAQ</Link>
+                  <Link to="/videos">Videos</Link>
                 </li>
 
                 <div className="login-signUp-div">
@@ -98,13 +122,13 @@ const NavBar = () => {
                     className="login-btn"
                     to="https://app.tripshiptask.com/web/login"
                   >
-                    <button className="login">Login</button>
+                    <button className="login">Log in</button>
                   </Link>
                   <Link
                     className="signUp-btn"
                     to="https://app.tripshiptask.com/web/signup"
                   >
-                    <button className="signUp">SignUp</button>
+                    <button className="signUp">Sign Up</button>
                   </Link>
                 </div>
               </ul>

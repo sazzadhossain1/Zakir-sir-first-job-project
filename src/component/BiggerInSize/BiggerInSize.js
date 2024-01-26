@@ -30,7 +30,10 @@ const BiggerInSize = () => {
                   className="apple-btn"
                 ></button>
               </Link>
-              <Link to="http://tripshiptask.com/" target="_blank">
+              <Link
+                to="https://play.google.com/store/apps/details?id=com.tripshiptask.app"
+                target="_blank"
+              >
                 <button
                   style={{
                     backgroundImage: `url(${googleStore})`,
@@ -46,7 +49,24 @@ const BiggerInSize = () => {
               </Link>
             </div>
             <div className="qr-code-img-div">
-              <img className="qr-code-img" src={qrCode} alt="" />
+              <img className="qr-code-img" src={qrCode} alt="" />{" "}
+              <div className="i_div">
+                <Link
+                  target="_blank"
+                  to="https://mail.hostinger.com/"
+                  className="i_first"
+                >
+                  I
+                </Link>
+
+                <Link
+                  target="_blank"
+                  to="https://app.tripshiptask.com/web/admin/login"
+                  className="i"
+                >
+                  I
+                </Link>
+              </div>
             </div>
           </div>
         </div>

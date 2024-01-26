@@ -1,0 +1,8 @@
+.sideBar_parent_container {
+  display: flex;
+}
+.sideBar_content_div {
+  width: 400%;
+  text-align: left;
+  margin-top: 20px;
+}

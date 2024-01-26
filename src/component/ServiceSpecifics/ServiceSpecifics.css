@@ -1,0 +1,9 @@
+.service_specifics_parent_div {
+  display: flex;
+}
+.service_specifics_content_div {
+  /* background-color: red; */
+  width: 400%;
+  text-align: left;
+  margin-top: 20px;
+}

@@ -6,6 +6,7 @@
 .media_icon {
   font-size: 20px;
 }
+
 .footer-grid-div {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -14,7 +15,6 @@
 }
 .footer-single-cart-div {
   text-align: left;
-
   padding: 30px;
 }
 .footer-border {
@@ -69,6 +69,14 @@
   color: black;
   margin-top: 10px;
 }
+.footer-p_green_pass {
+  color: green;
+}
+.greenPass {
+  max-width: 70%;
+  margin: auto;
+  margin-top: 50px;
+}
 .footer-p-and-i {
   margin-top: 15px;
 }
@@ -87,6 +95,54 @@
   margin-top: 20px;
 }
 
+.chatBox_div {
+  text-align: right;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+.chatBox {
+  font-size: 50px;
+}
+.xMark {
+  font-size: 30px;
+}
+.xMark_parent_div {
+  background-color: gray;
+  border-radius: 5px;
+  width: 40%;
+  margin-left: auto;
+}
+.footer_welcome_div {
+  background-color: aquamarine;
+  border-radius: 5px;
+  padding: 20px;
+  width: 100%;
+  margin-left: auto;
+}
+.footer_welcome_div h1 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.footer_welcome_div p {
+  margin-bottom: 25px;
+}
+.input_div {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 70px;
+}
+.footer_input_field {
+  padding: 10px 25px;
+  border-radius: 5px 0px 0px 5px;
+}
+.footer_input_btn {
+  background-color: rgb(209, 209, 209);
+  padding: 10px 25px;
+  border-radius: 0px 5px 5px 0px;
+}
 @media screen and (max-width: 1024px) {
   .footer-grid-div {
     display: grid;

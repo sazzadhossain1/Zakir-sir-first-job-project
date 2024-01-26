@@ -55,11 +55,11 @@ const AboutUs = () => {
       </div>
 
       <div className="about_text-div">
-        <h1>TripShipTask helps you connect with others</h1>
+        <p>TripShipTask helps you connect with others to</p>
         <p>-Give or get rides</p>
         <p>-Send or receive any goods</p>
         <p>-Send or receive any goods</p>
-        <h2>and make money while you are at it.</h2>
+        <p>and make money while you are at it.</p>
       </div>
       <div className="about_p_text_div">
         <p>

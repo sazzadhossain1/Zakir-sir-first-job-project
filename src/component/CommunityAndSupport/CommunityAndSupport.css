@@ -1,0 +1,12 @@
+.community_and_support_parent_div {
+  display: flex;
+}
+.community_and_support_content_div {
+  /* background-color: red; */
+  width: 400%;
+  text-align: left;
+  margin-top: 20px;
+}
+.communit_Link {
+  color: blue;
+}

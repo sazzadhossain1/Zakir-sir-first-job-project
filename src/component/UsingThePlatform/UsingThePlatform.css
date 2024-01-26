@@ -1,0 +1,8 @@
+.using_the_platform_parent_div {
+  display: flex;
+}
+.using_The_platform_content_div {
+  /* background-color: red; */
+  width: 400%;
+  text-align: left;
+}

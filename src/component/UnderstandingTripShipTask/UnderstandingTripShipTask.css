@@ -1,0 +1,26 @@
+.understanding_parent_div {
+  display: flex;
+}
+.understanding_heading {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+.understanding_content_div {
+  /* background-color: red; */
+  margin-top: 20px;
+  width: 400%;
+  text-align: left;
+}
+.understanding_text {
+  width: 70%;
+}
+.understanding_que {
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+.understanding_ans {
+  margin-bottom: 20px;
+}

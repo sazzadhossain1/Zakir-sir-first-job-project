@@ -9,7 +9,20 @@
   padding: 30px;
   margin: auto;
 }
+.qr-code-img-div {
+  display: flex;
+  align-items: end;
+  gap: 5px;
+}
+.i_div {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 65px;
+}
 
+.i {
+  margin-bottom: 0;
+}
 .download_tripShipTask {
   font-size: 27px;
   font-weight: 500;
@@ -151,6 +164,12 @@ hr {
 
 /* Responsiveness start */
 
+@media screen and (max-width: 1536px) {
+  .i_div {
+    gap: 40px;
+  }
+}
+
 @media screen and (max-width: 1350px) {
   .biggerINSize-text-div {
     gap: 50px;
@@ -160,6 +179,9 @@ hr {
   }
   .qr-code-img {
     width: 70px;
+  }
+  .i_div {
+    gap: 20px;
   }
   .download_app_photo {
     max-width: 100%;
@@ -176,10 +198,14 @@ hr {
     margin: auto;
   }
 }
+
 @media screen and (max-width: 650px) {
   .googleAndApple-btn-div {
     display: grid;
     grid-template-columns: 1fr;
+  }
+  .i_div {
+    display: none;
   }
 
   .qr-code-img {

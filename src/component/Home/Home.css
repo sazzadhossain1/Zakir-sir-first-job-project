@@ -34,7 +34,8 @@
   margin-bottom: 10px;
 }
 .TripShipTask-p {
-  font-size: 18px;
+  font-size: 22px;
+  font-weight: 500;
 }
 .andMakeMoney-p {
   font-size: 22px;
@@ -68,6 +69,52 @@
   background-color: aliceblue;
 }
 
+.bookDownloadPage-success-div {
+  max-width: 100%;
+  max-height: 100%;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: none;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.bookDownloadPage-success-div p {
+  max-width: 400px;
+  height: 300px;
+  margin-left: 75%;
+  margin-top: 50px;
+  padding: 50px 15px;
+  background-color: white;
+  border-radius: 10px;
+  position: relative;
+}
+.bookDownloadPage-success-p {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.Ok_Btn {
+  background-color: blue;
+  color: white;
+  padding: 1px 10px;
+  border-radius: 0px 5px 0px 0px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+@media screen and (max-width: 1536px) {
+  .child_parent_div {
+    /* background-color: red; */
+  }
+  .home-child-dvi {
+    /* background-color: red; */
+    width: 80%;
+  }
+}
 @media screen and (max-width: 1500px) {
   .home-child-dvi {
     margin-left: 50px;

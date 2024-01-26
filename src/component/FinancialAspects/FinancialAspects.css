@@ -1,0 +1,9 @@
+.financial_aspects_parent_div {
+  display: flex;
+}
+.financial_aspects_content_div {
+  /* background-color: red; */
+  width: 400%;
+  text-align: left;
+  margin-top: 20px;
+}

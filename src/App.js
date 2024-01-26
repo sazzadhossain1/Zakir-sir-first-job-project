@@ -17,6 +17,22 @@ import ChargePoints from "./component/ChargePoints/ChargePoints";
 import SecurityDeposit from "./component/SecurityDeposit/SecurityDeposit";
 import ReturnAndRefundPolicy from "./component/ReturnAndRefundPolicy/ReturnAndRefundPolicy";
 import CancellationPolicy from "./component/CancellationPolicy/CancellationPolicy";
+import GreenPass from "./component/GreenPass/GreenPass";
+import Videos from "./component/Videos/Videos";
+import RespectPolice from "./component/RespectPolice/RespectPolice";
+import UnderstandingTripShipTask from "./component/UnderstandingTripShipTask/UnderstandingTripShipTask";
+import SafetyAndSecurity from "./component/SafetyAndSecurity/SafetyAndSecurity";
+import UsingThePlatform from "./component/UsingThePlatform/UsingThePlatform";
+import FinancialAspects from "./component/FinancialAspects/FinancialAspects";
+import ServiceSpecifics from "./component/ServiceSpecifics/ServiceSpecifics";
+import CommunityAndSupport from "./component/CommunityAndSupport/CommunityAndSupport";
+import RespectPolicy from "./component/RespectPolicy/RespectPolicy";
+import SideRespectPolice from "./component/SideRespectPolice/SideRespectPolice";
+import AboutTripShipTask from "./component/AboutTripShipTask/AboutTripShipTask";
+import HowToSignUp from "./component/HowToSignUp/HowToSignUp";
+import HowToLogin from "./component/HowToLogin/HowToLogin";
+import HowToOpen from "./component/HowToOpen/HowToOpen";
+import HowToRefer from "./component/HowToRefer/HowToRefer";
 
 function App() {
   const router = createBrowserRouter([
@@ -61,6 +77,46 @@ function App() {
           element: <SecurityDeposit></SecurityDeposit>,
         },
         {
+          path: "/greenPass",
+          element: <GreenPass></GreenPass>,
+        },
+        {
+          path: "/respectPolice",
+          element: <RespectPolice></RespectPolice>,
+        },
+        {
+          path: "/understandingTripShipTask",
+          element: <UnderstandingTripShipTask></UnderstandingTripShipTask>,
+        },
+        {
+          path: "/safetyAndSecurity",
+          element: <SafetyAndSecurity></SafetyAndSecurity>,
+        },
+        {
+          path: "/usingThePlatform",
+          element: <UsingThePlatform></UsingThePlatform>,
+        },
+        {
+          path: "/financialAspects",
+          element: <FinancialAspects></FinancialAspects>,
+        },
+        {
+          path: "/serviceSpecifics",
+          element: <ServiceSpecifics></ServiceSpecifics>,
+        },
+        {
+          path: "/communityAndSupport",
+          element: <CommunityAndSupport></CommunityAndSupport>,
+        },
+        {
+          path: "/sideRespectPolice",
+          element: <SideRespectPolice></SideRespectPolice>,
+        },
+        {
+          path: "/videos",
+          element: <Videos></Videos>,
+        },
+        {
           path: "/returnAndRefundPolicy",
           element: <ReturnAndRefundPolicy></ReturnAndRefundPolicy>,
         },
@@ -92,6 +148,29 @@ function App() {
           path: "/webMail",
           element: <WebMail></WebMail>,
         },
+
+        // ------------ Nested Link start -------------- //
+        {
+          path: "/aboutTripShipTask",
+          element: <AboutTripShipTask></AboutTripShipTask>,
+        },
+        {
+          path: "/howToSignUp",
+          element: <HowToSignUp></HowToSignUp>,
+        },
+        {
+          path: "/howToLogin",
+          element: <HowToLogin></HowToLogin>,
+        },
+        {
+          path: "/howToOpen",
+          element: <HowToOpen></HowToOpen>,
+        },
+        {
+          path: "/howToRefer",
+          element: <HowToRefer></HowToRefer>,
+        },
+        // ------------ Nested Link end-------------- //
       ],
     },
   ]);

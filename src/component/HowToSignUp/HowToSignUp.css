@@ -1,0 +1,169 @@
+.HowToSignUp_heading {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: -1050px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.HowToSignUp_video {
+  width: 560px;
+  height: 315px;
+  margin-left: -800px;
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 1230px) {
+  .HowToSignUp_heading {
+    margin-left: -900px;
+    font-size: 19px;
+  }
+  .HowToSignUp_video {
+    width: 560px;
+    height: 315px;
+    margin-left: -720px;
+  }
+}
+@media screen and (max-width: 1135px) {
+  .HowToSignUp_heading {
+    margin-left: -800px;
+    font-size: 18px;
+  }
+  .HowToSignUp_video {
+    /* width: 560px;
+    height: 315px; */
+    margin-left: -680px;
+  }
+}
+@media screen and (max-width: 1065px) {
+  .HowToSignUp_heading {
+    margin-left: -750px;
+    font-size: 17px;
+  }
+  .HowToSignUp_video {
+    /* width: 560px;
+    height: 315px; */
+    margin-left: -650px;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .HowToSignUp_heading {
+    margin-left: -700px;
+    font-size: 16px;
+  }
+  .HowToSignUp_video {
+    width: 500px;
+    height: 315px;
+    margin-left: -600px;
+  }
+}
+@media screen and (max-width: 980px) {
+  .HowToSignUp_heading {
+    margin-left: -650px;
+    font-size: 15px;
+  }
+  .HowToSignUp_video {
+    width: 450px;
+    height: 315px;
+    margin-left: -550px;
+  }
+}
+@media screen and (max-width: 935px) {
+  .HowToSignUp_heading {
+    margin-left: -600px;
+    font-size: 14px;
+  }
+  .HowToSignUp_video {
+    width: 400px;
+    height: 300px;
+    margin-left: -500px;
+  }
+}
+@media screen and (max-width: 890px) {
+  .HowToSignUp_heading {
+    margin-left: -570px;
+    font-size: 13px;
+  }
+  .HowToSignUp_video {
+    width: 370px;
+    height: 250px;
+    margin-left: -470px;
+  }
+}
+@media screen and (max-width: 855px) {
+  .HowToSignUp_heading {
+    margin-left: -530px;
+    font-size: 12px;
+  }
+  .HowToSignUp_video {
+    width: 300px;
+    height: 200px;
+    margin-left: -410px;
+  }
+}
+@media screen and (max-width: 815px) {
+  .HowToSignUp_heading {
+    margin-left: -480px;
+    font-size: 12px;
+  }
+  .HowToSignUp_video {
+    width: 300px;
+    height: 200px;
+    margin-left: -390px;
+  }
+}
+@media screen and (max-width: 790px) {
+  .HowToSignUp_heading {
+    display: none;
+  }
+  .HowToSignUp_video {
+    width: 300px;
+    height: 200px;
+    margin-left: -390px;
+    margin-top: 50px;
+  }
+}
+@media screen and (max-width: 715px) {
+  .HowToSignUp_video {
+    width: 300px;
+    height: 200px;
+    margin-left: -340px;
+  }
+}
+@media screen and (max-width: 665px) {
+  .HowToSignUp_video {
+    width: 250px;
+    height: 200px;
+    margin-left: -290px;
+  }
+}
+@media screen and (max-width: 580px) {
+  .HowToSignUp_video {
+    width: 220px;
+    height: 180px;
+    margin-left: -230px;
+  }
+}
+@media screen and (max-width: 580px) {
+  .HowToSignUp_video {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 200px;
+    height: 150px;
+  }
+}
+@media screen and (max-width: 370px) {
+  .HowToSignUp_video {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 150px;
+    height: 120px;
+  }
+}
+@media screen and (max-width: 295px) {
+  .HowToSignUp_video {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 140px;
+    height: 110px;
+  }
+}
