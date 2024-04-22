@@ -2,7 +2,6 @@ import React from "react";
 import "./LeftSideMenue.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faBars,
   faBuildingShield,
   faCoins,
   faLayerGroup,
@@ -15,8 +14,50 @@ import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import { Link } from "react-router-dom";
 
 const LeftSideMenue = () => {
+  const firstScrollToVideo = () => {
+    console.log("dsfsadfdsaf");
+    const videoElement = document.getElementById("video_first");
+    if (videoElement) {
+      videoElement.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+  const secondScrollToVideo = () => {
+    console.log("dsfsadfdsaf");
+    const videoElement = document.getElementById("video_second");
+    if (videoElement) {
+      videoElement.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+  const thirdScrollToVideo = () => {
+    console.log("dsfsadfdsaf");
+    const videoElement = document.getElementById("video_third");
+    if (videoElement) {
+      videoElement.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+  const forthScrollToVideo = () => {
+    console.log("dsfsadfdsaf");
+    const videoElement = document.getElementById("video_forth");
+    if (videoElement) {
+      videoElement.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+  const fifthScrollToVideo = () => {
+    console.log("dsfsadfdsaf");
+    const videoElement = document.getElementById("video_fifth");
+    if (videoElement) {
+      videoElement.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+  const lastScrollToVideo = () => {
+    console.log("dsfsadfdsaf");
+    const videoElement = document.getElementById("video_last");
+    if (videoElement) {
+      videoElement.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   return (
-    <div>
+    <div className="LeftSideMenue_main_parent_div">
       <div className="LeftSideMenue_Bar">
         <div className="LeftSideMenue_top_section">
           <h1 className="LeftSideMenue_howTos">How tos</h1>
@@ -30,31 +71,37 @@ const LeftSideMenue = () => {
             <summary> Videos</summary>
             <ul>
               <li className="LeftSideMenue_nested_Link">
-                <Link to="/aboutTripShipTask">
+                <Link to="#" onClick={firstScrollToVideo}>
                   TripShipTask.com কি তা জানেন কি?
                 </Link>
               </li>
               <li className="LeftSideMenue_nested_Link">
-                <Link to="/howToSignUp">
+                <Link to="#" onClick={secondScrollToVideo}>
                   How to Sign Up and Verify E-Mail - কিভাবে সাইন আপ এবং ইমেইল
                   ভেরিফাই করতে হয়
                 </Link>
               </li>
               <li className="LeftSideMenue_nested_Link">
-                <Link to="/howToLogin">
+                <Link to="#" onClick={thirdScrollToVideo}>
                   How to Log in and use the user panel - কিভাবে লগ ইন করে
                   সিস্টেম ব্যবহার করতে হয়
                 </Link>
               </li>
               <li className="LeftSideMenue_nested_Link">
-                <Link to="/howToOpen">
+                <Link to="#" onClick={forthScrollToVideo}>
                   How to Open a Support Ticket - কিভাবে একটি সাপোর্ট টিকেট খুলতে
                   হয়
                 </Link>
               </li>
               <li className="LeftSideMenue_nested_Link">
-                <Link to="/howToRefer">
+                <Link to="#" onClick={fifthScrollToVideo}>
                   How to refer someone - কিভাবে অন্যদের রেফার করতে হয়
+                </Link>
+              </li>
+              <li className="LeftSideMenue_nested_Link">
+                <Link to="#" onClick={lastScrollToVideo}>
+                  TripShipTask Mobile App- Install, Sign Up, Verify - কিভাবে
+                  অ্যাাপ - ইন্সটল, সাইন আপ, ভেরিফাই করতে হয়
                 </Link>
               </li>
             </ul>

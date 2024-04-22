@@ -3,7 +3,7 @@
   gap: 20px;
 }
 .LeftSideMenue_div {
-  background-color: #007a9d;
+  /* background-color: #007a9d; */
   width: 20%;
 }
 .video_grid_div {
@@ -16,7 +16,7 @@
   /* background-color: red; */
 }
 .iframe_video {
-  width: 80%;
+  width: 60%;
   height: 400px;
   margin: auto;
 }
@@ -27,6 +27,11 @@
     width: 50%;
   }
 } */
+
+.video_title {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
 @media screen and (max-width: 1260px) {
   .video_grid_div {
     grid-template-columns: repeat(2, 1fr);

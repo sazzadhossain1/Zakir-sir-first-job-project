@@ -85,31 +85,33 @@ const SideBar = () => {
             <summary> Videos</summary>
             <ul>
               <li className="nested_Link">
-                <Link to="/aboutTripShipTask">
-                  TripShipTask.com কি তা জানেন কি?
-                </Link>
+                <Link>TripShipTask.com কি তা জানেন কি?</Link>
               </li>
               <li className="nested_Link">
-                <Link to="/howToSignUp">
+                <Link>
                   How to Sign Up and Verify E-Mail - কিভাবে সাইন আপ এবং ইমেইল
                   ভেরিফাই করতে হয়
                 </Link>
               </li>
               <li className="nested_Link">
-                <Link to="/howToLogin">
+                <Link>
                   How to Log in and use the user panel - কিভাবে লগ ইন করে
                   সিস্টেম ব্যবহার করতে হয়
                 </Link>
               </li>
               <li className="nested_Link">
-                <Link to="/howToOpen">
+                <Link>
                   How to Open a Support Ticket - কিভাবে একটি সাপোর্ট টিকেট খুলতে
                   হয়
                 </Link>
               </li>
               <li className="nested_Link">
-                <Link to="/howToRefer">
-                  How to refer someone - কিভাবে অন্যদের রেফার করতে হয়
+                <Link>How to refer someone - কিভাবে অন্যদের রেফার করতে হয়</Link>
+              </li>
+              <li className="nested_Link">
+                <Link>
+                  TripShipTask Mobile App- Install, Sign Up, Verify - কিভাবে
+                  অ্যাাপ - ইন্সটল, সাইন আপ, ভেরিফাই করতে হয়
                 </Link>
               </li>
             </ul>

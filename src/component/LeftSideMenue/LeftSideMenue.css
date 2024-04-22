@@ -1,7 +1,11 @@
+.LeftSideMenue_main_parent_div {
+  position: absolute;
+}
 .LeftSideMenue_Bar {
   background-color: #007a9d;
-  width: 100%;
-  transition: all 0.4s;
+  width: 20%;
+  /* transition: all 0.4s; */
+  position: fixed;
 }
 
 .LeftSideMenue_top_section {
