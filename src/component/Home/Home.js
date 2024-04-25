@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Home.css";
 import RideComford from "../RideComford/RideComford";
 
@@ -14,8 +14,12 @@ import trip from "../../images/bannerPhoto/trip.png";
 import ship from "../../images/bannerPhoto/ship.png";
 import task from "../../images/bannerPhoto/task.png";
 import { Link } from "react-router-dom";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 const Home = () => {
+  useEffect(() => {
+    AOS.init({ duration: "1000" });
+  }, []);
   // const handleModalOnLoad = () => {
   //   setTimeout(() => {
   //     const popUp_div = document.getElementById("popUp_div");
@@ -48,10 +52,6 @@ const Home = () => {
             </p>
           </div>
         </div>
-
-        {/* <div className="home-child-img-div">
-          <img className="home-banner-photo" src={bannerPhoto} alt="" />
-        </div> */}
 
         <div className="carousel_div carousel w-full ">
           <div

@@ -23,28 +23,53 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   width: 75%;
+  gap: 100px;
   margin: auto;
   margin-top: 100px;
+  margin-bottom: 100px;
 }
 .cart_flex_div {
   display: flex;
   justify-content: center;
   gap: 20px;
   margin-top: 30px;
+  margin-right: 60px;
 }
 .cart_text_div {
   text-align: left;
-  width: 100%;
 }
 .cart_text_div h3 {
   font-weight: 500;
   font-size: 18px;
+  margin-bottom: 20px;
+}
+.cart_text_div p {
+  line-height: 30px;
+}
+
+.img_cart_logo {
+  width: 50px;
+  height: 50px;
 }
 /* Responsiveness start */
+
+@media screen and (max-width: 1350px) {
+  .cart_grid_div {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .cart_text_div {
+    width: 100%;
+  }
+}
 
 @media screen and (max-width: 950px) {
   .cartWithImg-parent-div {
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 900px) {
+  .cart_grid_div {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 

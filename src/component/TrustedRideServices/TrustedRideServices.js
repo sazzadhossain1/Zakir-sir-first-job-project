@@ -10,7 +10,10 @@ const TrustedRideServices = () => {
     <div>
       <div className="trustedRideService-grid-div">
         <img className="first-car-img" src={photoTwo} alt="" />
-        <div className="trustedRideService-text-parent-div">
+        <div
+          className="trustedRideService-text-parent-div"
+          data-aos="fade-right"
+        >
           <p className="trustedRideService-first-p">
             Say you are going somewhere - be it your own car or a rented one
             (car, minivan, bike, three-wheeler, rickshaw) and one or two or a
@@ -26,13 +29,26 @@ const TrustedRideServices = () => {
             win for everyone.
           </p>
         </div>
-        <img className="second-car-img" src={photoTwo} alt="" />
+        <img
+          className="second-car-img"
+          src={photoTwo}
+          alt=""
+          data-aos="fade-left"
+        />
       </div>
 
       {/*  */}
       <div className="trustedRideService-grid-div-two">
-        <img className="secondCart-first-car-img" src={photoThree} alt="" />
-        <div className="trustedRideService-text-secondCart-parent-div">
+        <img
+          className="secondCart-first-car-img"
+          src={photoThree}
+          alt=""
+          data-aos="fade-right"
+        />
+        <div
+          className="trustedRideService-text-secondCart-parent-div"
+          data-aos="fade-left"
+        >
           <p className="trustedRideService-first-p">
             Say you want to send something to someone. Post in the TripShipTask
             App in the App's Ship section. Anyone who is or will be traveling
@@ -51,7 +67,10 @@ const TrustedRideServices = () => {
       {/*  */}
       <div className="trustedRideService-grid-div">
         <img className="first-car-img" src={photoOne} alt="" />
-        <div className="trustedRideService-text-parent-div">
+        <div
+          className="trustedRideService-text-parent-div"
+          data-aos="fade-right"
+        >
           <p className="trustedRideService-first-p">
             Or say you need someone to do something for you - near or far. Just
             post it on the TripShipTask App, and if another member shows
@@ -65,7 +84,12 @@ const TrustedRideServices = () => {
             and you make money as well.
           </p>
         </div>
-        <img className="second-car-img" src={photoOne} alt="" />
+        <img
+          className="second-car-img"
+          src={photoOne}
+          alt=""
+          data-aos="fade-left"
+        />
       </div>
     </div>
   );
