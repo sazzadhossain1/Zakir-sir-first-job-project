@@ -32,7 +32,8 @@ const Home = () => {
 
   return (
     <div
-    // onLoad={handleModalOnLoad}
+      className="home_main_prent_div"
+      // onLoad={handleModalOnLoad}
     >
       <div className="home-parent-div">
         <div className="child_parent_div">

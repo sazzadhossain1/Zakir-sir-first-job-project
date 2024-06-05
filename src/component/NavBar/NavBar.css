@@ -1,4 +1,4 @@
-.first_nav_div {
+/* .first_nav_div {
   background-color: #164692;
   color: white;
   display: flex;
@@ -6,21 +6,26 @@
   justify-content: center;
   gap: 50px;
   padding: 6px;
-}
-.nav_first_header_p {
+} */
+/* .nav_first_header_p {
   display: flex;
   align-items: center;
   gap: 10px;
-}
-.nav_second_header_p {
-  display: flex;
-  align-items: center;
-  gap: 5px;
-}
+} */
+
 .navbar-main-parent-div {
-  background-color: #dfdede;
+  background-color: #dfdede00;
   border: 1px solid #f4eeed;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  top: 0;
+  transition: background-color 0.1s ease;
+}
+
+.navbar-main-parent-div.scrolled {
+  background-color: #e2e2e2; /* Change this to your desired color */
 }
 .navbar-parent-dvi {
   width: 82%;

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 import tipShipTaskLogoNoBackground from "../../images/logo/tipShipTaskLogoNoBackground.png";
 
-const NavBar = () => {
+const NavBar = ({ isScrolled }) => {
   return (
     <div>
       {/* <div className="first_nav_div">
@@ -12,7 +12,7 @@ const NavBar = () => {
           TripShipTask web version is in Soft Launch mode
         </p>
       </div> */}
-      <div className="navbar-main-parent-div">
+      <div className={`navbar-main-parent-div ${isScrolled ? "scrolled" : ""}`}>
         <div className="navbar-parent-dvi">
           <div className="navbar">
             <div className="navbar-start">
