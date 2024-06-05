@@ -8,7 +8,6 @@ const SideRespectPolice = () => {
       <div className="understanding_content_div">
         <h2 className="understanding_heading">Respect Policy</h2>
         <div className="understanding_text">
-          <h4 className="understanding_que"></h4>
           <p className="understanding_ans">
             Please understand that TripShipTask platform connects you with other
             users who may hold a different profession than what he/she is

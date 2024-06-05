@@ -2,13 +2,9 @@ import React, { useState } from "react";
 import "./NavigationBar.css";
 import { Link } from "react-router-dom";
 
-import mainLogo from "../../images/logo-one.jpg";
 import mainLogo1 from "../../images/logo-two.jpg";
 
 const NavigationBar = () => {
-  let timeIcon = "fas fa-times";
-  let barsIcon = "fas fa-bars";
-
   const homeUi = document.getElementById("parent-home-page-child-div");
   console.log(homeUi);
 

@@ -1,7 +1,5 @@
 import React from "react";
 import "./Careers.css";
-import { Link } from "react-router-dom";
-import CEOPhoto from "../../images/CEO-photo/CEO-Photo.png";
 import CareersPhoto from "../../images/CareersPhoto.jpg";
 
 const Careers = () => {

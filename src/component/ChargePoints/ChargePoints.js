@@ -1,7 +1,5 @@
 import React from "react";
 import "./ChargePoints.css";
-import { Link } from "react-router-dom";
-import CEOPhoto from "../../images/CEO-photo/CEO-Photo.png";
 import OurAchievment from "../OurAchievment/OurAchievment";
 
 const ChargePoints = () => {

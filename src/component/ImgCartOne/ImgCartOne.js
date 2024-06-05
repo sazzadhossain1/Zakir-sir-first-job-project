@@ -1,6 +1,5 @@
 import React from "react";
 import "./ImgCartOne.css";
-import imgCartOne from "../../images/img-cart/imgCartOne.jpg";
 // import imgCartTwo from "../../images/img-cart/imgCartTwo.jpg";
 
 import logoOne from "../../images/img-cart/logo_One.png";
@@ -16,8 +15,6 @@ import imgCartThree from "../../images/imgCartPhoto/imgCartThree.jpg";
 import imgCartFour from "../../images/imgCartPhoto/imgCartFour.jpg";
 import imgCartFive from "../../images/imgCartPhoto/imgCartFive.jpg";
 import imgCartSix from "../../images/imgCartPhoto/imgCartSix.jpg";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faUser } from "@fortawesome/free-regular-svg-icons";
 
 const ImgCartOne = () => {
   return (

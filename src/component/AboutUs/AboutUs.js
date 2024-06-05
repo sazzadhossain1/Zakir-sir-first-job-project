@@ -9,20 +9,20 @@ import { Link } from "react-router-dom";
 const AboutUs = () => {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-  let data = [
-    {
-      id: 1,
-      videoUrl: "../../videos/Trip_video.mp4",
-    },
-    {
-      id: 2,
-      videoUrl: "../../videos/ship_video.mp4",
-    },
-    {
-      id: 3,
-      videoUrl: "../../videos/task_video.mp4",
-    },
-  ];
+  // let data = [
+  //   {
+  //     id: 1,
+  //     videoUrl: "../../videos/Trip_video.mp4",
+  //   },
+  //   {
+  //     id: 2,
+  //     videoUrl: "../../videos/ship_video.mp4",
+  //   },
+  //   {
+  //     id: 3,
+  //     videoUrl: "../../videos/task_video.mp4",
+  //   },
+  // ];
 
   return (
     <div>

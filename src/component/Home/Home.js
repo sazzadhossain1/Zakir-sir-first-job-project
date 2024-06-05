@@ -13,7 +13,6 @@ import PaymentMethod from "../PaymentMethod/PaymentMethod";
 import trip from "../../images/bannerPhoto/trip.png";
 import ship from "../../images/bannerPhoto/ship.png";
 import task from "../../images/bannerPhoto/task.png";
-import { Link } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
 const Home = () => {

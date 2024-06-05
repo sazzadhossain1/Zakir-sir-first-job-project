@@ -1,7 +1,5 @@
 import React from "react";
 import "./Safety.css";
-import { Link } from "react-router-dom";
-import CEOPhoto from "../../images/CEO-photo/CEO-Photo.png";
 
 const Safety = () => {
   return (

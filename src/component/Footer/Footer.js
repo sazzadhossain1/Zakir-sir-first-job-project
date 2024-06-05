@@ -4,12 +4,7 @@ import { Link } from "react-router-dom";
 import logoThree from "../../images/logo_Three.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
-import {
-  faFacebook,
-  faFacebookMessenger,
-  faWhatsapp,
-} from "@fortawesome/free-brands-svg-icons";
-import greenPass from "../../images/greenPass/greenPass.jpg";
+import { faFacebook, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => {
   return (

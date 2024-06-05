@@ -17,48 +17,48 @@ import {
 const SideBar = () => {
   const [open, setOpen] = useState(false);
   const toggle = () => setOpen(!open);
-  const menueItem = [
-    {
-      path: "/videos",
-      name: "Videos",
-      icon: <FontAwesomeIcon icon={faVideo} />,
-    },
-    {
-      path: "/understandingTripShipTask",
-      name: "Understanding TripShipTask",
-      icon: <FontAwesomeIcon icon={faUnderline} />,
-    },
-    {
-      path: "/safetyAndSecurity",
-      name: "Safety And Security",
-      icon: <FontAwesomeIcon icon={faShield} />,
-    },
-    {
-      path: "/usingThePlatform",
-      name: "Using The Platform",
-      icon: <FontAwesomeIcon icon={faLayerGroup} />,
-    },
-    {
-      path: "/financialAspects",
-      name: "Financial Aspects",
-      icon: <FontAwesomeIcon icon={faCoins} />,
-    },
-    {
-      path: "/serviceSpecifics",
-      name: "Service Specifics",
-      icon: <FontAwesomeIcon icon={faTaxi} />,
-    },
-    {
-      path: "/communityAndSupport",
-      name: "Community And Support",
-      icon: <FontAwesomeIcon icon={faEnvelope} />,
-    },
-    {
-      path: "/sideRespectPolice",
-      name: "Respect Policy",
-      icon: <FontAwesomeIcon icon={faBuildingShield} />,
-    },
-  ];
+  // const menueItem = [
+  //   {
+  //     path: "/videos",
+  //     name: "Videos",
+  //     icon: <FontAwesomeIcon icon={faVideo} />,
+  //   },
+  //   {
+  //     path: "/understandingTripShipTask",
+  //     name: "Understanding TripShipTask",
+  //     icon: <FontAwesomeIcon icon={faUnderline} />,
+  //   },
+  //   {
+  //     path: "/safetyAndSecurity",
+  //     name: "Safety And Security",
+  //     icon: <FontAwesomeIcon icon={faShield} />,
+  //   },
+  //   {
+  //     path: "/usingThePlatform",
+  //     name: "Using The Platform",
+  //     icon: <FontAwesomeIcon icon={faLayerGroup} />,
+  //   },
+  //   {
+  //     path: "/financialAspects",
+  //     name: "Financial Aspects",
+  //     icon: <FontAwesomeIcon icon={faCoins} />,
+  //   },
+  //   {
+  //     path: "/serviceSpecifics",
+  //     name: "Service Specifics",
+  //     icon: <FontAwesomeIcon icon={faTaxi} />,
+  //   },
+  //   {
+  //     path: "/communityAndSupport",
+  //     name: "Community And Support",
+  //     icon: <FontAwesomeIcon icon={faEnvelope} />,
+  //   },
+  //   {
+  //     path: "/sideRespectPolice",
+  //     name: "Respect Policy",
+  //     icon: <FontAwesomeIcon icon={faBuildingShield} />,
+  //   },
+  // ];
 
   return (
     <div className="container">

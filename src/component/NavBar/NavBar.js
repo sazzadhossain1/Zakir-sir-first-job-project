@@ -2,7 +2,6 @@ import React from "react";
 import "./NavBar.css";
 import { Link } from "react-router-dom";
 
-import tipShipTaskLogo from "../../images/logo/tipShipTaskLogo.jpg";
 import tipShipTaskLogoNoBackground from "../../images/logo/tipShipTaskLogoNoBackground.png";
 
 const NavBar = () => {

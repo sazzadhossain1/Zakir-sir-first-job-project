@@ -2,7 +2,6 @@ import React from "react";
 import SideBar from "../SideBar/SideBar";
 import "./UnderstandingTripShipTask.css";
 import { Link } from "react-router-dom";
-import LeftSideMenue from "../LeftSideMenue/LeftSideMenue";
 const UnderstandingTripShipTask = () => {
   return (
     <div className="understanding_parent_div">

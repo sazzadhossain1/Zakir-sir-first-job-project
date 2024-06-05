@@ -1,7 +1,5 @@
 import React from "react";
 import "./Faq.css";
-import { Link } from "react-router-dom";
-import CEOPhoto from "../../images/CEO-photo/CEO-Photo.png";
 
 const Faq = () => {
   document.body.scrollTop = 0; // For Safari

@@ -26,7 +26,6 @@ import UsingThePlatform from "./component/UsingThePlatform/UsingThePlatform";
 import FinancialAspects from "./component/FinancialAspects/FinancialAspects";
 import ServiceSpecifics from "./component/ServiceSpecifics/ServiceSpecifics";
 import CommunityAndSupport from "./component/CommunityAndSupport/CommunityAndSupport";
-import RespectPolicy from "./component/RespectPolicy/RespectPolicy";
 import SideRespectPolice from "./component/SideRespectPolice/SideRespectPolice";
 import AboutTripShipTask from "./component/AboutTripShipTask/AboutTripShipTask";
 import HowToSignUp from "./component/HowToSignUp/HowToSignUp";

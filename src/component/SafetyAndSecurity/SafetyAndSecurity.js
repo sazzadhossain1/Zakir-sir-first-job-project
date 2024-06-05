@@ -1,7 +1,6 @@
 import React from "react";
 import SideBar from "../SideBar/SideBar";
 import "./SafetyAndSecurity.css";
-import { Link } from "react-router-dom";
 
 const SafetyAndSecurity = () => {
   return (

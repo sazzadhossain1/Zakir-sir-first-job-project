@@ -1,6 +1,5 @@
 import React from "react";
 import "./HowToRefer.css";
-import SideBar from "../SideBar/SideBar";
 import NastedMenuBar from "../NastedMenuBar/NastedMenuBar";
 
 const HowToRefer = () => {

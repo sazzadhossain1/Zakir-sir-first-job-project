@@ -1,6 +1,5 @@
 import React from "react";
 import "./PhotoGallery.css";
-import { Link } from "react-router-dom";
 const PhotoGallery = () => {
   return (
     <div className="PhotoGallery_parent_div">
