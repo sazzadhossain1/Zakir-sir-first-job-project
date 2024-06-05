@@ -3,6 +3,7 @@ import "./NavBar.css";
 import { Link } from "react-router-dom";
 
 import tipShipTaskLogo from "../../images/logo/tipShipTaskLogo.jpg";
+import tipShipTaskLogoNoBackground from "../../images/logo/tipShipTaskLogoNoBackground.png";
 
 const NavBar = () => {
   return (
@@ -84,7 +85,11 @@ const NavBar = () => {
               </div>
               <div className="logo-div">
                 <Link to="/home" className="btn btn-ghost normal-case text-xl ">
-                  <img className="mainLogo-img" src={tipShipTaskLogo} alt="" />
+                  <img
+                    className="mainLogo-img"
+                    src={tipShipTaskLogoNoBackground}
+                    alt=""
+                  />
                 </Link>
               </div>
             </div>
