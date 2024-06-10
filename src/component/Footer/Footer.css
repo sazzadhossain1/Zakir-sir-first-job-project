@@ -69,6 +69,23 @@
   color: black;
   margin-top: 10px;
 }
+
+.footer_qr_code_div {
+  display: flex;
+  margin-top: 50px;
+}
+.footer_qrCode {
+  width: 60%;
+  height: 60%;
+}
+.footer_i_div {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 100px;
+}
+.footer_last_i {
+  /* margin-top: 100px; */
+}
 .footer-p_green_pass {
   color: green;
 }

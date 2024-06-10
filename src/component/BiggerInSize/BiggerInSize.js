@@ -12,24 +12,24 @@ const BiggerInSize = () => {
     <div className="biggerInSize-parent-div">
       <div className="biggerINSize-text-div">
         <div className="download_tripShipTask_parent_div">
+          <h2 className="Join_the">Join the platform,</h2>
+          <h2 className="Connect_with">
+            Connect with NID verified, same stature individuals.
+          </h2>
+
           <h1 className="download_tripShipTask">
             Download TripShipTask Mobile App from
           </h1>
           <div className="biggerInSize-p-text-div">
             <div className="googleAndApple-btn-div">
-              <Link to="http://tripshiptask.com/" target="_blank">
+              {/* <Link to="http://tripshiptask.com/" target="_blank">
                 <button
                   style={{
                     backgroundImage: `url(${appStore})`,
-                    width: "220px",
-                    height: "70px",
-                    backgroundPosition: "center",
-                    backgroundRepeat: "no-repeat",
-                    backgroundSize: "cover",
                   }}
-                  className="apple-btn"
+                  className="app-btn"
                 ></button>
-              </Link>
+              </Link> */}
               <Link
                 to="https://play.google.com/store/apps/details?id=com.tripshiptask.app"
                 target="_blank"
@@ -37,18 +37,12 @@ const BiggerInSize = () => {
                 <button
                   style={{
                     backgroundImage: `url(${googleStore})`,
-                    width: "220px",
-                    height: "70px",
-
-                    backgroundPosition: "center",
-                    backgroundRepeat: "no-repeat",
-                    backgroundSize: "cover",
                   }}
-                  className="google-btn"
+                  className="app-btn"
                 ></button>
               </Link>
             </div>
-            <div className="qr-code-img-div">
+            {/* <div className="qr-code-img-div">
               <img className="qr-code-img" src={qrCode} alt="" />{" "}
               <div className="i_div">
                 <Link
@@ -67,7 +61,7 @@ const BiggerInSize = () => {
                   I
                 </Link>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="download_app_photo_div">

@@ -7,12 +7,24 @@
   margin-bottom: 20px;
   font-weight: 700;
 }
+.photoGallery_flex_div {
+  display: flex;
+  width: 75%;
+  gap: 50px;
+  margin: auto;
+  margin-top: 50px;
+}
+.dummyPhoto {
+  width: 40%;
+}
 .photo-gallery {
   gap: 30px;
-  width: 65%;
+  width: 100%;
   margin: auto;
-  border: 3px solid blue;
+  /* border: 3px solid blue; */
+  border: 3px solid #c30017;
   padding: 30px;
+  height: 345px;
 }
 .photo-gallery-p {
   font-size: 16px;

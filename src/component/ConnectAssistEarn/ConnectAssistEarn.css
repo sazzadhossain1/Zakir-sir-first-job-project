@@ -6,9 +6,13 @@
   background-color: white;
   box-shadow: 10px 10px 100px rgb(197, 197, 197);
   padding: 40px;
-  margin-top: -55px;
+  margin-bottom: -100px;
+  margin-top: 40px;
   border-radius: 10px;
   font-family: "Michroma", sans-serif;
+  position: relative;
+  z-index: 1;
+  height: 105px;
 }
 .ConnectAssistEarn-parent-div h3 {
   font-size: 18px;

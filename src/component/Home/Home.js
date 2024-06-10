@@ -102,8 +102,6 @@ const Home = () => {
       {/* <OurAchievment></OurAchievment> */}
       <PhotoGallery></PhotoGallery>
 
-      <HowItWork></HowItWork>
-
       <PaymentMethod></PaymentMethod>
 
       {/* <div id="popUp_div" className="bookDownloadPage-success-div">

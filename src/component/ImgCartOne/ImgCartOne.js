@@ -16,6 +16,13 @@ import imgCartFour from "../../images/imgCartPhoto/imgCartFour.jpg";
 import imgCartFive from "../../images/imgCartPhoto/imgCartFive.jpg";
 import imgCartSix from "../../images/imgCartPhoto/imgCartSix.jpg";
 
+import imgCartPhotoOne from "../../images/imgCartPhoto/NewPhoto/Lower Banner-1.png";
+import imgCartPhotoTwo from "../../images/imgCartPhoto/NewPhoto/Lower Banner-2.png";
+import imgCartPhotoThree from "../../images/imgCartPhoto/NewPhoto/Lower Banner-3.png";
+import imgCartPhotoFour from "../../images/imgCartPhoto/NewPhoto/Lower Banner-4.png";
+import imgCartPhotoFive from "../../images/imgCartPhoto/NewPhoto/Lower Banner-5.png";
+import imgCartPhotoSix from "../../images/imgCartPhoto/NewPhoto/Lower Banner-6.png";
+
 const ImgCartOne = () => {
   return (
     <div className="imgCartOne-parent-div">
@@ -24,7 +31,6 @@ const ImgCartOne = () => {
         <div className="cart_flex_div" data-aos="fade-right">
           <img className="img_cart_logo" src={logoOne} alt="" />
 
-          {/* <FontAwesomeIcon icon={faUser} /> */}
           <div className="cart_text_div">
             <h3>Use Digital Payment</h3>
             <p>
@@ -33,10 +39,10 @@ const ImgCartOne = () => {
             </p>
           </div>
         </div>
+
         <div className="cart_flex_div" data-aos="fade-down">
           <img className="img_cart_logo" src={logoTwo} alt="" />
 
-          {/* <FontAwesomeIcon icon={faUser} /> */}
           <div className="cart_text_div">
             <h3>Cofirm & Go</h3>
             <p>
@@ -45,19 +51,19 @@ const ImgCartOne = () => {
             </p>
           </div>
         </div>
+
         <div className="cart_flex_div" data-aos="fade-left">
           <img className="img_cart_logo" src={logoThree} alt="" />
 
-          {/* <FontAwesomeIcon icon={faUser} /> */}
           <div className="cart_text_div">
             <h3>Avoid Cancellation Fee</h3>
             <p>Cancel at least 3 hours early to avoid cancellation fee</p>
           </div>
         </div>
+
         <div className="cart_flex_div" data-aos="fade-right">
           <img className="img_cart_logo" src={logoFour} alt="" />
 
-          {/* <FontAwesomeIcon icon={faUser} /> */}
           <div className="cart_text_div">
             <h3>Avoid off-App transaction</h3>
             <p>
@@ -66,10 +72,10 @@ const ImgCartOne = () => {
             </p>
           </div>
         </div>
+
         <div className="cart_flex_div" data-aos="fade-up">
           <img className="img_cart_logo" src={logoFive} alt="" />
 
-          {/* <FontAwesomeIcon icon={faUser} /> */}
           <div className="cart_text_div">
             <h3>Check ShippingContent</h3>
             <p>
@@ -78,10 +84,10 @@ const ImgCartOne = () => {
             </p>
           </div>
         </div>
+
         <div className="cart_flex_div" data-aos="fade-left">
           <img className="img_cart_logo" src={logoSix} alt="" />
 
-          {/* <FontAwesomeIcon icon={faUser} /> */}
           <div className="cart_text_div">
             <h3>Give Feedback</h3>
             <p>
@@ -99,13 +105,21 @@ const ImgCartOne = () => {
         among themselves.
       </p>
       {/* <img src={imgCartTwo} alt="" /> */}
-      <div className="cartWithImg-parent-div">
+      {/* <div className="cartWithImg-parent-div">
         <img className="cartWithImg" src={imgCartOne1} alt="" />
         <img className="cartWithImg" src={imgCartTwo} alt="" />
         <img className="cartWithImg" src={imgCartThree} alt="" />
         <img className="cartWithImg" src={imgCartFour} alt="" />
         <img className="cartWithImg" src={imgCartFive} alt="" />
         <img className="cartWithImg" src={imgCartSix} alt="" />
+      </div> */}
+      <div className="cartWithImg-parent-div">
+        <img className="cartWithImg" src={imgCartPhotoOne} alt="" />
+        <img className="cartWithImg" src={imgCartPhotoTwo} alt="" />
+        <img className="cartWithImg" src={imgCartPhotoThree} alt="" />
+        <img className="cartWithImg" src={imgCartPhotoFour} alt="" />
+        <img className="cartWithImg" src={imgCartPhotoFive} alt="" />
+        <img className="cartWithImg" src={imgCartPhotoSix} alt="" />
       </div>
     </div>
   );

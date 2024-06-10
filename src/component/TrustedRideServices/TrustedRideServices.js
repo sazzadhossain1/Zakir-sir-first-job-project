@@ -14,6 +14,9 @@ const TrustedRideServices = () => {
           className="trustedRideService-text-parent-div"
           data-aos="fade-right"
         >
+          <h1 className="trust_heading"> Give a Ride, Get a Ride</h1>
+          <div className="trustedRide_blank_div"></div>
+
           <p className="trustedRideService-first-p">
             Say you are going somewhere - be it your own car or a rented one
             (car, minivan, bike, three-wheeler, rickshaw) and one or two or a
@@ -49,6 +52,9 @@ const TrustedRideServices = () => {
           className="trustedRideService-text-secondCart-parent-div"
           data-aos="fade-left"
         >
+          <h1 className="trust_heading">Send a Package, Carry a Package</h1>
+          <div className="trustedRide_blank_div"></div>
+
           <p className="trustedRideService-first-p">
             Say you want to send something to someone. Post in the TripShipTask
             App in the App's Ship section. Anyone who is or will be traveling
@@ -71,6 +77,9 @@ const TrustedRideServices = () => {
           className="trustedRideService-text-parent-div"
           data-aos="fade-right"
         >
+          <h1 className="trust_heading">Give a Tsk, Get a Task</h1>
+          <div className="trustedRide_blank_div"></div>
+
           <p className="trustedRideService-first-p">
             Or say you need someone to do something for you - near or far. Just
             post it on the TripShipTask App, and if another member shows

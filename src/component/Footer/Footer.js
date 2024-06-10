@@ -5,6 +5,7 @@ import logoThree from "../../images/logo_Three.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import { faFacebook, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
+import qrCode from "../../images/Qr-code/qr-code.jpg";
 
 const Footer = () => {
   return (
@@ -56,6 +57,27 @@ const Footer = () => {
           {/* <Link to="/greenPass">
             <img className="greenPass" src={greenPass} alt="" />
           </Link> */}
+
+          <div className="footer_qr_code_div">
+            <img className="footer_qrCode" src={qrCode} alt="" />{" "}
+            <div className="footer_i_div">
+              <Link
+                className="footer_first_i"
+                target="_blank"
+                to="https://mail.hostinger.com/"
+              >
+                I
+              </Link>
+
+              <Link
+                className="footer_last_i"
+                target="_blank"
+                to="https://app.tripshiptask.com/web/admin/login"
+              >
+                I
+              </Link>
+            </div>
+          </div>
         </div>
 
         {/*  */}
