@@ -13,6 +13,7 @@
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   padding: 50px 0px;
+  background-color: #f7f6f6;
 }
 .first-car-img {
   display: none;
@@ -42,6 +43,7 @@
 }
 .trust_heading {
   font-size: 27px;
+
   margin-top: -40px;
 }
 .trustedRide_blank_div {
@@ -111,6 +113,7 @@
   .trustedRideService-grid-div-two {
     display: grid;
     grid-template-columns: 1fr;
+    background-color: #c30017;
   }
   .second-car-img {
     display: none;

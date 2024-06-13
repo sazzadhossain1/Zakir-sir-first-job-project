@@ -62,7 +62,7 @@
   background-color: #c30017;
   color: white;
   width: 100%;
-  padding: 5px;
+  padding: 8px;
   border-radius: 5px;
 }
 .signUp-btn {
@@ -70,7 +70,7 @@
   background-color: #c30017;
   color: white;
   width: 100%;
-  padding: 5px;
+  padding: 8px;
   border-radius: 5px;
 }
 .login {
@@ -85,11 +85,13 @@
 }
 
 .login-btn:hover {
-  background-color: #014457;
+  /* background-color: #014457; */
+  background-color: #880111;
   transition: 0.5s;
 }
 .signUp-btn:hover {
   background-color: #014457;
+  background-color: #880111;
   transition: 0.5s;
 }
 

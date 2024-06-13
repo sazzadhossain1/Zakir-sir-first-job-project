@@ -9,13 +9,6 @@ import logoFour from "../../images/img-cart/logoFour.png";
 import logoFive from "../../images/img-cart/logoFive.png";
 import logoSix from "../../images/img-cart/logoSix.png";
 
-import imgCartOne1 from "../../images/imgCartPhoto/imgCartOne.jpg";
-import imgCartTwo from "../../images/imgCartPhoto/imgCartTwo.jpg";
-import imgCartThree from "../../images/imgCartPhoto/imgCartThree.jpg";
-import imgCartFour from "../../images/imgCartPhoto/imgCartFour.jpg";
-import imgCartFive from "../../images/imgCartPhoto/imgCartFive.jpg";
-import imgCartSix from "../../images/imgCartPhoto/imgCartSix.jpg";
-
 import imgCartPhotoOne from "../../images/imgCartPhoto/NewPhoto/Lower Banner-1.png";
 import imgCartPhotoTwo from "../../images/imgCartPhoto/NewPhoto/Lower Banner-2.png";
 import imgCartPhotoThree from "../../images/imgCartPhoto/NewPhoto/Lower Banner-3.png";
