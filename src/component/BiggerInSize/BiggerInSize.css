@@ -62,9 +62,6 @@
 
 .googleAndApple-btn-div {
   margin-top: 30px;
-  display: flex;
-  align-items: center;
-  gap: 20px;
 }
 
 .download_app_photo_div {
@@ -211,6 +208,30 @@ hr {
     max-width: 100%;
   }
 }
+@media screen and (max-width: 1280px) {
+  .biggerINSize-text-div {
+    gap: 50px;
+    max-width: 85%;
+  }
+
+  .biggerInSize-p-text-div {
+    justify-content: center;
+  }
+
+  .googleAndApple-btn-div {
+    display: flex;
+  }
+
+  .qr-code-img {
+    width: 70px;
+  }
+  .i_div {
+    gap: 20px;
+  }
+  .download_app_photo {
+    max-width: 100%;
+  }
+}
 @media screen and (max-width: 1200px) {
   .biggerINSize-text-div {
     grid-template-columns: repeat(1, 1fr);
@@ -222,7 +243,6 @@ hr {
   .download_tripShipTask_parent_div {
     text-align: center;
     width: 100%;
-    background-color: red;
   }
 
   .Join_the {
@@ -234,6 +254,9 @@ hr {
 
   .download_tripShipTask {
     text-align: center;
+  }
+  .googleAndApple-btn-div {
+    display: block;
   }
   .app-btn {
     width: 150px;
@@ -248,8 +271,6 @@ hr {
 
 @media screen and (max-width: 650px) {
   .googleAndApple-btn-div {
-    display: grid;
-    grid-template-columns: 1fr;
   }
   .i_div {
     display: none;
@@ -261,14 +282,9 @@ hr {
   }
 }
 @media screen and (max-width: 640px) {
-  .download_tripShipTask_parent_div {
-    margin-left: 100px;
-  }
 }
 @media screen and (max-width: 600px) {
   .googleAndApple-btn-div {
-    display: grid;
-    grid-template-columns: 1fr;
   }
 
   .qr-code-img {
@@ -276,13 +292,11 @@ hr {
     margin-top: 20px;
   }
   .download_tripShipTask_parent_div {
-    margin-left: 70px;
   }
 }
 
 @media screen and (max-width: 540px) {
   .download_tripShipTask_parent_div {
-    margin-left: 50px;
   }
 }
 @media screen and (max-width: 450px) {

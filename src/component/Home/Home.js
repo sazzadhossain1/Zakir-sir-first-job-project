@@ -96,13 +96,13 @@ const Home = () => {
       {/*  */}
       <ConnectAssistEarn></ConnectAssistEarn>
       <BiggerInSize></BiggerInSize>
-      <RideComford></RideComford>
-      <TrustedRideServices></TrustedRideServices>
-      <ImgCartOne></ImgCartOne>
+      {/* <RideComford></RideComford> */}
+      {/* <TrustedRideServices></TrustedRideServices> */}
+      {/* <ImgCartOne></ImgCartOne> */}
       {/* <OurAchievment></OurAchievment> */}
-      <PhotoGallery></PhotoGallery>
+      {/* <PhotoGallery></PhotoGallery> */}
 
-      <PaymentMethod></PaymentMethod>
+      {/* <PaymentMethod></PaymentMethod> */}
 
       {/* <div id="popUp_div" className="bookDownloadPage-success-div">
         <p className="bookDownloadPage-success-p">
