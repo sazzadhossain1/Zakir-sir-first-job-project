@@ -113,7 +113,10 @@
   .trustedRideService-grid-div-two {
     display: grid;
     grid-template-columns: 1fr;
-    background-color: #c30017;
+    /* background-color: #c30017; */
+  }
+  .trust_heading {
+    margin-top: 20px;
   }
   .second-car-img {
     display: none;

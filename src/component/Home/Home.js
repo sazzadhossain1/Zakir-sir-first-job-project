@@ -96,9 +96,9 @@ const Home = () => {
       {/*  */}
       <ConnectAssistEarn></ConnectAssistEarn>
       <BiggerInSize></BiggerInSize>
-      {/* <RideComford></RideComford> */}
-      {/* <TrustedRideServices></TrustedRideServices> */}
-      {/* <ImgCartOne></ImgCartOne> */}
+      <RideComford></RideComford>
+      <TrustedRideServices></TrustedRideServices>
+      <ImgCartOne></ImgCartOne>
       {/* <OurAchievment></OurAchievment> */}
       {/* <PhotoGallery></PhotoGallery> */}
 

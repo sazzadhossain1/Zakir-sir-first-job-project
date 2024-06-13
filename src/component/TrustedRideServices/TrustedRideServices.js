@@ -12,7 +12,7 @@ const TrustedRideServices = () => {
         <img className="first-car-img" src={photoTwo} alt="" />
         <div
           className="trustedRideService-text-parent-div"
-          data-aos="fade-right"
+          // data-aos="fade-right"
         >
           <h1 className="trust_heading"> Give a Ride, Get a Ride</h1>
           <div className="trustedRide_blank_div"></div>
@@ -36,7 +36,7 @@ const TrustedRideServices = () => {
           className="second-car-img"
           src={photoTwo}
           alt=""
-          data-aos="fade-left"
+          // data-aos="fade-left"
         />
       </div>
 
@@ -46,11 +46,11 @@ const TrustedRideServices = () => {
           className="secondCart-first-car-img"
           src={photoThree}
           alt=""
-          data-aos="fade-right"
+          // data-aos="fade-right"
         />
         <div
           className="trustedRideService-text-secondCart-parent-div"
-          data-aos="fade-left"
+          // data-aos="fade-left"
         >
           <h1 className="trust_heading">Send a Package, Carry a Package</h1>
           <div className="trustedRide_blank_div"></div>
@@ -75,7 +75,7 @@ const TrustedRideServices = () => {
         <img className="first-car-img" src={photoOne} alt="" />
         <div
           className="trustedRideService-text-parent-div"
-          data-aos="fade-right"
+          // data-aos="fade-right"
         >
           <h1 className="trust_heading">Give a Tsk, Get a Task</h1>
           <div className="trustedRide_blank_div"></div>
@@ -97,7 +97,7 @@ const TrustedRideServices = () => {
           className="second-car-img"
           src={photoOne}
           alt=""
-          data-aos="fade-left"
+          // data-aos="fade-left"
         />
       </div>
     </div>
