@@ -46,30 +46,23 @@
 }
 
 /*  */
-@media screen and (max-width: 1600px) {
-  .photo-logo {
-    margin-left: 700px;
-  }
-}
-@media screen and (max-width: 1400px) {
-  .photo-logo {
-    margin-left: 600px;
-  }
-}
+
 @media screen and (max-width: 1280px) {
   .photo-gallery {
     width: 90%;
   }
+}
+@media screen and (max-width: 1150px) {
+  .photoGallery_flex_div {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .dummyPhoto {
+    margin: auto;
+    width: 60%;
+  }
+}
 
-  .photo-logo {
-    margin-left: 500px;
-  }
-}
-@media screen and (max-width: 1250px) {
-  .photo-logo {
-    margin-left: 500px;
-  }
-}
 @media screen and (max-width: 1050px) {
   .photo-gallery {
     display: grid;
@@ -79,67 +72,48 @@
   .photo-gallery img {
     width: 100%;
   }
-  .photo-logo {
-    margin-left: 400px;
-  }
 }
-@media screen and (max-width: 850px) {
-  .photo-logo {
-    margin-left: 300px;
-  }
-}
-@media screen and (max-width: 750px) {
-  .photo-cart-grid-div {
+@media screen and (max-width: 950px) {
+  .photo-gallery {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: 1fr;
+  }
+  .photo-gallery img {
+    width: 100%;
   }
 }
-@media screen and (max-width: 650px) {
-  .photo-logo {
-    margin-left: 230px;
+@media screen and (max-width: 700px) {
+  .photo-parent-gallery-div {
+    border: 3px solid #c30017;
   }
-}
-@media screen and (max-width: 580px) {
-  .photo-logo {
-    margin-left: 180px;
+  .photoGallery_flex_div {
+    width: 100%;
   }
-}
-@media screen and (max-width: 500px) {
-  .photo-logo {
-    margin-left: 150px;
+  .photo-gallery {
+    border: none;
+  }
+  .photo-gallery-p {
   }
 }
 
-@media screen and (max-width: 450px) {
-  .photo-logo {
-    margin-left: 170px;
-    margin-top: -16px;
-    width: 100px;
-  }
-}
 @media screen and (max-width: 412px) {
   .photo-gallery {
     width: 100%;
   }
 }
-@media screen and (max-width: 400px) {
-  .photo-logo {
-    margin-left: 140px;
+@media screen and (max-width: 381px) {
+  .photo-parent-gallery-div {
+    border: 3px solid #c30017;
+    height: 400px;
   }
 }
-@media screen and (max-width: 350px) {
-  .photo-logo {
-    margin-left: 120px;
+@media screen and (max-width: 358px) {
+  .photo-parent-gallery-div {
+    height: 450px;
   }
 }
-@media screen and (max-width: 300px) {
-  .photo-logo {
-    margin-left: 90px;
-  }
-}
-
-@media screen and (max-width: 250px) {
-  .photo-logo {
-    margin-left: 75px;
+@media screen and (max-width: 317px) {
+  .photo-parent-gallery-div {
+    height: 500px;
   }
 }

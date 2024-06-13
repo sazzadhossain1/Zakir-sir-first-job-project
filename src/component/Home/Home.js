@@ -100,7 +100,7 @@ const Home = () => {
       <TrustedRideServices></TrustedRideServices>
       <ImgCartOne></ImgCartOne>
       {/* <OurAchievment></OurAchievment> */}
-      {/* <PhotoGallery></PhotoGallery> */}
+      <PhotoGallery></PhotoGallery>
 
       {/* <PaymentMethod></PaymentMethod> */}
 
