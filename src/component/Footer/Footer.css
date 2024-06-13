@@ -76,13 +76,13 @@
   margin-top: 50px;
 }
 .footer_qrCode {
-  width: 60%;
-  height: 60%;
+  width: 45%;
+  height: 45%;
 }
 .footer_i_div {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  gap: 100px;
+  gap: 60px;
 }
 .footer_last_i {
   /* margin-top: 100px; */

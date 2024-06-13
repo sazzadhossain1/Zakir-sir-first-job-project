@@ -102,7 +102,7 @@ const Home = () => {
       {/* <OurAchievment></OurAchievment> */}
       <PhotoGallery></PhotoGallery>
 
-      {/* <PaymentMethod></PaymentMethod> */}
+      <PaymentMethod></PaymentMethod>
 
       {/* <div id="popUp_div" className="bookDownloadPage-success-div">
         <p className="bookDownloadPage-success-p">
