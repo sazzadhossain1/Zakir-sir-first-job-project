@@ -1,5 +1,6 @@
 .service_specifics_parent_div {
   display: flex;
+  margin-top: 100px;
 }
 .service_specifics_content_div {
   /* background-color: red; */

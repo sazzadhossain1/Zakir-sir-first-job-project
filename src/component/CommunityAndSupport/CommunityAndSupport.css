@@ -1,5 +1,6 @@
 .community_and_support_parent_div {
   display: flex;
+  margin-top: 100px;
 }
 .community_and_support_content_div {
   /* background-color: red; */

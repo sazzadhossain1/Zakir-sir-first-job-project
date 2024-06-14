@@ -1,5 +1,6 @@
 .using_the_platform_parent_div {
   display: flex;
+  margin-top: 100px;
 }
 .using_The_platform_content_div {
   /* background-color: red; */

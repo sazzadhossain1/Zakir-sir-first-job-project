@@ -6,13 +6,14 @@
   width: 20%;
   /* transition: all 0.4s; */
   position: fixed;
+  margin-top: 100px;
 }
 
 .LeftSideMenue_top_section {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 15px;
+  padding: 2px 15px;
 }
 .LeftSideMenue_howTos {
   font-size: 19px;
@@ -28,12 +29,13 @@
 }
 .LeftSideMenue_details {
   text-align: left;
-  padding: 10px 20px;
+  padding: 5px 20px;
   color: white;
+  font-size: 15px;
 }
 
 .LeftSideMenue_nested_Link {
-  margin-top: 20px;
+  margin-top: 5px;
   margin-left: 20px;
   font-size: 14px;
 }
