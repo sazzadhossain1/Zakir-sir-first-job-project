@@ -77,7 +77,7 @@ const TrustedRideServices = () => {
           className="trustedRideService-text-parent-div"
           // data-aos="fade-right"
         >
-          <h1 className="trust_heading">Give a Tsk, Get a Task</h1>
+          <h1 className="trust_heading">Give a Task, Get a Task</h1>
           <div className="trustedRide_blank_div"></div>
 
           <p className="trustedRideService-first-p">
