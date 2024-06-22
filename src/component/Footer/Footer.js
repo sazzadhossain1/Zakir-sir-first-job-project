@@ -11,26 +11,46 @@ const Footer = () => {
   return (
     <div className="footer-parent-div">
       <div className="footer-grid-div">
-        <div className="footer-single-cart-div footer-border">
-          <img className="footer-first-logo" src={logoThree} alt="" />
+        <div className="footer_first-single-cart-div footer-border flex_div">
+          <div className="">
+            <img className="footer-first-logo" src={logoThree} alt="" />
 
-          <p className="Office-p">
-            Office: RUAP, Mollika 605, Uttara 18, Dhaka 1230
-          </p>
+            <p className="Office-p">
+              Office: RUAP, Mollika 605, Uttara 18, Dhaka 1230
+            </p>
 
-          <p className="Office-p">
-            Office: 218 Sahera Tropical Center 5th Floor ( Lift 05) , Suite- 20
-            Elephant Road, Bata Signal Dhaka 1205 Bangladesh.
-          </p>
-          <p className="Office-p">
-            <FontAwesomeIcon className="envelop_icon" icon={faEnvelope} />
-            &nbsp; support@tripshiptask.com
-          </p>
-          <p className="Office-p">
-            &nbsp;
-            <FontAwesomeIcon className="whatsApp_icon" icon={faWhatsapp} />
-            &nbsp;+8801746093229
-          </p>
+            <p className="Office-p">
+              Office: 218 Sahera Tropical Center 5th Floor ( Lift 05) , Suite-
+              20 Elephant Road, Bata Signal Dhaka 1205 Bangladesh.
+            </p>
+            <p className="Office-p">
+              <FontAwesomeIcon className="envelop_icon" icon={faEnvelope} />
+              &nbsp; support@tripshiptask.com
+            </p>
+            <p className="Office-p">
+              &nbsp;
+              <FontAwesomeIcon className="whatsApp_icon" icon={faWhatsapp} />
+              &nbsp;+8801746093229
+            </p>
+          </div>
+
+          <div className="footer_i_div">
+            <Link
+              className="footer_first_i"
+              target="_blank"
+              to="https://mail.hostinger.com/"
+            >
+              I
+            </Link>
+
+            <Link
+              className="footer_last_i"
+              target="_blank"
+              to="https://app.tripshiptask.com/web/admin/login"
+            >
+              I
+            </Link>
+          </div>
         </div>
         {/*  */}
 
@@ -60,23 +80,6 @@ const Footer = () => {
 
           <div className="footer_qr_code_div">
             <img className="footer_qrCode" src={qrCode} alt="" />{" "}
-            <div className="footer_i_div">
-              <Link
-                className="footer_first_i"
-                target="_blank"
-                to="https://mail.hostinger.com/"
-              >
-                I
-              </Link>
-
-              <Link
-                className="footer_last_i"
-                target="_blank"
-                to="https://app.tripshiptask.com/web/admin/login"
-              >
-                I
-              </Link>
-            </div>
           </div>
         </div>
 

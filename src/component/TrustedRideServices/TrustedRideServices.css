@@ -91,6 +91,16 @@
 }
 
 /* Responsiveness start */
+
+@media screen and (max-width: 1536px) {
+  .trust_heading {
+    margin-top: 0px;
+  }
+
+  .trustedRide_blank_div {
+    margin-bottom: 50px;
+  }
+}
 @media screen and (max-width: 1250px) {
   .first-car-img {
     display: block;

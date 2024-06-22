@@ -14,12 +14,24 @@
   width: 75%;
   margin: auto;
 }
+.footer_first-single-cart-div {
+  text-align: left;
+  padding: 15px 0px 30px 30px;
+}
 .footer-single-cart-div {
   text-align: left;
   padding: 30px;
 }
+.flex_div {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
 .footer-border {
   border-right: 1px solid black;
+}
+.footer_i_div {
+  margin-right: -2px;
 }
 .footer-heading {
   font-size: 18px;
@@ -172,7 +184,7 @@
     grid-template-columns: repeat(2, 1fr);
   }
   .footer-border-2 {
-    border-right: 1px solid grey;
+    border-right: 1px solid black;
   }
 }
 @media screen and (max-width: 750px) {
