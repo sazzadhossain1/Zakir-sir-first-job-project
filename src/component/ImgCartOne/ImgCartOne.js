@@ -37,7 +37,7 @@ const ImgCartOne = () => {
           <img className="img_cart_logo" src={logoTwo} alt="" />
 
           <div className="cart_text_div">
-            <h3>Cofirm & Go</h3>
+            <h3>Confirm & Go</h3>
             <p>
               Confirm on offer. If you don't confirm, another user may take your
               place.
@@ -58,7 +58,7 @@ const ImgCartOne = () => {
           <img className="img_cart_logo" src={logoFour} alt="" />
 
           <div className="cart_text_div">
-            <h3>Avoid off-App transaction</h3>
+            <h3>Avoid off-App Transaction</h3>
             <p>
               Always connect & transact within the app to stay protected. Avoid
               any contact or transaction outside the app for own safety.
@@ -70,7 +70,7 @@ const ImgCartOne = () => {
           <img className="img_cart_logo" src={logoFive} alt="" />
 
           <div className="cart_text_div">
-            <h3>Check ShippingContent</h3>
+            <h3>Check Shipping Content</h3>
             <p>
               Always check & carry open items and legal items. Avoid risks &
               stay safe
