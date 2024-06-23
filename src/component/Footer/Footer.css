@@ -1,6 +1,7 @@
 .footer-parent-div {
-  background-color: rgb(241, 241, 241);
-  background-color: #f0efef;
+  /* background-color: rgb(241, 241, 241); */
+  /* background-color: #f0efef; */
+  background-color: #eee;
   padding: 50px;
   color: black;
 }
