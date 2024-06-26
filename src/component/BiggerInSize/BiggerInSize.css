@@ -70,8 +70,24 @@
   justify-content: right;
 }
 
+.bigger_i_first_div {
+  position: absolute;
+  margin-right: 290px;
+  margin-top: 95px;
+  cursor: pointer;
+  z-index: 1;
+}
 .download_app_photo {
   max-width: 70%;
+  position: relative;
+}
+
+.bigger_i_div {
+  position: absolute;
+  margin-right: 175px;
+  margin-top: 15px;
+  z-index: 1;
+  cursor: pointer;
 }
 .biggerInSize-p-text-div p {
   font-size: 20px;
@@ -236,6 +252,14 @@ hr {
   .biggerINSize-text-div {
     grid-template-columns: repeat(1, 1fr);
     max-width: 100%;
+  }
+
+  .bigger_i_first_div {
+    display: none;
+  }
+
+  .bigger_i_div {
+    display: none;
   }
   .download_app_photo {
     display: none;

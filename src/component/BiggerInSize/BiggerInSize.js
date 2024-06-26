@@ -22,14 +22,6 @@ const BiggerInSize = () => {
           </h1>
           <div className="biggerInSize-p-text-div">
             <div className="googleAndApple-btn-div">
-              {/* <Link to="http://tripshiptask.com/" target="_blank">
-                <button
-                  style={{
-                    backgroundImage: `url(${appStore})`,
-                  }}
-                  className="app-btn"
-                ></button>
-              </Link> */}
               <Link
                 to="https://play.google.com/store/apps/details?id=com.tripshiptask.app"
                 target="_blank"
@@ -42,30 +34,29 @@ const BiggerInSize = () => {
                 ></button>
               </Link>
             </div>
-            {/* <div className="qr-code-img-div">
-              <img className="qr-code-img" src={qrCode} alt="" />{" "}
-              <div className="i_div">
-                <Link
-                  target="_blank"
-                  to="https://mail.hostinger.com/"
-                  className="i_first"
-                >
-                  I
-                </Link>
-
-                <Link
-                  target="_blank"
-                  to="https://app.tripshiptask.com/web/admin/login"
-                  className="i"
-                >
-                  I
-                </Link>
-              </div>
-            </div> */}
           </div>
         </div>
         <div className="download_app_photo_div">
+          <div className="bigger_i_first_div">
+            <Link
+              className="bigger_first_i"
+              target="_blank"
+              to="https://app.tripshiptask.com/web/admin/login"
+            >
+              I
+            </Link>
+          </div>
           <img className="download_app_photo" src={downloadAppPhoto} alt="" />
+
+          <div className="bigger_i_div">
+            <Link
+              className="bigger_second_i"
+              target="_blank"
+              to="https://mail.hostinger.com/"
+            >
+              I
+            </Link>
+          </div>
         </div>
       </div>
     </div>
