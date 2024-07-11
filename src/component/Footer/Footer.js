@@ -33,6 +33,11 @@ const Footer = () => {
                 <FontAwesomeIcon className="whatsApp_icon" icon={faWhatsapp} />
                 &nbsp;+8801746093229
               </p>
+              <p className="Office-p">
+                &nbsp;
+                <FontAwesomeIcon className="whatsApp_icon" icon={faWhatsapp} />
+                &nbsp;+8801793596432
+              </p>
             </div>
           </div>
           {/*  */}
