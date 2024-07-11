@@ -76,6 +76,7 @@
   margin-top: 95px;
   cursor: pointer;
   z-index: 1;
+  /* color: red; */
 }
 .download_app_photo {
   max-width: 70%;
@@ -88,6 +89,7 @@
   margin-top: 15px;
   z-index: 1;
   cursor: pointer;
+  /* color: red; */
 }
 .biggerInSize-p-text-div p {
   font-size: 20px;
@@ -201,12 +203,99 @@ hr {
 
 /* Responsiveness start */
 
+@media screen and (max-width: 1672px) {
+  .bigger_i_first_div {
+    margin-right: 275px;
+    margin-top: 90px;
+  }
+
+  .bigger_i_div {
+    margin-right: 160px;
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 1614px) {
+  .bigger_i_first_div {
+    margin-right: 265px;
+    margin-top: 85px;
+  }
+
+  .bigger_i_div {
+    margin-right: 155px;
+    margin-top: 8px;
+  }
+}
+@media screen and (max-width: 1562px) {
+  .bigger_i_first_div {
+    margin-right: 252px;
+    margin-top: 81px;
+  }
+
+  .bigger_i_div {
+    margin-right: 147px;
+    margin-top: 7px;
+  }
+}
 @media screen and (max-width: 1536px) {
   .i_div {
     gap: 40px;
   }
 }
+@media screen and (max-width: 1505px) {
+  .bigger_i_first_div {
+    margin-right: 242px;
+    margin-top: 78px;
+  }
 
+  .bigger_i_div {
+    margin-right: 142px;
+    margin-top: 7px;
+  }
+}
+@media screen and (max-width: 1465px) {
+  .bigger_i_first_div {
+    margin-right: 235px;
+    margin-top: 75px;
+  }
+
+  .bigger_i_div {
+    margin-right: 138px;
+    margin-top: 7px;
+  }
+}
+@media screen and (max-width: 1425px) {
+  .bigger_i_first_div {
+    margin-right: 226px;
+    margin-top: 72px;
+  }
+
+  .bigger_i_div {
+    margin-right: 132px;
+    margin-top: 7px;
+  }
+}
+@media screen and (max-width: 1375px) {
+  .bigger_i_first_div {
+    margin-right: 218px;
+    margin-top: 68px;
+  }
+
+  .bigger_i_div {
+    margin-right: 127px;
+    margin-top: 5px;
+  }
+}
+@media screen and (max-width: 1351px) {
+  .bigger_i_first_div {
+    margin-right: 212px;
+    margin-top: 68px;
+  }
+
+  .bigger_i_div {
+    margin-right: 123px;
+    margin-top: 5px;
+  }
+}
 @media screen and (max-width: 1350px) {
   .biggerINSize-text-div {
     gap: 50px;
@@ -222,6 +311,27 @@ hr {
   }
   .download_app_photo {
     max-width: 100%;
+  }
+  .bigger_i_first_div {
+    margin-right: 285px;
+    margin-top: 95px;
+  }
+
+  .bigger_i_div {
+    margin-right: 168px;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .bigger_i_first_div {
+    margin-right: 275px;
+    margin-top: 88px;
+  }
+
+  .bigger_i_div {
+    margin-right: 160px;
+    margin-top: 10px;
   }
 }
 @media screen and (max-width: 1280px) {
@@ -247,7 +357,40 @@ hr {
   .download_app_photo {
     max-width: 100%;
   }
+
+  .bigger_i_first_div {
+    margin-right: 330px;
+    margin-top: 110px;
+  }
+
+  .bigger_i_div {
+    margin-right: 195px;
+    margin-top: 15px;
+  }
 }
+@media screen and (max-width: 1235px) {
+  .bigger_i_first_div {
+    margin-right: 315px;
+    margin-top: 105px;
+  }
+
+  .bigger_i_div {
+    margin-right: 182px;
+    margin-top: 15px;
+  }
+}
+@media screen and (max-width: 1201px) {
+  .bigger_i_first_div {
+    margin-right: 305px;
+    margin-top: 100px;
+  }
+
+  .bigger_i_div {
+    margin-right: 177px;
+    margin-top: 13px;
+  }
+}
+
 @media screen and (max-width: 1200px) {
   .biggerINSize-text-div {
     grid-template-columns: repeat(1, 1fr);
