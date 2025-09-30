@@ -28,16 +28,26 @@ const Footer = () => {
                 <FontAwesomeIcon className="envelop_icon" icon={faEnvelope} />
                 &nbsp; support@tripshiptask.com
               </p>
-              <p className="Office-p">
+              <Link
+                to="https://wa.me/8801793596432" // replace with your WhatsApp number
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <p className="Office-p">
+                  &nbsp;
+                  <FontAwesomeIcon
+                    className="whatsApp_icon"
+                    icon={faWhatsapp}
+                  />
+                  &nbsp;+8801793596432
+                </p>
+              </Link>
+
+              {/* <p className="Office-p">
                 &nbsp;
                 <FontAwesomeIcon className="whatsApp_icon" icon={faWhatsapp} />
                 &nbsp;+8801746093229
-              </p>
-              <p className="Office-p">
-                &nbsp;
-                <FontAwesomeIcon className="whatsApp_icon" icon={faWhatsapp} />
-                &nbsp;+8801793596432
-              </p>
+              </p> */}
             </div>
           </div>
           {/*  */}

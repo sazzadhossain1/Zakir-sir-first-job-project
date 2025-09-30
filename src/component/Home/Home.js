@@ -15,6 +15,7 @@ import ship from "../../images/bannerPhoto/ship.png";
 import task from "../../images/bannerPhoto/task.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import BannerCarousel from "../BannerCarousel/BannerCarousel";
 const Home = () => {
   useEffect(() => {
     AOS.init({ duration: "1000" });
@@ -35,7 +36,7 @@ const Home = () => {
       className="home_main_prent_div"
       // onLoad={handleModalOnLoad}
     >
-      <div className="home-parent-div">
+      {/* <div className="home-parent-div">
         <div className="child_parent_div">
           <div className="home-child-dvi">
             <h2 className=" TripShipTask-heading">
@@ -91,9 +92,11 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/*  */}
+
+      <BannerCarousel></BannerCarousel>
       <ConnectAssistEarn></ConnectAssistEarn>
       <BiggerInSize></BiggerInSize>
       <RideComford></RideComford>

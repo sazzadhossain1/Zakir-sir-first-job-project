@@ -21,7 +21,10 @@ const ImgCartOne = () => {
     <div className="imgCartOne-parent-div">
       {/*  */}
       <div className="cart_grid_div">
-        <div className="cart_flex_div" data-aos="fade-right">
+        <div
+          className="cart_flex_div"
+          // data-aos="fade-right"
+        >
           <img className="img_cart_logo" src={logoOne} alt="" />
 
           <div className="cart_text_div">
@@ -33,7 +36,10 @@ const ImgCartOne = () => {
           </div>
         </div>
 
-        <div className="cart_flex_div" data-aos="fade-down">
+        <div
+          className="cart_flex_div"
+          // data-aos="fade-down"
+        >
           <img className="img_cart_logo" src={logoTwo} alt="" />
 
           <div className="cart_text_div">
@@ -45,7 +51,10 @@ const ImgCartOne = () => {
           </div>
         </div>
 
-        <div className="cart_flex_div" data-aos="fade-left">
+        <div
+          className="cart_flex_div"
+          // data-aos="fade-left"
+        >
           <img className="img_cart_logo" src={logoThree} alt="" />
 
           <div className="cart_text_div">
@@ -54,7 +63,10 @@ const ImgCartOne = () => {
           </div>
         </div>
 
-        <div className="cart_flex_div" data-aos="fade-right">
+        <div
+          className="cart_flex_div"
+          // data-aos="fade-right"
+        >
           <img className="img_cart_logo" src={logoFour} alt="" />
 
           <div className="cart_text_div">
@@ -66,7 +78,10 @@ const ImgCartOne = () => {
           </div>
         </div>
 
-        <div className="cart_flex_div" data-aos="fade-up">
+        <div
+          className="cart_flex_div"
+          // data-aos="fade-up"
+        >
           <img className="img_cart_logo" src={logoFive} alt="" />
 
           <div className="cart_text_div">
@@ -78,7 +93,10 @@ const ImgCartOne = () => {
           </div>
         </div>
 
-        <div className="cart_flex_div" data-aos="fade-left">
+        <div
+          className="cart_flex_div"
+          // data-aos="fade-left"
+        >
           <img className="img_cart_logo" src={logoSix} alt="" />
 
           <div className="cart_text_div">

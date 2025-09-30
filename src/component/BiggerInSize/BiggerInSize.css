@@ -435,6 +435,19 @@ hr {
     margin: auto;
   }
 }
+@media screen and (max-width: 730px) {
+  .Join_the {
+    font-size: 23px;
+  }
+  .Connect_with {
+    font-size: 23px;
+  }
+
+  .download_tripShipTask {
+    font-size: 23px;
+    font-weight: 500;
+  }
+}
 
 @media screen and (max-width: 650px) {
   .googleAndApple-btn-div {
@@ -448,30 +461,34 @@ hr {
     margin-top: 20px;
   }
 }
-@media screen and (max-width: 640px) {
-}
-@media screen and (max-width: 600px) {
-  .googleAndApple-btn-div {
-  }
 
+@media screen and (max-width: 600px) {
   .qr-code-img {
     margin: auto;
     margin-top: 20px;
   }
-  .download_tripShipTask_parent_div {
-  }
 }
 
-@media screen and (max-width: 540px) {
-  .download_tripShipTask_parent_div {
-  }
-}
 @media screen and (max-width: 450px) {
   .googleAndApple-btn-div {
     display: grid;
     grid-template-columns: 1fr;
   }
+
+  .Join_the {
+    font-size: 20px;
+  }
+  .Connect_with {
+    font-size: 20px;
+  }
+
+  .download_tripShipTask {
+    font-size: 20px;
+
+    font-weight: 500;
+  }
 }
+
 @media screen and (max-width: 430px) {
   .download_tripShipTask_parent_div {
     margin-left: 0px;
@@ -490,6 +507,19 @@ hr {
 @media screen and (max-width: 400px) {
   .download_tripShipTask_parent_div {
     margin-left: -15px;
+  }
+
+  .Join_the {
+    font-size: 18px;
+  }
+  .Connect_with {
+    font-size: 18px;
+  }
+
+  .download_tripShipTask {
+    font-size: 18px;
+
+    font-weight: 500;
   }
 }
 @media screen and (max-width: 350px) {

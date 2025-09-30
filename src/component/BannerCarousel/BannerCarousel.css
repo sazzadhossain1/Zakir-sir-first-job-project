@@ -1,0 +1,50 @@
+.carousel-container {
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 140px;
+}
+
+.carousel-image {
+  width: 80%;
+  margin: auto;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 24px;
+}
+
+.arrow.prev {
+  left: -40px;
+}
+
+.arrow.next {
+  right: -40px;
+}
+
+@media (max-width: 768px) {
+  .arrow {
+    padding: 8px;
+    font-size: 20px;
+  }
+
+  .arrow.prev {
+    left: -30px;
+  }
+
+  .arrow.next {
+    right: -30px;
+  }
+}
