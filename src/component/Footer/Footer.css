@@ -1,9 +1,9 @@
 .footer-parent-div {
-  /* background-color: rgb(241, 241, 241); */
-  /* background-color: #f0efef; */
   background-color: #eee;
-  padding: 50px;
+  padding: 12px;
   color: black;
+  position: relative;
+  z-index: 999;
 }
 .media_icon {
   font-size: 20px;
@@ -33,6 +33,12 @@
   display: flex;
   justify-content: space-between;
 }
+.company_footer-single-cart-div p {
+  line-height: 20px;
+}
+.terms_footer-single-cart-div p {
+  line-height: 20px;
+}
 .footer-single-cart-div {
   text-align: left;
   padding-top: 30px;
@@ -41,7 +47,9 @@
   text-align: left;
   padding: 30px;
 }
-
+.countries_footer-single-cart-div p {
+  line-height: 20px;
+}
 .flex_div {
   display: flex;
   justify-content: space-between;
@@ -61,6 +69,7 @@
   width: 200px;
   height: 80px;
   margin-bottom: 20px;
+  margin-top: -20px;
 }
 .bangladesh {
   color: black;
@@ -109,6 +118,7 @@
 .footer_qrCode {
   width: 45%;
   height: 45%;
+  margin-top: -20px;
 }
 
 .footer-p_green_pass {

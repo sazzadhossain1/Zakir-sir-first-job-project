@@ -81,7 +81,7 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="company_footer_i_div"></div>
+            {/* <div className="company_footer_i_div"></div> */}
           </div>
 
           {/*  */}
