@@ -123,3 +123,15 @@ const Home = () => {
 };
 
 export default Home;
+// New rout name investment. x
+// Time zone remove hobe. x
+// remove sindigate x
+// youtube add korbo, other er age. x
+// Expected investment amount: -> replace -> Amount interested to invest. x
+// Are you interested in: -> ai section ti remove hobe. x
+// 4 number section er -> Investment time horizon: and What matters most to you? ai 2 ti section remove hobe. Text box hobe.
+// 5 number section purotai remove hobe. x
+
+// How would you like to be involved? > Passive investor only (Only as an investor) tarpore baki gulo aki vabe boshbe. x
+// Would you like updates? > ai section ti remove hobe. x
+// /donate akti page hobe.x

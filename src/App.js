@@ -32,6 +32,8 @@ import HowToSignUp from "./component/HowToSignUp/HowToSignUp";
 import HowToLogin from "./component/HowToLogin/HowToLogin";
 import HowToOpen from "./component/HowToOpen/HowToOpen";
 import HowToRefer from "./component/HowToRefer/HowToRefer";
+import Invest from "./component/Invest/Invest";
+import Donate from "./component/Donate/Donate";
 
 function App() {
   const router = createBrowserRouter([
@@ -146,6 +148,14 @@ function App() {
         {
           path: "/webMail",
           element: <WebMail></WebMail>,
+        },
+        {
+          path: "/investment",
+          element: <Invest></Invest>,
+        },
+        {
+          path: "/donate",
+          element: <Donate></Donate>,
         },
 
         // ------------ Nested Link start -------------- //
